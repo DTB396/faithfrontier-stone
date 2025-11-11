@@ -1,76 +1,33 @@
-@import url("theme.css");
+/* ======================================
+   Faith Frontier – Components & Pages
+   (theme.css handles base + header/footer)
+====================================== */
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
-  line-height: 1.6;
-  background: var(--ff-surface);
-  color: var(--ff-ink);
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.shell {
-  max-width: 72rem;
-  margin: 0 auto;
-  padding: 0 1.25rem;
-}
-
-.site-header {
-  border-bottom: 1px solid rgba(148, 163, 184, 0.4);
-  background: rgba(15, 23, 42, 0.96);
-  color: #e5e7eb;
-}
-
-.site-header-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.9rem 0;
-}
-
-.site-logo {
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-}
-
-.site-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.25rem;
-  margin: 0;
-  padding: 0;
-  font-size: 0.9rem;
-}
-
-.site-nav a {
-  opacity: 0.9;
-}
-
-.site-nav a:hover {
-  opacity: 1;
-}
+/* Main content wrapper */
 
 .site-main {
   padding: 2.5rem 0 3rem;
 }
 
-/* Hero */
+/* Generic sections */
+
+.section-intro {
+  max-width: 48rem;
+  margin: 0 auto 2rem;
+}
+
+.section-intro .lead {
+  margin-top: 0.5rem;
+  color: var(--ff-muted);
+}
+
+.section-content {
+  max-width: 48rem;
+  margin: 0 auto 2rem;
+}
+
+/* Hero (home / page hero) */
+
 .hero--home {
   padding: 3.5rem 0 2.5rem;
 }
@@ -99,6 +56,8 @@ a:hover {
   flex-wrap: wrap;
   gap: 0.75rem;
 }
+
+/* Buttons */
 
 .btn,
 .btn-ghost {
@@ -131,8 +90,10 @@ a:hover {
 }
 
 /* Case pages */
+
 .case-record {
   max-width: 60rem;
+  margin: 0 auto;
 }
 
 .case-header {
@@ -199,9 +160,11 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-/* Index cards */
+/* Index / listing cards */
+
 .cases-list,
-.essays-list {
+.essays-list,
+.case-list {
   margin-top: 1.75rem;
   display: grid;
   gap: 1.1rem;
@@ -215,32 +178,39 @@ a:hover {
   background: rgba(15, 23, 42, 0.5);
 }
 
-.case-card-title,
-.essay-card-title {
-  margin: 0 0 0.35rem;
+.case-card header,
+.essay-card header {
+  margin-bottom: 0.35rem;
+}
+
+.case-card h2,
+.essay-card h2 {
+  margin: 0 0 0.25rem;
   font-size: 1.02rem;
 }
 
-.case-card-meta,
-.case-card-date,
-.essay-card-date,
-.essay-card-excerpt {
-  margin: 0.1rem 0;
+.case-card .text-muted,
+.essay-card .text-muted {
+  margin: 0;
   font-size: 0.9rem;
   color: var(--ff-muted);
 }
 
-/* Footer */
-.site-footer {
-  border-top: 1px solid rgba(148, 163, 184, 0.5);
-  padding: 1.5rem 0 1.75rem;
-  font-size: 0.85rem;
-  color: var(--ff-muted);
-  background: rgba(15, 23, 42, 0.97);
+.case-card p,
+.essay-card p {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
 }
 
-.footer-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+/* Utility */
+
+.text-muted {
+  color: var(--ff-muted);
+}
+
+@media (min-width: 768px) {
+  .section-intro,
+  .section-content {
+    padding-inline: 0;
+  }
 }
