@@ -1,0 +1,33 @@
+name: Docket Intake
+on:
+  push:
+    paths:
+      - "_inbox/**"
+      - "assets/uploads/**"
+      - "_data/cases-map.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: 
+          node-version: '20'
+      - name: Install dependencies
+        run: npm install js-yaml
+      - name: Run intake script
+        run: node scripts/docket-intake.js
+      - name: Create PR if changes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(docket): normalize PDFs and update dockets"
+          title: "chore(docket): intake PDFs"
+          body: "Automated docket intake. Please review notes/TODOs."
+          branch: "chore/docket-intake"
+          delete-branch: true

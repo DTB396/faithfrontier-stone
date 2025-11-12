@@ -1,0 +1,63 @@
+---
+name: FaithFrontier Docket Intake Agent
+description: >
+  Normalizes uploaded PDFs into correct case folders, renames to convention,
+  updates _data/docket/<slug>.yml, and opens PRs. If ambiguous, parks items in
+  an intake PR with a checklist.
+
+---
+
+# Agent Mission
+
+## Intake pipeline (idempotent)
+
+1) Discover new PDFs in:
+   - `_inbox/**.pdf`
+   - `assets/uploads/**.pdf`
+   - `assets/cases/**` files not indexed in docket data
+
+2) Determine case `slug`:
+   - If file path already under `assets/cases/<slug>/`, use that slug
+   - Else try to match by `primary_docket` or any `dockets[]` in `_cases/*.md`
+     using a canonical map `_data/cases-map.yml` (create/maintain it)
+   - Else infer from filename tokens (e.g., A-000313-25, ATL-L-002794-25)
+
+3) Rename using canonical pattern:
+   - `{DATE}_{TYPE}_{SHORT}.pdf`  e.g., `2025-11-12_Filing_Written-Appearance-ADA-MTD.pdf`
+   - DATE pulled from filename or PDF metadata; fallback to commit date
+
+4) Move to: `assets/cases/<slug>/docket/`
+
+5) Update docket data:
+   - `_data/docket/<slug>.yml` append:
+     - `id:` `<DATE>-<kebab(short)>`
+     - `date:` `YYYY-MM-DD`
+     - `type:` `Filing|Order|Notice|Brief|Exhibit|Other` (guess from keywords; default Filing)
+     - `title:` human title from filename (spaces)
+     - `file:` absolute path to the moved PDF
+     - `notes:` (optional) inferred source (e.g., "NJMCDirect upload/email")
+
+6) Open minimal PR per case:
+   - Title: `chore(docket): intake <n> PDFs for <slug>`
+   - Body: table of renames, moved paths, new docket entries
+   - If slug/DATE/type uncertain: mark entries with `TODO:` in PR body
+
+## Commands
+
+- "Intake PDFs" → run full pipeline (discover→rename→move→update docket→PR)
+- "Reindex docket for <slug>" → rescan assets/cases/<slug>/ and reconcile with docket file
+- "List orphans" → report PDFs not referenced in any docket
+- "Map docket A-000313-25 to slug street-crossing-pcr-appeal" → update `_data/cases-map.yml`
+
+## Guardrails
+
+- Never delete; only move/copy and open PRs
+- Touch only: `_data/docket/*.yml`, `_data/cases-map.yml`, `assets/cases/**/docket/*.pdf`, `reports/**`
+- No layout/CSS/branding changes
+- Keep commits small and reversible
+
+## Success Criteria
+
+- No PDFs left in `_inbox` after intake
+- Each moved PDF appears on its case page within the rendered Docket
+- Build/CI pass with zero broken links

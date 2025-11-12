@@ -1,0 +1,61 @@
+---
+layout: default
+title: Submit Docket Entry
+permalink: /docket/submit/
+---
+
+<section class="docket-submit">
+  <h1>Submit Docket Entry</h1>
+  <p>Upload a PDF filing and provide metadata. This will create a pull request for review.</p>
+  
+  <form id="docket-form">
+    <div class="form-group">
+      <label for="case-slug">Case Slug:</label>
+      <select id="case-slug" required>
+        <option value="">Select a case...</option>
+        {% for c in site.cases %}
+        <option value="{{ c.url | split:'/' | last }}">{{ c.short_title | default: c.title }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="entry-date">Filing Date:</label>
+      <input type="date" id="entry-date" required />
+    </div>
+
+    <div class="form-group">
+      <label for="entry-type">Entry Type:</label>
+      <select id="entry-type" required>
+        <option value="Filing">Filing</option>
+        <option value="Order">Order</option>
+        <option value="Notice">Notice</option>
+        <option value="Brief">Brief</option>
+        <option value="Exhibit">Exhibit</option>
+        <option value="Motion">Motion</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="entry-title">Entry Title:</label>
+      <input type="text" id="entry-title" placeholder="e.g., Written Appearance and Motion to Dismiss" required />
+    </div>
+
+    <div class="form-group">
+      <label for="entry-notes">Notes (optional):</label>
+      <textarea id="entry-notes" placeholder="e.g., Filed via portal and email"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="pdf-file">PDF File:</label>
+      <input type="file" id="pdf-file" accept=".pdf" required />
+    </div>
+
+    <button type="submit">Submit for Review</button>
+  </form>
+
+  <div id="status" style="margin-top: 20px;"></div>
+</section>
+
+<script src="{{ '/assets/js/docket-submit.js' | relative_url }}"></script>

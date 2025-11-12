@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<article class="essay-record shell">
+  <header class="essay-header">
+    {% if page.date %}
+    <p class="essay-date">
+      {{ page.date | date: "%B %-d, %Y" }}
+    </p>
+    {% endif %}
+    
+    <h1 class="essay-title">{{ page.title }}</h1>
+    
+    {% if page.description %}
+    <p class="essay-subtitle">
+      {{ page.description }}
+    </p>
+<article class="essay shell">
+  <header class="essay-header">
+    {% if page.date %}
+    <p class="essay-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+    {% endif %}
+    <h1 class="essay-title">{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="essay-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <section class="essay-body">
+    {{ content }}
+  </section>
+
+  {% if page.tags %}
+  <footer class="essay-tags">
+    <h2>Tags</h2>
+    <ul>
+      {% for tag in page.tags %}
+      <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  <footer class="essay-footer">
+    <div class="essay-tags">
+      {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </footer>
+  {% endif %}
+</article>

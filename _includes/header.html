@@ -1,0 +1,36 @@
+<header class="site-header" role="banner">
+  <div class="site-header-inner container">
+
+    <!-- Brand -->
+    <a class="site-logo"
+       href="{{ '/' | relative_url }}"
+       aria-label="{{ site.title | default: 'Faith Frontier – Home' }}">
+      <img
+        src="{{ '/assets/img/logo.png' | relative_url }}"
+        alt="{{ site.title | default: 'Faith Frontier' }} logo"
+        width="180"
+        height="auto"
+        decoding="async"
+        loading="lazy"
+        style="max-height: 64px; height: auto;" />
+    </a>
+
+    <!-- Mobile nav toggle -->
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+
+    <!-- Primary navigation -->
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="{{ '/cases/' | relative_url }}">Cases</a></li>
+        <li><a href="{{ '/essays/' | relative_url }}">Essays</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>

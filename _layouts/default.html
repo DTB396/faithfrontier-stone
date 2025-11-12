@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="{{ page.body_class | default: '' }}">
+    {% include header.html %}
+
+    {%- comment -%}
+      Optional hero panel (e.g., homepage).
+      Turn on with `hero_panel: true` in front matter.
+    {%- endcomment -%}
+    {% if page.hero_panel %}
+      {% include hero-panel.html %}
+    {% endif %}
+
+    {%- comment -%}
+      Page hero (title/eyebrow/subtitle).  
+      Hide with `hide_hero: true` in front matter.
+    {%- endcomment -%}
+    {% unless page.hide_hero %}
+      {% include page-hero.html %}
+    {% endunless %}
+
+    {%- comment -%}
+      Breadcrumbs.  
+      Turn off with `show_breadcrumbs: false` if needed.
+    {%- endcomment -%}
+    {% if page.show_breadcrumbs != false %}
+      {% include breadcrumbs.html %}
+    {% endif %}
+
+    <main id="main" class="site-main" aria-label="Main content">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    {%- comment -%}
+      Global scripts (nav toggle, etc.).
+    {%- endcomment -%}
+    {% include scripts.html %}
+  </body>
+</html>

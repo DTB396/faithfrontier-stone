@@ -1,0 +1,52 @@
+---
+layout: default
+title: "Case Records"
+permalink: /cases/
+description: "Active and historical court matters documented by the Faith Frontier Ecclesiastical Trust."
+---
+
+<section class="section-intro">
+  <h1>Case Records</h1>
+  <p class="lead">
+    Active and historical matters documented by the Faith Frontier Ecclesiastical Trust.
+    Featured proceedings appear first, followed by the full docket list.
+  </p>
+</section>
+
+{% comment %}
+Only show cases that are not explicitly hidden (listed: false),
+then split into featured and non-featured.
+{% endcomment %}
+{% assign visible_cases = site.cases | where_exp: "c", "c.listed != false" %}
+{% assign featured_cases = visible_cases | where: "featured", true %}
+{% assign normal_cases  = visible_cases | where_exp: "c", "c.featured != true" %}
+
+{% if featured_cases.size > 0 %}
+<section class="case-list" aria-label="Featured proceedings">
+  {% for case in featured_cases %}
+  <article class="case-card">
+    <header>
+      <h2><a href="{{ case.url | relative_url }}">{{ case.title }}</a></h2>
+      <p class="text-muted">
+        {{ case.docket }}{% if case.status %} · {{ case.status }}{% endif %}
+      </p>
+    </header>
+    <p>{{ case.summary | default: "Summary forthcoming." | truncatewords: 40 }}</p>
+  </article>
+  {% endfor %}
+</section>
+{% endif %}
+
+<section class="case-list" aria-label="Individual case records">
+  {% for case in normal_cases %}
+  <article class="case-card">
+    <header>
+      <h2><a href="{{ case.url | relative_url }}">{{ case.title }}</a></h2>
+      <p class="text-muted">
+        {{ case.docket }}{% if case.status %} · {{ case.status }}{% endif %}
+      </p>
+    </header>
+    <p>{{ case.summary | default: "Summary forthcoming." | truncatewords: 40 }}</p>
+  </article>
+  {% endfor %}
+</section>

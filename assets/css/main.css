@@ -1,0 +1,403 @@
+/* ======================================
+   Faith Frontier – Components & Pages
+   (theme.css handles base + header/footer)
+====================================== */
+
+/* Breadcrumbs */
+
+.breadcrumbs {
+  padding: 1rem 0 0.5rem;
+  font-size: 0.85rem;
+}
+
+.breadcrumbs-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0 1.25rem;
+  max-width: 72rem;
+  margin: 0 auto;
+  color: var(--ff-muted);
+}
+
+.breadcrumbs-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumbs-list li:not(:last-child)::after {
+  content: "›";
+  color: var(--ff-muted);
+  opacity: 0.6;
+}
+
+.breadcrumbs-list a {
+  color: var(--ff-ink);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbs-list a:hover {
+  color: var(--ff-accent);
+  text-decoration: underline;
+}
+
+.breadcrumbs-list [aria-current="page"] {
+  color: var(--ff-muted);
+  font-weight: 600;
+}
+
+/* Main content wrapper */
+
+.site-main {
+  padding: 2.5rem 0 3rem;
+}
+
+/* Generic sections */
+
+.section-intro {
+  max-width: 48rem;
+  margin: 0 auto 2rem;
+}
+
+.section-intro .lead {
+  margin-top: 0.5rem;
+  color: var(--ff-muted);
+}
+
+.section-content {
+  max-width: 48rem;
+  margin: 0 auto 2rem;
+}
+
+/* Hero (home / page hero) */
+
+.hero--home {
+  padding: 3.5rem 0 2.5rem;
+}
+
+.hero-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.75rem;
+  color: var(--ff-muted);
+  margin: 0 0 0.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  margin: 0 0 1rem;
+}
+
+.hero-lead {
+  max-width: 40rem;
+  margin: 0 0 1.5rem;
+  color: var(--ff-muted);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* Buttons */
+
+.btn,
+.btn-ghost {
+  border-radius: 999px;
+  padding: 0.5rem 1.3rem;
+  font-size: 0.9rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.btn {
+  background: var(--ff-accent);
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.btn-ghost {
+  border-color: rgba(148, 163, 184, 0.7);
+  color: inherit;
+}
+
+.btn:hover,
+.btn-ghost:hover {
+  text-decoration: none;
+  filter: brightness(1.05);
+}
+
+/* Case pages */
+
+.case-record {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.case-header {
+  margin-bottom: 2rem;
+}
+
+.case-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.7rem;
+  color: var(--ff-muted);
+  margin: 0 0 0.75rem;
+}
+
+.case-title {
+  margin: 0 0 0.4rem;
+}
+
+.case-subtitle {
+  margin: 0 0 1.25rem;
+  color: var(--ff-muted);
+}
+
+.case-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0.75rem 1.5rem;
+  padding: 0.75rem 0 0;
+  margin: 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.5);
+}
+
+.case-meta dt {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--ff-muted);
+}
+
+.case-meta dd {
+  margin: 0.1rem 0 0;
+}
+
+.case-files {
+  margin-bottom: 2rem;
+}
+
+.case-files ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.case-files li + li {
+  margin-top: 0.4rem;
+}
+
+.case-doc-note {
+  color: var(--ff-muted);
+  font-size: 0.85rem;
+}
+
+.case-body {
+  margin-bottom: 2rem;
+}
+
+.case-hero {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: rgba(15, 23, 42, 0.5);
+  border-radius: 0.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.case-hero-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.7rem;
+  color: var(--ff-muted);
+  margin: 0 0 0.75rem;
+}
+
+.case-hero-title {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.case-hero-subtitle {
+  margin: 0 0 1rem;
+  color: var(--ff-muted);
+  font-size: 1rem;
+}
+
+.case-hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.3);
+  font-size: 0.9rem;
+}
+
+.case-hero-meta .meta-item strong {
+  color: var(--ff-muted);
+  font-weight: 600;
+}
+
+/* Essay pages */
+
+.essay-record {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.essay-header {
+  margin-bottom: 2rem;
+}
+
+.essay-date {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.7rem;
+  color: var(--ff-muted);
+  margin: 0 0 0.75rem;
+}
+
+.essay-title {
+  margin: 0 0 0.4rem;
+}
+
+.essay-subtitle {
+  margin: 0 0 1.25rem;
+  color: var(--ff-muted);
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.essay-body {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.essay-body h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.essay-body h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.essay-body p {
+  margin-bottom: 1rem;
+}
+
+.post-categories {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.category-badge {
+  background: rgba(250, 204, 21, 0.2);
+  color: var(--ff-accent);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.essay-tags {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.essay-tags h2 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ff-muted);
+  margin: 0 0 0.75rem;
+}
+
+.essay-tags ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.essay-tags li {
+  background: rgba(148, 163, 184, 0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: var(--ff-ink);
+}
+
+/* Index / listing cards */
+
+.cases-list,
+.essays-list,
+.case-list {
+  margin-top: 1.75rem;
+  display: grid;
+  gap: 1.1rem;
+}
+
+.case-card,
+.essay-card {
+  padding: 1rem 1.1rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  background: rgba(15, 23, 42, 0.5);
+}
+
+.case-card header,
+.essay-card header {
+  margin-bottom: 0.35rem;
+}
+
+.case-card h2,
+.essay-card h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.02rem;
+}
+
+.case-card .text-muted,
+.essay-card .text-muted {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ff-muted);
+}
+
+.case-card p,
+.essay-card p {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+}
+
+/* Utility */
+
+.text-muted {
+  color: var(--ff-muted);
+}
+
+@media (min-width: 768px) {
+  .section-intro,
+  .section-content {
+    padding-inline: 0;
+  }
+}

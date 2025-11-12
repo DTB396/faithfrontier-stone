@@ -14,6 +14,18 @@ markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Collections
+title: Faith Frontier Ecclesiastical Trust
+description: "Case records, filings, and covenant-based legal commentary by Devon Tyler Barber."
+url: https://faithfrontier.org
+baseurl: ""  # apex domain
+lang: en
+timezone: America/New_York
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: /:title/  # for posts
+
 collections:
   cases:
     output: true
@@ -58,3 +70,34 @@ plugins:
 
 # GitHub repository metadata (optional)
 repository: XTX33/FaithFrontier
+    permalink: /faith/:name/
+  docs:
+    output: true
+    permalink: /docs/:name/
+
+defaults:
+  - scope: { path: "_cases", type: "cases" }
+    values: { layout: "case" }
+  - scope: { path: "", type: "essays" }
+    values: { layout: "essay" }
+  - scope: { path: "", type: "docs" }
+    values: { layout: "doc" }
+  - scope: { path: "", type: "pages" }
+    values: { layout: "default" }
+  - scope: { path: "", type: "posts" }
+    values: { layout: "post" }
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+  - scripts
+  - reports
+  - _inbox

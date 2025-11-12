@@ -1,0 +1,10 @@
+---
+layout: null
+permalink: /cases.json
+---
+[
+{% assign items = site.cases | sort: "filed_date" | reverse %}
+{% for c in items %}
+{"url":"{{ c.url | relative_url }}","title":{{ c.title | jsonify }},"short_title":{{ c.short_title | jsonify }},"docket":{{ c.primary_docket | default: c.dockets | jsonify }},"status":{{ c.status | jsonify }},"filed_date":"{{ c.filed_date | date: '%Y-%m-%d' }}","tags":{{ c.tags | jsonify }}}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

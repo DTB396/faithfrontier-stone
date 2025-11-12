@@ -1,0 +1,37 @@
+---
+layout: default
+title: "Case Records"
+permalink: /cases/
+description: "Active and historical court matters documented by the Faith Frontier Ecclesiastical Trust."
+---
+
+<section class="cases-index">
+  <h1>Case Records</h1>
+  <p class="lead">
+    Active and historical matters documented by the Faith Frontier Ecclesiastical Trust.
+  </p>
+
+  <form id="case-filter" aria-label="Filter">
+    <input type="search" id="q" placeholder="Search title, docket, tag…" />
+    <select id="status">
+      <option value="">All Statuses</option>
+      <option>Active</option>
+      <option>Closed</option>
+      <option>Stayed</option>
+    </select>
+  </form>
+
+  <ul id="case-list">
+    {% assign items = site.cases | sort: "filed_date" | reverse %}
+    {% for c in items %}
+      <li class="case-item">
+        <a href="{{ c.url | relative_url }}"><strong>{{ c.short_title | default: c.title }}</strong></a>
+        <div class="meta">
+          {{ c.court }} · Docket: {{ c.primary_docket | default: c.dockets | join: ", " }} · Status: {{ c.status }} · Filed: {{ c.filed_date | date: "%Y-%m-%d" }}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<script src="{{ '/assets/js/case-search.js' | relative_url }}"></script>

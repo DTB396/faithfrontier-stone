@@ -1,0 +1,113 @@
+<footer class="site-footer" role="contentinfo" itemscope itemtype="https://schema.org/Organization">
+  <div class="footer-inner container">
+
+    <!-- Brand / Logo -->
+    <div class="footer-brand">
+      <a href="{{ '/' | relative_url }}" class="footer-logo-link" itemprop="url">
+        <img src="{{ '/assets/img/logo.png' | relative_url }}"
+             alt="Faith Frontier logo"
+             class="footer-logo"
+             itemprop="logo">
+        <span class="footer-name" itemprop="name">Faith Frontier</span>
+      </a>
+      <p class="footer-tagline">Case Records · Ecclesiastical Commentary · Covenant Journalism</p>
+    </div>
+
+    <!-- Mission summary -->
+    <div class="footer-about">
+      <p>
+        <strong>Faith Frontier Ecclesiastical Trust</strong> documents court records, filings, and faith-based commentary that seek to
+        reconcile law with conscience — building an archive of covenant and public accountability.
+      </p>
+    </div>
+
+    <!-- Navigation links -->
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <ul>
+        <li><a href="{{ '/cases/' | relative_url }}">Cases</a></li>
+        <li><a href="{{ '/essays/' | relative_url }}">Essays</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Legal -->
+    <div class="footer-bottom">
+      <p class="footer-meta">
+        &copy; {{ site.time | date: "%Y" }} {{ site.title }} · Faith Frontier Ecclesiastical Trust.  
+        All Rights Preserved.
+      </p>
+    </div>
+
+  </div>
+</footer>
+<style>.site-footer {
+  background: var(--ff-surface, #020617);
+  color: var(--ff-ink, #e5e7eb);
+  padding: 3rem 1rem;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+.footer-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+.footer-name {
+  display: block;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--ff-accent, #facc15);
+  letter-spacing: 0.03em;
+  margin-top: 0.25rem;
+}
+
+.footer-tagline {
+  color: var(--ff-muted, #9ca3af);
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+.footer-about {
+  max-width: 700px;
+  margin: 0 auto;
+  color: var(--ff-ink, #e5e7eb);
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav a {
+  color: var(--ff-ink, #e5e7eb);
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: var(--ff-accent, #facc15);
+  text-decoration: underline;
+}
+
+.footer-meta {
+  color: var(--ff-muted, #9ca3af);
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+</style>

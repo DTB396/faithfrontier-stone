@@ -1,0 +1,89 @@
+---
+layout: default
+---
+
+<article class="case-record shell">
+  <header class="case-header">
+    <p class="case-eyebrow">
+      {{ page.court }}{% if page.venue %} — {{ page.venue }}{% endif %}
+    </p>
+    <h1 class="case-title">{{ page.title }}</h1>
+    <p class="case-subtitle">
+      {{ page.short_title }} · Docket {{ page.primary_docket | default: page.dockets | join: ", " }}
+    </p>
+    <dl class="case-meta">
+      <div>
+        <dt>Case Type</dt>
+        <dd>{{ page.case_type }}</dd>
+      </div>
+      <div>
+        <dt>Status</dt>
+        <dd>{{ page.status }}</dd>
+      </div>
+      {% if page.filed_date %}
+      <div>
+        <dt>Filed</dt>
+        <dd>{{ page.filed_date | date: "%B %-d, %Y" }}</dd>
+      </div>
+      {% endif %}
+      {% if page.forum_level %}
+      <div>
+        <dt>Forum</dt>
+        <dd>{{ page.forum_level }}</dd>
+      </div>
+      {% endif %}
+    </dl>
+  </header>
+
+  <section class="case-body">
+    {{ content }}
+  </section>
+
+  <section class="docket">
+    <h2>Docket</h2>
+    {% assign slug = page.url | split:'/' | last | default: page.slug %}
+    {% assign docket = site.data.docket[slug] | sort: "date" | reverse %}
+    {% if docket %}
+      <ul class="docket-list">
+        {% for d in docket %}
+          <li>
+            <time>{{ d.date }}</time> — <strong>{{ d.type }}</strong>:
+            {% if d.file %}<a href="{{ d.file | relative_url }}">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}
+            {% if d.notes %}<div class="notes">{{ d.notes }}</div>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No docket entries yet.</p>
+    {% endif %}
+  </section>
+
+  {% if page.assets_dir and page.documents %}
+  <section class="case-files">
+    <h2>Key Filings &amp; Exhibits</h2>
+    <ul>
+      {% for doc in page.documents %}
+      <li>
+        <a href="{{ page.assets_dir | append: doc.path }}" target="_blank" rel="noopener">
+          {{ doc.label }}
+        </a>
+        {% if doc.note %}
+        <span class="case-doc-note"> — {{ doc.note }}</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if page.related_dockets %}
+  <section class="case-related">
+    <h2>Related Matters</h2>
+    <ul>
+      {% for rd in page.related_dockets %}
+      <li>{{ rd }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>

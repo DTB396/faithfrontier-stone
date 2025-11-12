@@ -1,0 +1,18 @@
+# Docket number or token to case slug mapping
+# Used by the intake automation to route PDFs to the correct case folder
+
+A-000313-25: street-crossing-pcr-appeal
+ATL-24-001934: street-crossing-pcr-appeal
+ATL-L-002794-25: atl-l-002794-25
+ATL-L-002869-25: atl-l-002869-25
+ATL-22-002292: barber-nj-pcr-2022
+ATL-22-002313: barber-nj-pcr-2022
+ATL-DC-007956-25: atl-dc-007956-25
+A-000308-25: a-000308-25
+# docket_or_token : slug
+# Examples you can keep or edit:
+A-000313-25: street-crossing-pcr-appeal
+ATL-L-002794-25: atl-l-002794-25
+ATL-L-002869-25: atl-l-002869-25
+ATL-L-002908-25: atl-l-002908-25
+1:25-cv-15641-RMB-MJS: 1-25-cv-15641-rmb-mjs

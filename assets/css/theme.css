@@ -1,0 +1,234 @@
+/* ======================================
+   Faith Frontier Theme – Foundation
+====================================== */
+
+:root {
+  --ff-ink: #e5e7eb;      /* light text on dark backgrounds */
+  --ff-muted: #9ca3af;    /* secondary text */
+  --ff-surface: #020617;  /* page background */
+  --ff-accent: #facc15;   /* accent color (brass / gold) */
+}
+
+/* Global reset / base */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--ff-surface);
+  color: var(--ff-ink);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  line-height: 1.6;
+}
+
+/* Global links */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout containers */
+
+.container,
+.shell {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* ======================================
+   Header / Navigation / Logo
+====================================== */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(15, 23, 42, 0.96); /* slate-900 w/ slight alpha */
+  color: var(--ff-ink);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.4);
+  backdrop-filter: blur(6px);
+}
+
+.site-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 0;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.site-logo img {
+  display: block;
+  height: 48px;
+  width: auto;
+  max-width: 200px;
+  margin-right: 0.5rem;
+}
+
+/* Mobile nav toggle */
+
+.nav-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0.5rem;
+  color: var(--ff-ink);
+}
+
+.nav-toggle-bar {
+  width: 24px;
+  height: 2px;
+  background-color: currentColor;
+  border-radius: 2px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Nav */
+
+.site-nav {
+  display: none;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.site-nav a {
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
+.site-nav a:hover {
+  opacity: 1;
+  color: var(--ff-accent);
+  text-decoration: none;
+}
+
+/* Mobile open state */
+
+.site-nav.is-open {
+  display: block;
+}
+
+/* Desktop layout */
+
+@media (min-width: 768px) {
+  .site-header-inner {
+    padding-inline: 0;
+  }
+
+  .site-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-nav ul {
+    flex-direction: row;
+    gap: 1.25rem;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+}
+
+/* ======================================
+   Footer – base styling
+====================================== */
+
+.site-footer {
+  border-top: 1px solid rgba(148, 163, 184, 0.5);
+  padding: 2.5rem 0 2rem;
+  font-size: 0.9rem;
+  color: var(--ff-muted);
+  background: rgba(15, 23, 42, 0.97);
+}
+
+.footer-inner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 96px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.footer-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+  color: var(--ff-accent);
+}
+
+.footer-tagline {
+  margin-top: 0.25rem;
+  color: var(--ff-muted);
+  font-style: italic;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footer-nav a {
+  color: var(--ff-ink);
+}
+
+.footer-nav a:hover {
+  color: var(--ff-accent);
+}
+
+.footer-meta {
+  font-size: 0.85rem;
+}
