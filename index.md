@@ -51,6 +51,11 @@ description: "The story of a man raised between two houses in a world breaking b
       </div>
     </article>
 
+    <!-- Decorative separator -->
+    <div style="margin: 4rem auto; text-align: center;">
+      <div style="display: inline-block; color: var(--ff-vintage-gold); font-size: 1.5rem; opacity: 0.4;">❖ ❖ ❖</div>
+    </div>
+
     <!-- Three Pillars -->
     <section style="margin: 4rem auto; max-width: 72rem;">
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
@@ -84,6 +89,11 @@ description: "The story of a man raised between two houses in a world breaking b
 
       </div>
     </section>
+
+    <!-- Decorative separator -->
+    <div style="margin: 4rem auto; text-align: center;">
+      <div style="display: inline-block; color: var(--ff-vintage-gold); font-size: 1.5rem; opacity: 0.4;">❖ ❖ ❖</div>
+    </div>
 
     <!-- What You'll Find Here -->
     <section style="margin: 4rem auto; max-width: 60rem;">
