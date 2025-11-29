@@ -19,7 +19,7 @@ collections:
     permalink: /cases/:name/
   essays:
     output: true
-    permalink: /faith/:name/
+    permalink: /essays/:name/
   docs:
     output: true
     permalink: /docs/:name/
