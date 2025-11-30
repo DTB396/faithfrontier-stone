@@ -76,6 +76,14 @@ body_class: page-manifesto
       It is his declaration of identity in an age of institutional pressure. It is
       his commitment to rebuild meaning, community, and faith at human scale.
     </p>
+
+    <div style="margin: 2.5rem 0; padding: 1.75rem; border-radius: 0.75rem; border: 1px solid var(--ff-primary); background: rgba(15, 118, 110, 0.12); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);">
+      <p style="margin: 0; font-size: 1.1rem; line-height: 1.8; font-style: italic; color: var(--ff-cream);">
+        <strong>Guiding Charge:</strong> Obey the law where it protects peace,
+        challenge the law where it violates justice,
+        and walk in clarity, not confusion.
+      </p>
+    </div>
     
     <div style="padding: 2rem; background: rgba(176, 137, 104, 0.1); border-radius: 0.75rem; margin: 2rem 0; border: 1px solid var(--ff-secondary);">
       <p style="margin: 0; font-size: 1.1rem; line-height: 1.8;">
