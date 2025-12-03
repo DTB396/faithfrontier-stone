@@ -13,6 +13,11 @@ const writeYml = (p, obj) => fs.writeFileSync(p, yaml.dump(obj, { lineWidth: 100
 
 const kebab = s => (s||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
 const ensureDir = p => fs.mkdirSync(p, { recursive: true });
+const slugifyFile = name => {
+  const base = name.replace(/\.pdf$/i, '');
+  const slug = kebab(base);
+  return slug || 'document';
+};
 
 const caseFiles = fs.existsSync('_cases') ? fs.readdirSync('_cases').filter(f=>f.endsWith('.md')) : [];
 
@@ -138,17 +143,26 @@ const main = () => {
 
     const date = guessDate(base, st.mtimeMs);
     const type = guessType(base);
-    const short = base.replace(/\.pdf$/i,'').replace(/[_\.]+/g,'-');
-    const newName = `${date}_${type}_${short}.pdf`.replace(/-+/g,'-');
+    const title = base.replace(/\.pdf$/i,'').replace(/[_-]+/g,' ').replace(/\s+/g,' ').trim();
+    const stub = slugifyFile(base);
+    let newName = `${date}_${type}_${stub}.pdf`;
 
     const destDir = path.join(CASES_DIR, slug, 'docket');
     ensureDir(destDir);
-    const destPath = path.join(destDir, newName);
+    let destPath = path.join(destDir, newName);
+
+    // Avoid collisions when slugified filenames match existing items
+    let suffix = 1;
+    while (fs.existsSync(destPath)) {
+      newName = `${date}_${type}_${stub}-${suffix}.pdf`;
+      destPath = path.join(destDir, newName);
+      suffix++;
+    }
 
     fs.renameSync(p, destPath);
 
     const { p: docketFile, list } = loadDocket(slug);
-    const id = `${date}-${kebab(short)}`.slice(0,64);
+    const id = `${date}-${stub}`.slice(0,64);
     const fileUrl = `/${destPath.replace(/\\/g,'/')}`;
 
     // De-dup if file already indexed
@@ -156,7 +170,7 @@ const main = () => {
     if (!exists) {
       list.push({
         id, date,
-        type, title: short.replace(/-/g,' ').trim(),
+        type, title: title || stub.replace(/-/g,' '),
         file: fileUrl,
         notes: p.includes('_inbox') ? 'Intake: moved from _inbox' : 'Intake: assets/uploads'
       });
