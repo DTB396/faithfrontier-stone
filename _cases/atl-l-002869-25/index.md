@@ -17,14 +17,10 @@ judge:
 tags:
   - civil
   - declaratory
-<<<<<<< HEAD:_cases/atl-l-002869-25.md
 assets_dir: "/cases/atl-l-002869-25/"
 overview: >
   Declaratory-judgment action establishing ownership and indemnity rights tied to vehicle
   registration disputes. Track assignment and amended pleadings are active as of October 2025.
-=======
-assets_dir: "/cases/atl-l-002869-25/filings/"
->>>>>>> origin/codex/audit-and-enhance-xtx33/faithfrontier-repository:_cases/atl-l-002869-25/index.md
 documents:
   - label: "Verified Complaint"
     path: "2025-10-14-verified-complaint-declaration-of-ownership.pdf"

@@ -17,15 +17,11 @@ judge:
 tags:
   - tolls
   - discovery
-<<<<<<< HEAD:_cases/atl-dc-007956-25.md
 assets_dir: "/cases/atl-dc-007956-25/"
 overview: >
   Contesting toll-enforcement claims while prosecuting counterclaims regarding accessibility
   and record integrity. Case remains active with ADA correspondence, discovery demands, and
   responses to the Authority's pleadings.
-=======
-assets_dir: "/cases/atl-dc-007956-25/filings/"
->>>>>>> origin/codex/audit-and-enhance-xtx33/faithfrontier-repository:_cases/atl-dc-007956-25/index.md
 documents:
   - label: "Answer & First Appearance"
     path: "2025-09-03_Answer-FirstAppearance.pdf"
