@@ -17,7 +17,8 @@ description: "Legacy articles path, now listing the essays collection of long-fo
   </header>
 
   <div class="articles-list" style="max-width: 60rem; margin: 0 auto;">
-    {% assign sorted_articles = site.articles | sort: "date" | reverse %}
+    {% assign collection_items = site.essays | default: site.articles %}
+    {% assign sorted_articles = collection_items | default: empty | sort: "date" | reverse %}
     {% for article in sorted_articles %}
       <article class="article-card" style="padding: 1.2rem 0; border-bottom: 1px solid rgba(255,255,255,0.08);">
         <h2 class="article-card-title" style="margin: 0 0 0.35rem 0; font-size: 1.5rem;">

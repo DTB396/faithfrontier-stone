@@ -32,6 +32,10 @@ description: "Faith Frontier Ecclesiastical Trust builds a faith-rooted public t
           <span class="hero-highlight__label">Community equity</span>
           <p>Shared documentation, charters, and covenantal accountability keep service dignified.</p>
         </article>
+        <article class="hero-highlight">
+          <span class="hero-highlight__label">Global revelation</span>
+          <p>Christ-centered testimony connects New Jersey matters to a worldwide witness of justice and mercy.</p>
+        </article>
       </div>
       <div class="hero-actions">
         <a class="btn" href="{{ '/about/' | relative_url }}">Explore Our Mission</a>
