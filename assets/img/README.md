@@ -2,10 +2,10 @@
 
 ## SVG crest wordmarks
 
-- `logo-faithfrontier-dark-bg.svg` – default for the navy header/footer. FAITH is locked to pure white (#FFFFFF) for contrast and FRONTIER sits in royal brass.
-- `logo-faithfrontier-light-bg.svg` – use on white or parchment backgrounds. FAITH is emerald (#059669) and FRONTIER stays deep ink (#041322).
-- `faithfrontier-logo.svg` – maintained as an alias of the dark crest for legacy references in `_config.yml` or partner embeds.
-- `faithfrontier-mark.svg` – icon-only Trinitarian crest. Transparent background works on both light and dark surfaces.
+- `logo-faithfrontier-dark-bg.svg` - default for the navy header/footer. FAITH is locked to pure white (#FFFFFF) for contrast and FRONTIER sits in royal brass.
+- `logo-faithfrontier-light-bg.svg` - use on white or parchment backgrounds. FAITH is emerald (#059669) and FRONTIER stays deep ink (#041322).
+- `faithfrontier-logo.svg` - maintained as an alias of the dark crest for legacy references in `_config.yml` or partner embeds.
+- `faithfrontier-mark.svg` - icon-only Trinitarian crest. Transparent background works on both light and dark surfaces.
 
 Each SVG exposes `--logo-faith-color` and `--logo-frontier-color` custom properties on the `<svg>` root. Inline the markup if you need to override those values via CSS.
 
