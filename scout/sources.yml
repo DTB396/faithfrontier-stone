@@ -1,0 +1,25 @@
+# Approved property data sources (API-based only)
+
+mls:
+  name: "MLS RESO Web API"
+  url: "https://webapi.reso.org/"
+  permitted: true
+  notes: "Primary, standards-compliant source."
+
+county_open_data:
+  name: "County Open Data Portal"
+  url: "https://data.[county].gov/"
+  permitted: true
+  notes: "For parcel, zoning, and tax data."
+
+zillow_api:
+  name: "Zillow API (if permitted)"
+  url: "https://www.zillow.com/howto/api/APIOverview.htm"
+  permitted: false
+  notes: "Use only if explicit written permission is obtained."
+
+realtor_api:
+  name: "Realtor.com API (if permitted)"
+  url: "https://developer.realtor.com/"
+  permitted: false
+  notes: "Use only if explicit written permission is obtained."

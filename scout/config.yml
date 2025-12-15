@@ -1,0 +1,33 @@
+# Faith Frontier Property Stewardship Scoring Config
+# Mission weights, thresholds, and red flags for property evaluation
+
+stewardship:
+  weight: 0.30
+  min_acreage: 0.25
+  flood_risk_penalty: 0.25
+  industrial_distance_min_km: 1.0
+
+housing:
+  weight: 0.25
+  habitability_min_score: 60
+  adu_viability_weight: 0.15
+  neighborhood_stability_weight: 0.10
+
+rehab:
+  weight: 0.20
+  cosmetic_tier_weight: 0.10
+  systems_tier_weight: 0.05
+  structural_tier_weight: 0.05
+  permit_complexity_penalty: 0.10
+
+risk:
+  weight: 0.25
+  title_risk_penalty: 0.20
+  zoning_ambiguity_penalty: 0.15
+  environmental_red_flag_penalty: 0.20
+
+# Red flags (immediate exclusion)
+red_flags:
+  - "Known hazardous waste site"
+  - "Uninsurable flood zone"
+  - "Active litigation on title"

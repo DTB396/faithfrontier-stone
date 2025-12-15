@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Faith Frontier Property Schema",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "address": { "type": "string" },
+    "county": { "type": "string" },
+    "lat": { "type": "number" },
+    "lng": { "type": "number" },
+    "lot_size_acres": { "type": "number" },
+    "flood_risk": { "type": "string" },
+    "soil_type": { "type": "string" },
+    "water_access": { "type": "boolean" },
+    "industrial_distance_km": { "type": "number" },
+    "habitability_score": { "type": "number" },
+    "adu_viability": { "type": "boolean" },
+    "neighborhood_stability": { "type": "string" },
+    "rehab_tier": { "type": "string" },
+    "permit_complexity": { "type": "string" },
+    "utility_status": { "type": "string" },
+    "title_risk": { "type": "string" },
+    "zoning_ambiguity": { "type": "string" },
+    "environmental_flags": { "type": "array", "items": { "type": "string" } },
+    "red_flags": { "type": "array", "items": { "type": "string" } },
+    "source": { "type": "string" },
+    "ingested_at": { "type": "string", "format": "date-time" }
+  },
+  "required": [
+    "id", "address", "county", "lat", "lng", "lot_size_acres", "habitability_score", "source", "ingested_at"
+  ]
+}
