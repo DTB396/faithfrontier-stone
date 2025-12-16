@@ -25,6 +25,30 @@ body_class: page-about
 <section class="section-content" style="max-width: 60rem; margin: 0 auto 3rem;">
 
   <h2>Why We Formed</h2>
+  <h2>The Story Behind Faith Frontier</h2>
+  <p>
+    Faith Frontier was born from a journey that began in childhood and was forged through confusion, exile, and ultimately, 
+    spiritual awakening. Devon Tyler grew up between two houses—one familiar, structured, and ordered; the other distant 
+    and rarely visited. His biological father appeared occasionally, creating not trauma but a profound sense of duality. 
+    Two fathers, two identities, two ways of seeing the world.
+  </p>
+  <p>
+    This childhood duality taught him to navigate structure while sensing something beneath the surface—rituals without meaning, 
+    traditions without depth, holidays observed but not understood. He began asking questions: <em>Why? What does this mean? 
+    Is there something deeper?</em>
+  </p>
+  <p>
+    Then came the pandemic era—a time when institutions demanded conformity and treated dissent as danger. Devon found himself 
+    on the outside, not because he sought conflict, but because he refused to surrender his conscience. Misunderstandings became 
+    accusations. Questions became threats. What began as ideological clash became exile.
+  </p>
+  <p>
+    In that isolation, something awakened. He turned to Scripture, to history, to the great questions of meaning and sovereignty. 
+    He examined the systems that had shaped his life and realized: <strong>the world was not just changing—it was breaking between 
+    two eras.</strong> Faith Frontier emerged as his answer: a declaration of identity over bureaucracy, spirit over systems, 
+    meaning over machinery.
+  </p>
+
   <p>
     Devon Tyler’s path exposed how ordinary people can feel unseen in procedural systems. Those experiences revealed gaps in due
     process, communication, and care. Rather than stay in that past, Faith Frontier turns the testimony into forward action:

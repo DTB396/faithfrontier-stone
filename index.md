@@ -15,7 +15,7 @@ description: "Faith Frontier Ecclesiastical Trust builds a faith-rooted public t
         Faithful Stewardship for New Jersey
       </h1>
       <p class="hero-lead">
-        Faith Frontier exists to uphold a sacred public trust—giving New Jersey residents the clarity, courage, and tools to defend due process, honor conscience, and pursue real restoration. We document hard cases with precision, stand beside families as they navigate complex systems, and keep every action surrendered to Yeshua the Messiah, so that justice is not only lawful, but holy.
+        Faith Frontier exists to uphold a sacred public trust—giving New Jersey residents the clarity, courage, and tools to defend due process, honor conscience, and pursue real restoration. Born from a journey of childhood duality, pandemic-era exile, and spiritual awakening, we document hard cases with precision, stand beside families as they navigate complex systems, and keep every action surrendered to Yeshua the Messiah, so that justice is not only lawful, but holy.
       </p>
       <div class="hero-highlights">
         <article class="hero-highlight">

@@ -68,6 +68,11 @@
 <!-- Main / overrides -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
+<!-- Enhanced case styles for case layouts -->
+{% if page.layout == 'case-enhanced' or page.layout == 'case' %}
+<link rel="stylesheet" href="{{ '/assets/css/case-enhanced.css' | relative_url }}">
+{% endif %}
+
 <!-- Page-specific styles (optional) -->
 {% if page.stylesheet %}
 <link rel="stylesheet" href="{{ page.stylesheet | relative_url }}">
