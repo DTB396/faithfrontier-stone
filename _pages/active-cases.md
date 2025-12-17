@@ -15,11 +15,13 @@ show_breadcrumbs: true
     <p class="section-lead">
       A daily-readable summary of every Faith Frontier case that is currently live in court. Each entry
       surfaces the venue, fast facts, and most recent filings so supporters and counsel can see what
-      still requires prayer, oversight, or documents.
+      still requires prayer, oversight, or documents. Publication is for transparency and verification; the
+      court record controls.
     </p>
     <p>
       This digest pulls from the Jekyll case collection (`_cases/*.md`). When a case is marked
       <strong>status: active</strong>, its overview, documents, and latest steps appear below automatically.
+      These summaries are not legal advice and do not replace reading the underlying docket.
     </p>
   </div>
 </section>

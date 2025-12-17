@@ -11,14 +11,14 @@ body_class: page-about
 <section class="section-intro" style="max-width: 60rem; margin: 0 auto 3rem;">
   <h1>About Faith Frontier Ecclesiastical Trust</h1>
   <p class="lead">
-    Faith Frontier is a Christian, non-denominational witness to Jesus Christ, rooted in Biblical principles and devoted to New
-    Jersey’s people. We are building an ecclesiastical public-trust framework that advances ethical treatment, public
-    accountability, and restored dignity in legal and civic processes.
+    Faith Frontier is a Christian-informed public trust rooted in Biblical principles and devoted to New Jersey’s people. We
+    operate within constitutional and state-law frameworks, advancing ethical treatment, public accountability, and restored
+    dignity in legal and civic processes.
   </p>
   <p class="lead" style="max-width: 54rem;">
-    Our work emerges from lived encounters with injustice, but it looks forward: turning lessons into stewardship, clarity, and
-    hope for residents engaging courts, agencies, police, landlords, contractors, and other public-trust actors. Learn more in
-    our <a href="{{ '/about/faith-frontier-identity/' | relative_url }}">Identity &amp; Beliefs</a> page.
+    Our work translates lived encounters with bureaucracy and due-process gaps into stewardship and clarity. We document records
+    so residents can verify facts, seek licensed counsel, and engage courts, agencies, police, landlords, contractors, and other
+    public-trust actors with confidence. Learn more in our <a href="{{ '/about/faith-frontier-identity/' | relative_url }}">Identity &amp; Beliefs</a> page.
   </p>
 </section>
 
@@ -27,32 +27,17 @@ body_class: page-about
   <h2>Why We Formed</h2>
   <h2>The Story Behind Faith Frontier</h2>
   <p>
-    Faith Frontier was born from a journey that began in childhood and was forged through confusion, exile, and ultimately, 
-    spiritual awakening. Devon Tyler grew up between two houses—one familiar, structured, and ordered; the other distant 
-    and rarely visited. His biological father appeared occasionally, creating not trauma but a profound sense of duality. 
-    Two fathers, two identities, two ways of seeing the world.
+    Faith Frontier began with one neighbor’s experience navigating divided households, inconsistent communication, and opaque
+    procedures. Those formative years created a desire for order, accountability, and meaning grounded in Scripture.
   </p>
   <p>
-    This childhood duality taught him to navigate structure while sensing something beneath the surface—rituals without meaning, 
-    traditions without depth, holidays observed but not understood. He began asking questions: <em>Why? What does this mean? 
-    Is there something deeper?</em>
+    Encounters with bureaucracy during the pandemic era underscored how quickly paperwork and misunderstanding can separate
+    people from services, housing, or fair hearings. Rather than respond with grievance, Faith Frontier chose to document facts,
+    seek lawful remedies, and invite prayerful discernment.
   </p>
   <p>
-    Then came the pandemic era—a time when institutions demanded conformity and treated dissent as danger. Devon found himself 
-    on the outside, not because he sought conflict, but because he refused to surrender his conscience. Misunderstandings became 
-    accusations. Questions became threats. What began as ideological clash became exile.
-  </p>
-  <p>
-    In that isolation, something awakened. He turned to Scripture, to history, to the great questions of meaning and sovereignty. 
-    He examined the systems that had shaped his life and realized: <strong>the world was not just changing—it was breaking between 
-    two eras.</strong> Faith Frontier emerged as his answer: a declaration of identity over bureaucracy, spirit over systems, 
-    meaning over machinery.
-  </p>
-
-  <p>
-    Devon Tyler’s path exposed how ordinary people can feel unseen in procedural systems. Those experiences revealed gaps in due
-    process, communication, and care. Rather than stay in that past, Faith Frontier turns the testimony into forward action:
-    building tools, relationships, and standards that honor truth while repairing trust.
+    The project now turns personal lessons into forward action: building tools, relationships, and standards that honor truth
+    while repairing trust between residents and the institutions that serve them.
   </p>
 
   <h2>Mission & Vision for New Jersey</h2>

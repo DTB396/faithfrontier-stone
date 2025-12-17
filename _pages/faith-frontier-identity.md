@@ -20,6 +20,13 @@ The founder of Faith Frontier was raised Catholic. That tradition provided struc
 - Pursue justice and mercy in New Jersey — especially in Atlantic City — integrating faith, law, policy, and real-life story.
 - Live as followers and witnesses of Jesus Christ, guided by the Holy Spirit and accountable to Scripture.
 
+## Civic and legal posture
+
+- Faith forms conscience; courts, statutes, and public agencies set the civic framework. We operate within that framework and welcome oversight.
+- Public records, dockets, and timelines are published for transparency, not to claim insider status or extrajudicial authority.
+- Partnerships, trusts, and LLCs are administered with respect for tax law, zoning, licensing, and corporate separateness to avoid alter-ego risk.
+- Disclaimers distinguish belief statements from legal claims so readers know when language is devotional and when it is documentary.
+
 ## Grounded in Atlantic City, New Jersey
 
 Faith Frontier is rooted in **Atlantic City, New Jersey** — a coastal city where tourism and luxury sit beside poverty, addiction, and housing instability. Here, exploitation and homelessness collide with the hope of recovery and renewal. Coastal risk and instability shape daily life. Faith Frontier is a response to this reality: a commitment to justice, stewardship, practical mercy, ethical governance, and a sanctuary where people can seek Christ and safety.

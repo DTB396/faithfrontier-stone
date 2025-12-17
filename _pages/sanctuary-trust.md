@@ -8,7 +8,7 @@ hide_hero: true
   <p class="trust-eyebrow">Sanctuary Inner Room</p>
   <h1>Ecclesiastical Trust Inner Room</h1>
   <p class="lead">
-    A quiet archive space within the Sanctuary where Ecclesiastical Trust instruments, banking resolutions, and governance minutes are preserved for prayerful reference.
+    A quiet archive space within the Sanctuary where Ecclesiastical Trust instruments, banking resolutions, and governance minutes are preserved for prayerful reference and public traceability.
   </p>
 </section>
 
@@ -16,15 +16,15 @@ hide_hero: true
   <div class="trust-note trust-note--muted">
     <h2>Ecclesiastical &amp; Spiritual Context</h2>
     <p>
-      These records are maintained as part of Faith Frontier’s ecclesiastical and spiritual stewardship. They are not legal advice, not court filings, and not sworn statements under penalty of perjury. For clarity or pastoral context, email <a href="mailto:info@Tillerstead.com">info@Tillerstead.com</a>.
-    </p>
-  </div>
+    These records are maintained as part of Faith Frontier’s ecclesiastical and spiritual stewardship. They are not legal advice, not court filings, and not sworn statements under penalty of perjury. Civil filings live in the appropriate court dockets and should be read in that context. For clarity or pastoral context, email <a href="mailto:info@Tillerstead.com">info@Tillerstead.com</a>.
+  </p>
+</div>
 </section>
 
 <section class="section-content trust-room">
   <h2>Ecclesiastical Trust Records</h2>
   <p class="inner-room-subtitle">
-    Inner-room documents related to the Faith Frontier Ecclesiastical Trust: formation instruments, banking resolutions, governance minutes, and related ecclesiastical records.
+    Inner-room documents related to the Faith Frontier Ecclesiastical Trust: formation instruments, banking resolutions, governance minutes, and related ecclesiastical records. Each item remains paired with its civic counterpart so auditors, regulators, and community partners can reconcile what is held spiritually with what is filed legally.
   </p>
 
   <div class="trust-doc-grid">
