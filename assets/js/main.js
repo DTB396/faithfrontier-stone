@@ -43,7 +43,7 @@
       if (focusable && focusable.length) {
         try {
           focusable[0].focus({ preventScroll: true });
-        } catch (e) {
+        } catch (_err) {
           focusable[0].focus();
         }
       }
@@ -83,7 +83,7 @@
       if (restoreFocus) {
         try {
           toggle.focus({ preventScroll: true });
-        } catch (e) {
+        } catch (_err) {
           toggle.focus();
         }
       }
@@ -149,7 +149,7 @@
           var m = parts.find((p) => p.type === "month").value;
           var d = parts.find((p) => p.type === "day").value;
           return y + "-" + m + "-" + d;
-        } catch (e) {
+        } catch (_err) {
           var dt = new Date();
           return (
             dt.getFullYear() + "-" + (dt.getMonth() + 1) + "-" + dt.getDate()
@@ -161,7 +161,7 @@
       var cached = null;
       try {
         cached = JSON.parse(localStorage.getItem(key));
-      } catch (e) {}
+      } catch (_err) {}
 
       function render(v) {
         var textEl = container.querySelector(".dv-text");
@@ -332,9 +332,9 @@
         timeoutId = setTimeout(function () {
           try {
             controller.abort();
-          } catch (e) {}
+          } catch (_err) {}
         }, 4500);
-      } catch (e) {}
+      } catch (_err) {}
 
       fetch(
         "https://beta.ourmanna.com/api/v1/get/?format=json",
@@ -355,7 +355,7 @@
           render(v);
           try {
             localStorage.setItem(key, JSON.stringify(v));
-          } catch (e) {}
+          } catch (_err) {}
         })
         .catch(function () {
           if (timeoutId) clearTimeout(timeoutId);
@@ -363,7 +363,7 @@
           render(v);
           try {
             localStorage.setItem(key, JSON.stringify(v));
-          } catch (e) {}
+          } catch (_err) {}
         });
     })();
   });

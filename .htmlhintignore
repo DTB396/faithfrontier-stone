@@ -1,0 +1,6 @@
+# htmlhintignore
+
+_includes/**
+_layouts/**
+cases/**
+docket/**

@@ -1,0 +1,9 @@
+{
+  "html.validate.enabled": false,
+  "files.associations": {
+    "**/_includes/*.html": "liquid",
+    "**/_layouts/*.html": "liquid",
+    "**/cases/**/*.html": "liquid",
+    "**/docket/**/*.html": "liquid"
+  }
+}
