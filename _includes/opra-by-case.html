@@ -1,0 +1,17 @@
+{%- assign slug = page.case_slug -%}
+{%- if slug -%}
+### OPRA Administrative Records (Tagged)
+
+<ul class="record-list">
+  {%- assign hits = site.opra | where_exp: "r", "r.related_cases contains slug" -%}
+  {%- for r in hits -%}
+    <li class="record-item">
+      <a href="{{ r.url | relative_url }}"><strong>{{ r.title }}</strong></a>
+      <div class="record-meta">
+        <span class="badge badge-status">{{ r.status }}</span>
+        {%- if r.authority_primary -%}<span class="meta">Custodian: {{ r.authority_primary }}</span>{%- endif -%}
+      </div>
+    </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}
