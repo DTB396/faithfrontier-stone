@@ -11,104 +11,188 @@
   date: 2025-12-07
   type: Certification
   title: DTB Certification of Facts
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251207-dtb-certification-of-facts.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-07-2025-dtb-certification-of-facts.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251207-exhibit-a-motion-release-impounded-vehicle
   date: 2025-12-07
   type: Exhibit
   title: Exhibit A - Motion Release Impounded Vehicle Without Fees
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251207-exhibit-a-motion-release-impounded-vehicle-without-fees.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-07-2025-exhibit-a-motion-release-impounded-vehicle-without-fees.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251207-exhibit-b-discovery-request
   date: 2025-12-07
   type: Exhibit
   title: Exhibit B - Discovery Request and Service of Motion
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251207-exhibit-b-discovery-request-and-service-of-motion.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-07-2025-exhibit-b-discovery-request-and-service-of-motion.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251207-exhibit-c-formal-notice-ia-complaint
   date: 2025-12-07
   type: Exhibit
   title: Exhibit C - Formal Notice IA Complaint and Request for Vehicle Release
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251207-exhibit-c-formal-notice-ia-complaint-and-request-for-vehicle-release.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-07-2025-exhibit-c-formal-notice-ia-complaint-and-request-for-vehicle-release.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251207-verified-complaint-and-cis
   date: 2025-12-07
   type: Complaint
   title: Verified Complaint and CIS
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251207-verified-complaint-and-cis.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-07-2025-verified-complaint-and-cis.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251210-amended-complaint
   date: 2025-12-10
   type: Complaint
   title: Amended Complaint
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251210-amended-complaint.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-10-2025-amended-complaint.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251210-exhibit-a-b-and-c
   date: 2025-12-10
   type: Exhibit
   title: Exhibit A, B, and C
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251210-exhibit-a-b-and-c.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-10-2025-exhibit-a-b-and-c.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251210-proof-of-service
   date: 2025-12-10
   type: Proof of Service
   title: Proof of Service
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251210-proof-of-service-of-proposed-order.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-10-2025-proof-of-service.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251210-proposed-form-of-order
   date: 2025-12-10
   type: Proposed Order
   title: Proposed Form of Order
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251210-proposed-form-of-order.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-10-2025-proposed-form-of-order.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251210-proposed-order-proof-of-service
   date: 2025-12-10
   type: Proposed Order
   title: Proposed Order Proof of Service
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251210-proof-of-service-of-proposed-order.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-10-2025-proposed-order-proof-of-service.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251210-request-for-relief
   date: 2025-12-10
   type: Request
   title: Request for Relief
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251210-request-for-relief.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-10-2025-request-for-relief.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251210-track-assignment-notice
   date: 2025-12-10
   type: Notice
   title: Track Assignment Notice
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251210-track-assignment-notice.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-10-2025-track-assignment-notice.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251211-amended-complaint
   date: 2025-12-11
   type: Complaint
   title: Amended Complaint
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251211-amended-complaint.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-11-2025-amended-complaint.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251211-certification-of-service
   date: 2025-12-11
   type: Certification
   title: Certification of Service
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251211-certification-of-service.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-11-2025-certification-of-service.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251211-cover-letter
   date: 2025-12-11
   type: Letter
   title: Cover Letter
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251211-cover-letter.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-11-2025-cover-letter.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251211-dtb-certification
   date: 2025-12-11
   type: Certification
   title: DTB Certification
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251211-dtb-certification.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-11-2025-dtb-certification.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251211-proof-of-service
   date: 2025-12-11
   type: Proof of Service
   title: Proof of Service
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251210-proof-of-service-of-proposed-order.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-11-2025-proof-of-service.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251211-proposed-order
   date: 2025-12-11
   type: Proposed Order
   title: Proposed Order
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251211-proposed-order.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-11-2025-proposed-order.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251212-motion-packet
   date: 2025-12-12
   type: Motion
   title: Motion Packet
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251212-motion-packet.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-12-2025-motion-packet.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251213-certification-packet
   date: 2025-12-13
   type: Certification
   title: Certification Packet
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251213-certification-packet.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-13-2025-certification-packet.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 20251213-exhibits-s1-s2-s3
   date: 2025-12-13
   type: Exhibit
   title: Exhibits S1, S2, and S3
+<<<<<<< HEAD
   file: /cases/atl-l-003252-25/filings/20251213-exhibits-s1-s2-and-s3.pdf
+=======
+  file: /assets/cases/atl-l-003252-25/docket/12-13-2025-exhibits-s1-s2-and-s3.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)

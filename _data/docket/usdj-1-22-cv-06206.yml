@@ -2,49 +2,98 @@
   date: 2022-10-09
   type: Filing
   title: Original Complaint
+<<<<<<< HEAD
   file: /cases/usdj-1-22-cv-06206/filings/20221009-original-complaint.pdf
+=======
+  file: /assets/cases/usdj-1-22-cv-06206/docket/20221009-original-complaint.pdf
+
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2022-10-09-police-report
   date: 2022-10-09
   type: Exhibit
   title: Police Report
+<<<<<<< HEAD
   file: /cases/usdj-1-22-cv-06206/filings/20221009-police-report.pdf
+=======
+  file: /assets/cases/usdj-1-22-cv-06206/docket/20221009-police-report.pdf
+
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2022-10-09-envelope
   date: 2022-10-09
   type: Other
   title: Envelope (Original Filing)
+<<<<<<< HEAD
   file: /cases/usdj-1-22-cv-06206/filings/20221009-envelope.pdf
+=======
+  file: /assets/cases/usdj-1-22-cv-06206/docket/20221009-envelope.pdf
+
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2025-08-27-amended-complaint
   date: 2025-08-27
   type: Filing
   title: Amended Complaint
+<<<<<<< HEAD
   file: /cases/usdj-1-22-cv-06206/filings/20250827-amended-complaint.pdf
+=======
+  file: /assets/cases/usdj-1-22-cv-06206/docket/20250827-amended-complaint.pdf
+
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2025-08-27-motion-to-reopen
   date: 2025-08-27
   type: Motion
   title: Motion to Reopen
+<<<<<<< HEAD
   file: /cases/usdj-1-22-cv-06206/filings/20250827-motion-to-reopen.pdf
+=======
+  file: /assets/cases/usdj-1-22-cv-06206/docket/20250827-motion-to-reopen.pdf
+
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2025-08-27-memorandum
   date: 2025-08-27
   type: Brief
   title: Memorandum in Support of Motion
+<<<<<<< HEAD
   file: /cases/usdj-1-22-cv-06206/filings/20250827-memorandum-in-support-of-motion.pdf
+=======
+  file: /assets/cases/usdj-1-22-cv-06206/docket/20250827-memorandum-in-support-of-motion.pdf
+
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2025-08-27-declaration
   date: 2025-08-27
   type: Filing
   title: Declaration
+<<<<<<< HEAD
   file: /cases/usdj-1-22-cv-06206/filings/20250827-declaration.pdf
+=======
+  file: /assets/cases/usdj-1-22-cv-06206/docket/20250827-declaration.pdf
+
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2025-08-27-proposed-order
   date: 2025-08-27
   type: Motion
   title: Proposed Order for Motion to Reopen
+<<<<<<< HEAD
   file: /cases/usdj-1-22-cv-06206/filings/20250827-proposed-order-for-motion-to-reopen.pdf
+=======
+  file: /assets/cases/usdj-1-22-cv-06206/docket/20250827-motion-to-reopen.pdf
+
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2025-08-27-certificate-of-service
   date: 2025-08-27
   type: Other
   title: Certificate of Service
+<<<<<<< HEAD
   file: /cases/usdj-1-22-cv-06206/filings/20250827-certificate-of-service.pdf
+=======
+  file: /assets/cases/usdj-1-22-cv-06206/docket/20250827-certificate-of-service.pdf
+
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2025-08-27-envelope
   date: 2025-08-27
   type: Other
   title: Envelope (Motion to Reopen)
+<<<<<<< HEAD
   file: /cases/usdj-1-22-cv-06206/filings/20250827-envelope.pdf
+=======
+  file: /assets/cases/usdj-1-22-cv-06206/docket/20250827-envelope.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)

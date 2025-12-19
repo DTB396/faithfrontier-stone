@@ -2,28 +2,50 @@
   date: 2024-09-25
   type: Filing
   title: Chief Clambrone Letter re Incident and Record Clarification
+<<<<<<< HEAD
   file: /cases/a-000313-25/filings/20240925-cheif-clambrone-letter.pdf
+=======
+  file: /assets/cases/a-000313-25/docket/09-25-2024-chief-clambrone-letter.pdf
+  notes: Related to ATL-24-001934
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2024-09-25-demurrer-plea
   date: 2024-09-25
   type: Filing
   title: Demurrer and Plea in Abatement with Certificate (EF-3721525)
+<<<<<<< HEAD
   file: /cases/a-000313-25/filings/demurer-and-plea-in-abatement-with-certificate-ef-3721525.pdf
+=======
+  file: /assets/cases/a-000313-25/docket/demurer-and-plea-in-abatement-with-certificate-ef-3721525.pdf
+  notes: Related to ATL-24-001934
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-10-29-notice-of-appeal
   date: 2025-10-29
   type: Notice
   title: Notice of Appeal (CN 10502)
+<<<<<<< HEAD
   file: /cases/a-000313-25/filings/20251029-notice-of-appeal.pdf
+=======
+  file: /assets/cases/a-000313-25/docket/20251029-notice-of-appeal.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-11-05-order-ifp
   date: 2025-11-05
   type: Order
   title: Order Granting In Forma Pauperis Status
+<<<<<<< HEAD
   file: /cases/a-000313-25/filings/order-granted-ifp.pdf
+=======
+  file: /assets/cases/a-000313-25/docket/order-granted-ifp.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-11-05-order-docketing
   date: 2025-11-05
   type: Order
   title: Order Granting Appeal Docketing
+<<<<<<< HEAD
   file: /cases/a-000313-25/filings/order-granted.pdf
+=======
+  file: /assets/cases/a-000313-25/docket/order-granted-ifp.pdf
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)

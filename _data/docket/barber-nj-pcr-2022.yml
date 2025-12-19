@@ -2,12 +2,22 @@
   date: 2025-10-26
   type: Filing
   title: Petition for Post-Conviction Relief with Certification and Memorandum (ATL-22-002292)
+<<<<<<< HEAD
   file: /cases/barber-nj-pcr-2022/filings/10-26-2025-Barber%20Post%20Conviction%20Relief%20Petition%20October%202025.pdf
   notes: Related to ATL-22-002292, ATL-22-002313, and USDJ-1-22-cv-06206-KMW-EAP.
+=======
+  file: /assets/cases/barber-nj-pcr-2022/docket/2025-10-26_NJSC_ATL-22-002292_Barber_Petition_for_PostConvictionRelief_with_Certification_and_Memorandum.pdf
+  notes: Related to ATL-22-002292
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-10-27-certification-supplemental-record
   date: 2025-10-27
   type: Filing
   title: Certification of Supplemental Record and Request for Transmittal to Appellate Division
+<<<<<<< HEAD
   file: /cases/barber-nj-pcr-2022/filings/10-26-2025-SUPPLEMENTAL%20RECORD%20REQUEST%20FOR%20TRANSMITTAL.pdf
   notes: Related to ATL-22-002292, ATL-22-002313, and USDJ-1-22-cv-06206-KMW-EAP.
+=======
+  file: /assets/cases/barber-nj-pcr-2022/docket/2025-10-27_NJSC_ATL-22-002292_Barber_Certification_of_SupplementalRecord_and_Request_for_Transmittal_to_AppDiv.pdf
+  notes: Related to ATL-22-002292
+>>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
