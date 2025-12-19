@@ -23,10 +23,14 @@
   type: Filing
   title: Complaint
 <<<<<<< HEAD
+<<<<<<< HEAD
   file: /cases/atl-dc-007956-25/filings/2025-08-19_Complaint.pdf
 =======
   file: /assets/cases/atl-dc-007956-25/docket/20250819-complaint.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
+=======
+  file: /assets/cases/atl-dc-007956-25/docket/20250819-complaint-and-summons-by-njta.pdf
+>>>>>>> 0e4254c (fix: update file paths for complaint and proposed order in docket)
 
 - id: 2025-09-03-answer-first-appearance
   date: 2025-09-03
@@ -53,10 +57,14 @@
   type: Motion
   title: Proposed Order on Counterclaim Relief
 <<<<<<< HEAD
+<<<<<<< HEAD
   file: /cases/atl-dc-007956-25/filings/2025-10-08_Proposed-Order.pdf
 =======
   file: /assets/cases/atl-dc-007956-25/docket/20251008-proposed-order.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
+=======
+  file: /assets/cases/atl-dc-007956-25/docket/20251008-proposed-order-granting-relief.pdf
+>>>>>>> 0e4254c (fix: update file paths for complaint and proposed order in docket)
 
 - id: 2025-10-27-court-order
   date: 2025-10-27
