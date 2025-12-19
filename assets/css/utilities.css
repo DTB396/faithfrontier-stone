@@ -107,7 +107,8 @@
 .u-w-full { width: 100% !important; }
 .u-max-w-2xl { max-width: 48rem !important; }
 .u-max-w-3xl { max-width: 65rem !important; }
-.u-max-w-4xl { max-width: 80rem !important; }
+.u-max-w-4xl { max-width: 90rem !important; }
+.u-max-w-5xl { max-width: 100rem !important; }
 
 /* Positioning */
 .u-relative { position: relative !important; }

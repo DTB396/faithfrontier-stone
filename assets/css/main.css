@@ -15,8 +15,8 @@
 
   /* layout tokens (provide sensible fallbacks if not declared globally) */
   --gutter: 1.5rem;
-  --max-width: 1200px;
-  --container-pad: 1rem;
+  --max-width: 1600px;
+  --container-pad: 1.5rem;
   --radius-base: var(--radius-md, 16px);
   --shadow-base: var(--shadow-mid, 0 16px 40px rgba(0, 0, 0, 0.35));
   --space-section: var(--space-2xl, 3rem);
