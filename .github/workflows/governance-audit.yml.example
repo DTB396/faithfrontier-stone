@@ -1,0 +1,89 @@
+name: Governance Audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_essays/**'
+      - '_cases/**'
+      - '_trust/**'
+      - '_manifesto/**'
+      - '_pages/**'
+      - '_posts/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - '_essays/**'
+      - '_cases/**'
+      - '_trust/**'
+      - '_manifesto/**'
+      - '_pages/**'
+      - '_posts/**'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Run governance audit
+        run: npm run governance:audit
+        continue-on-error: true
+      
+      - name: Check for governance issues
+        id: check-issues
+        run: |
+          REPORT_FILE="reports/governance-refactor/LATEST-REPORT.md"
+          if [ -f "$REPORT_FILE" ]; then
+            ISSUES=$(grep "Files with issues:" "$REPORT_FILE" | awk '{print $4}')
+            echo "issues=$ISSUES" >> $GITHUB_OUTPUT
+            
+            if [ "$ISSUES" != "0" ]; then
+              echo "⚠️ Governance issues detected: $ISSUES files"
+              cat "$REPORT_FILE"
+              exit 1
+            else
+              echo "✅ No governance issues found"
+            fi
+          else
+            echo "⚠️ Report file not found"
+            exit 1
+          fi
+      
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: governance-audit-report
+          path: reports/governance-refactor/
+          retention-days: 30
+      
+      - name: Comment on PR
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const reportPath = 'reports/governance-refactor/LATEST-REPORT.md';
+            
+            if (fs.existsSync(reportPath)) {
+              const report = fs.readFileSync(reportPath, 'utf8');
+              
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `## ⚠️ Governance Issues Detected\n\n${report}\n\n---\n\nPlease review and fix these issues before merging. You can run \`npm run governance:refactor\` locally to automatically fix some issues.`
+              });
+            }

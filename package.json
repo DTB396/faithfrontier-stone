@@ -22,7 +22,14 @@
     "analyze": "node scripts/analyze-cases.js",
     "docket:intake": "node scripts/docket-intake.js",
     "checksums": "node scripts/generate-checksums.js",
-    "changelog:weekly": "node scripts/generate-weekly-changelog.js"
+    "changelog:weekly": "node scripts/generate-weekly-changelog.js",
+
+    "governance:audit": "node scripts/refactor-with-governance.js --audit-only --all",
+    "governance:audit:section": "node scripts/refactor-with-governance.js --audit-only --section",
+    "governance:refactor": "node scripts/refactor-with-governance.js --all",
+    "governance:refactor:section": "node scripts/refactor-with-governance.js --section",
+    "governance:refactor:file": "node scripts/refactor-with-governance.js --file",
+    "governance:dry-run": "node scripts/refactor-with-governance.js --dry-run --all"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
