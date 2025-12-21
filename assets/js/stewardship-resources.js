@@ -6,20 +6,8 @@
 (function() {
   'use strict';
 
-  // Load products from data file
-  async function loadProducts() {
-    try {
-      const response = await fetch('/data/stewardship-resources.json');
-      if (!response.ok) {
-        console.warn('Product data not yet available');
-        return null;
-      }
-      return await response.json();
-    } catch (error) {
-      console.warn('Could not load products:', error);
-      return null;
-    }
-  }
+  // Get products from embedded data (loaded by Jekyll)
+  const productsData = window.stewardshipProducts || null;
 
   // Create product card HTML
   function createProductCard(product) {
@@ -27,11 +15,15 @@
     card.className = 'product-card';
     card.dataset.category = product.category;
     
+    const personalNote = product.personal_note 
+      ? `<p class="product-note">"${escapeHtml(product.personal_note)}"</p>` 
+      : '';
+    
     card.innerHTML = `
-      <div class="product-category-badge">${product.category}</div>
+      <div class="product-category-badge">${escapeHtml(product.category)}</div>
       <h3 class="product-title">${escapeHtml(product.title)}</h3>
       <p class="product-description">${escapeHtml(product.description)}</p>
-      ${product.personal_note ? `<p class="product-note">"${escapeHtml(product.personal_note)}"</p>` : ''}
+      ${personalNote}
       <a href="${escapeHtml(product.amazon_url)}" 
          class="product-link" 
          target="_blank" 
@@ -45,6 +37,7 @@
 
   // Escape HTML to prevent XSS
   function escapeHtml(text) {
+    if (!text) return '';
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
@@ -64,21 +57,21 @@
   }
 
   // Initialize page
-  async function init() {
-    const products = await loadProducts();
+  function init() {
     const grid = document.getElementById('resourcesGrid');
     const filterBtns = document.querySelectorAll('.filter-btn');
     
     // If products loaded, render them
-    if (products && grid) {
-      // Clear placeholder
+    if (productsData && grid) {
+      // Clear loading message
       grid.innerHTML = '';
       
       // Flatten products from all categories
       const allProducts = [];
-      Object.keys(products).forEach(category => {
-        if (Array.isArray(products[category])) {
-          products[category].forEach(product => {
+      Object.keys(productsData).forEach(category => {
+        if (category === '_metadata') return; // Skip metadata
+        if (Array.isArray(productsData[category])) {
+          productsData[category].forEach(product => {
             allProducts.push({ ...product, category });
           });
         }
@@ -86,7 +79,9 @@
       
       // Sort by date_added (newest first)
       allProducts.sort((a, b) => {
-        return new Date(b.date_added) - new Date(a.date_added);
+        const dateA = a.date_added ? new Date(a.date_added) : new Date(0);
+        const dateB = b.date_added ? new Date(b.date_added) : new Date(0);
+        return dateB - dateA;
       });
       
       // Render cards
@@ -103,6 +98,14 @@
           </div>
         `;
       }
+    } else if (grid) {
+      // No data available
+      grid.innerHTML = `
+        <div class="resources-placeholder">
+          <p><strong>Products loading...</strong></p>
+          <p>If this message persists, please refresh the page.</p>
+        </div>
+      `;
     }
     
     // Set up filter buttons
