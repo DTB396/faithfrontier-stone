@@ -3,8 +3,36 @@
    Legacy file - imports the new modular theme system
    ============================================================================ */
 
-/* Import the unified theme system */
-@import url('theme.css');
+/* Import the modular CSS system */
+/* Base styles - variables, tokens, theme */
+@import url('base/variables.css');
+@import url('base/tokens.css');
+@import url('base/theme.css');
+@import url('base/base.css');
+
+/* Layout styles */
+@import url('layouts/layout.css');
+@import url('layouts/page-transitions.css');
+@import url('layouts/responsive-enhancements.css');
+
+/* Component styles */
+@import url('components/components.css');
+@import url('components/adaptive-contrast.css');
+@import url('components/theme-toggle.css');
+@import url('components/premium-header.css');
+@import url('components/premium-hero.css');
+
+/* Page-specific styles */
+@import url('pages/home.css');
+@import url('pages/cases.css');
+@import url('pages/cases-index.css');
+@import url('pages/case-enhanced.css');
+@import url('pages/case-analysis.css');
+@import url('pages/stewardship-resources.css');
+
+/* Utilities */
+@import url('utilities/utilities.css');
+@import url('utilities/print.css');
 
 /* ======================================
    Page-specific & Legacy Styles
