@@ -15,9 +15,9 @@
   // Elements
   const header = document.querySelector('.premium-header');
   const navToggle = document.querySelector('.premium-nav-toggle');
-  const nav = document.querySelector('.premium-nav');
+  const nav = document.querySelector('.premium-nav--mobile');
   const navClose = document.querySelector('.premium-nav__close');
-  const navLinks = document.querySelectorAll('.premium-nav__link');
+  const navLinks = document.querySelectorAll('.premium-nav--mobile .premium-nav__link');
   
   // State
   let lastScroll = 0;

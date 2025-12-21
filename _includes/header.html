@@ -1,5 +1,15 @@
 <header class="premium-header" role="banner">
   <div class="premium-header__inner">
+    
+    <!-- Left Navigation (3 items) -->
+    <nav class="premium-nav premium-nav--left" aria-label="Primary navigation left">
+      <ul class="premium-nav__list">
+        <li><a href="{{ '/story/' | relative_url }}" class="premium-nav__link">Our Story</a></li>
+        <li><a href="{{ '/about/' | relative_url }}" class="premium-nav__link">About</a></li>
+        <li><a href="{{ '/manifesto/' | relative_url }}" class="premium-nav__link">Manifesto</a></li>
+      </ul>
+    </nav>
+
     <!-- Center-aligned brand -->
     <a class="premium-brand" href="{{ '/' | relative_url }}" aria-label="Faith Frontier Ecclesiastical Trust home">
       <div class="premium-brand__logo">
@@ -15,18 +25,29 @@
       </div>
     </a>
 
+    <!-- Right Navigation (4 items + CTA) -->
+    <nav class="premium-nav premium-nav--right" aria-label="Primary navigation right">
+      <ul class="premium-nav__list">
+        <li><a href="{{ '/tillerstead-sanctuary-vision/' | relative_url }}" class="premium-nav__link">Sanctuary</a></li>
+        <li><a href="{{ '/essays/' | relative_url }}" class="premium-nav__link">Essays</a></li>
+        <li><a href="{{ '/cases/' | relative_url }}" class="premium-nav__link">Cases</a></li>
+        <li><a href="{{ '/stewardship-resources/' | relative_url }}" class="premium-nav__link premium-nav__link--highlight">Stewardship Resources</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}" class="premium-nav__link">Contact</a></li>
+      </ul>
+    </nav>
+
     <!-- Mobile hamburger toggle -->
     <button class="premium-nav-toggle" 
             aria-label="Toggle navigation menu" 
             aria-expanded="false" 
-            aria-controls="premium-nav">
+            aria-controls="premium-nav-mobile">
       <span class="premium-nav-toggle__bar"></span>
       <span class="premium-nav-toggle__bar"></span>
       <span class="premium-nav-toggle__bar"></span>
     </button>
 
-    <!-- Navigation -->
-    <nav id="premium-nav" class="premium-nav" aria-label="Primary navigation">
+    <!-- Mobile Navigation Drawer -->
+    <nav id="premium-nav-mobile" class="premium-nav premium-nav--mobile" aria-label="Mobile navigation">
       <div class="premium-nav__header">
         <button class="premium-nav__close" aria-label="Close navigation menu">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
