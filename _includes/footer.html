@@ -1,38 +1,19 @@
-<footer class="site-footer u-pt-xl u-pb-lg u-text-center u-text-muted" role="contentinfo" itemscope itemtype="https://schema.org/Organization">
-  <div class="footer-inner container u-max-w-3xl u-mx-auto">
-
-    {% assign ff_footer_mark_svg = site.logo_mark | default: '/assets/img/faithfrontier-mark.svg' %}
-    {% assign ff_footer_mark_png = site.logo_png_mark_512 | default: '/assets/img/faithfrontier-logo-mark-512.png' %}
-
+<footer class="site-footer" role="contentinfo" itemscope itemtype="https://schema.org/Organization">
+  <div class="footer-inner container">
     <!-- Brand / Logo -->
-    <!-- Footer background stays deep navy, so we pair it with the dark SVG crest (FAITH=#FFFFFF). Use logo-faithfrontier-light-bg.svg if this block ever sits on white. Colors follow the --logo-faith-color / --logo-frontier-color props baked into each SVG. -->
-    <div class="footer-brand u-mb-md">
+    <div class="footer-brand">
       <a href="{{ '/' | relative_url }}" class="footer-logo-link" itemprop="url" aria-label="Faith Frontier Ecclesiastical Trust home">
-        <div class="ff-footer-brand">
-          {% if site.logo_mark %}
-          <img src="{{ ff_footer_mark_svg | relative_url }}"
-               alt="Faith Frontier Ecclesiastical Trust"
-               class="ff-logo ff-logo--footer ff-logo--dark"
-               itemprop="logo">
-          {% elsif site.brand_png %}
-          <img src="{{ ff_footer_mark_png | relative_url }}"
-               alt="Faith Frontier Ecclesiastical Trust"
-               class="ff-logo ff-logo--footer ff-logo--responsive ff-logo--dark"
-               itemprop="logo">
-          {% else %}
-          <img src="{{ ff_footer_mark_svg | relative_url }}"
-               alt="Faith Frontier Ecclesiastical Trust"
-               class="ff-logo ff-logo--footer ff-logo--dark"
-               itemprop="logo">
-          {% endif %}
-        </div>
+        <img src="{{ site.logo_mark | default: '/assets/img/faithfrontier-mark.svg' | relative_url }}"
+             alt="Faith Frontier Ecclesiastical Trust"
+             class="footer-logo"
+             itemprop="logo">
         <span class="footer-name" itemprop="name">Faith Frontier</span>
       </a>
-      <p class="footer-tagline u-text-accent u-mt-xs">In the World, But Not of It</p>
+      <p class="footer-tagline">In the World, But Not of It</p>
     </div>
 
     <!-- Mission summary -->
-    <div class="footer-about u-mb-md">
+    <div class="footer-about">
       <p>
         <strong>Faith Frontier</strong> is an ecclesiastical trust guided by the teachings of Jesus Christ
         and the witness tradition preserved in the Geneva Bible. We seek justice, mercy, and humility
@@ -41,34 +22,34 @@
     </div>
 
     <!-- Navigation links -->
-    <nav class="footer-nav u-mb-md" aria-label="Footer navigation">
-      <ul class="u-flex u-flex-center u-gap-md u-mb-0" style="list-style:none; padding:0; margin:0;">
-        <li><a href="{{ '/story/' | relative_url }}" class="u-text-accent">Our Story</a></li>
-        <li><a href="{{ '/about/' | relative_url }}" class="u-text-accent">About Devon</a></li>
-        <li><a href="{{ '/manifesto/' | relative_url }}" class="u-text-accent">Manifesto</a></li>
-        <li><a href="{{ '/essays/' | relative_url }}" class="u-text-accent">Essays</a></li>
-        <li><a href="{{ '/cases/' | relative_url }}" class="u-text-accent">Cases</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}" class="u-text-accent">Contact</a></li>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <ul>
+        <li><a href="{{ '/story/' | relative_url }}">Our Story</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About Devon</a></li>
+        <li><a href="{{ '/manifesto/' | relative_url }}">Manifesto</a></li>
+        <li><a href="{{ '/essays/' | relative_url }}">Essays</a></li>
+        <li><a href="{{ '/cases/' | relative_url }}">Cases</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
       </ul>
     </nav>
 
     <!-- Legal -->
-    <div class="footer-bottom u-mt-md">
-      <p class="footer-meta u-text-muted">
+    <div class="footer-bottom">
+      <p class="footer-meta">
         &copy; {{ site.time | date: "%Y" }} Faith Frontier · Devon Tyler Barber
         <br>All Rights Preserved.
-        <br><span class="u-text-accent" style="opacity:0.8">Soli Deo Gloria · Lex Dei Supra · Covenant over Contract</span>
+        <br><span class="footer-motto">Soli Deo Gloria · Lex Dei Supra · Covenant over Contract</span>
       </p>
     </div>
 
-    <div class="ff-notice">
-      <strong>Notice:</strong><br>
+    <!-- Disclaimer notice -->
+    <div class="footer-notice">
+      <strong>Notice:</strong>
       All materials published on Faith Frontier are informational and narrative only.
       Nothing on this site is submitted under penalty of perjury or constitutes sworn testimony.
       If a reader requires clarity or context, email
       <a href="mailto:info@Tillerstead.com">info@Tillerstead.com</a>
       to speak with a Faith Frontier representative.
     </div>
-
   </div>
 </footer>

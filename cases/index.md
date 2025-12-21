@@ -130,7 +130,7 @@ Resources Include: _includes/case-resources.html
         <input type="text" id="filter-search" class="filter-input" placeholder="Search by title, docket, or description...">
       </div>
     </div>
-  </section>
+  </div>
   
   <!-- ==================== ACTIVE CASES ==================== -->
   <section id="active-cases" style="margin-bottom: 3rem;">
@@ -195,7 +195,7 @@ Resources Include: _includes/case-resources.html
   </section>
 
   <!-- ==================== OPRA RECORDS INTEGRATION ==================== -->
-  <section style="margin: 4rem 0; padding: 2rem; background: linear-gradient(135deg, rgba(212, 165, 116, 0.05), rgba(212, 165, 116, 0.02)); border-radius: 12px; border: 1px solid rgba(212, 165, 116, 0.2);">
+  <section style="margin: 4rem 0; padding: 2rem; background: linear-gradient(135deg, var(--brass-alpha-05), var(--brass-alpha-02)); border-radius: 12px; border: 1px solid var(--brass-alpha-20);">
     <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: var(--accent-brass, #d4a574);">
       📋 Supporting OPRA Administrative Records
     </h2>
@@ -210,15 +210,15 @@ Resources Include: _includes/case-resources.html
     {% assign pending_opra = site.opra | where: "status", "Awaiting Response" | size %}
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
-      <div style="text-align: center; padding: 1rem; background: rgba(212, 165, 116, 0.1); border-radius: 8px;">
+      <div style="text-align: center; padding: 1rem; background: var(--brass-alpha-10); border-radius: 8px;">
         <div style="font-size: 2rem; font-weight: bold; color: var(--accent-brass, #d4a574);">{{ opra_count }}</div>
         <div style="font-size: 0.875rem; color: var(--color-text-muted, #b0aca5);">Total OPRA Records</div>
       </div>
-      <div style="text-align: center; padding: 1rem; background: rgba(212, 165, 116, 0.1); border-radius: 8px;">
+      <div style="text-align: center; padding: 1rem; background: var(--brass-alpha-10); border-radius: 8px;">
         <div style="font-size: 2rem; font-weight: bold; color: var(--accent-brass, #d4a574);">{{ active_opra }}</div>
         <div style="font-size: 0.875rem; color: var(--color-text-muted, #b0aca5);">Active Requests</div>
       </div>
-      <div style="text-align: center; padding: 1rem; background: rgba(212, 165, 116, 0.1); border-radius: 8px;">
+      <div style="text-align: center; padding: 1rem; background: var(--brass-alpha-10); border-radius: 8px;">
         <div style="font-size: 2rem; font-weight: bold; color: var(--accent-brass, #d4a574);">{{ pending_opra }}</div>
         <div style="font-size: 0.875rem; color: var(--color-text-muted, #b0aca5);">Pending Responses</div>
       </div>
@@ -230,7 +230,7 @@ Resources Include: _includes/case-resources.html
       </a>
     </div>
     
-    <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(212, 165, 116, 0.2); font-size: 0.875rem; color: var(--color-text-muted, #b0aca5);">
+    <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--brass-alpha-20); font-size: 0.875rem; color: var(--color-text-muted, #b0aca5);">
       <strong>What are OPRA records?</strong> OPRA (Open Public Records Act) allows citizens to request government documents. 
       Faith Frontier uses OPRA to gather factual evidence about vendor contracts, policy decisions, and operational oversight—
       creating transparent documentation that supports legal strategy and public accountability.

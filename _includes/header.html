@@ -1,35 +1,35 @@
-
-<header class="site-header u-text-accent" role="banner" style="background: linear-gradient(90deg, #23272e 0%, #2d313a 100%); border-bottom: 2px solid #d4af37;">
-  <div class="site-header-inner container" style="display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0;">
-    <!-- Left nav group -->
-    <nav class="nav-group nav-group--left" aria-label="Primary navigation left" style="display: flex; gap: 1.5rem;">
-      <a class="nav-link" href="{{ '/story/' | relative_url }}">Our Story</a>
-      <a class="nav-link" href="{{ '/about/' | relative_url }}">About</a>
-      <a class="nav-link" href="{{ '/manifesto/' | relative_url }}">Manifesto</a>
-      <a class="nav-link" href="{{ '/tillerstead-sanctuary-vision/' | relative_url }}">Sanctuary</a>
-    </nav>
-
+<header class="site-header" role="banner">
+  <div class="site-header-inner container">
     <!-- Centered brand -->
-    <a class="ff-brand ff-brand--center" href="{{ '/' | relative_url }}" aria-label="Faith Frontier Ecclesiastical Trust home" style="display: flex; align-items: center; gap: 0.75rem;">
-      <img src="/assets/img/faithfrontier-mark.svg" alt="" width="36" height="36" style="flex-shrink: 0;" aria-hidden="true" />
-      <span class="ff-logo ff-logo--header ff-logo--dark ff-logo-inline" aria-hidden="false">
+    <a class="ff-brand ff-brand--center" href="{{ '/' | relative_url }}" aria-label="Faith Frontier Ecclesiastical Trust home">
+      <img src="{{ '/assets/img/faithfrontier-mark.svg' | relative_url }}" alt="" width="36" height="36" class="ff-brand-mark" aria-hidden="true" />
+      <span class="ff-logo ff-logo--header ff-logo--dark ff-logo-inline">
         {% include logo-faithfrontier-header.svg %}
       </span>
     </a>
 
-    <!-- Right nav group -->
-    <nav class="nav-group nav-group--right" aria-label="Primary navigation right" style="display: flex; gap: 1.5rem;">
-      <a class="nav-link" href="{{ '/essays/' | relative_url }}">Essays</a>
-      <a class="nav-link" href="{{ '/cases/' | relative_url }}">Cases</a>
-      <a class="nav-link nav-link--highlight" href="{{ '/stewardship-resources/' | relative_url }}" style="color: #d4af37; font-weight: 600;">Stewardship Resources</a>
-      <a class="nav-link" href="{{ '/contact/' | relative_url }}">Contact</a>
-    </nav>
-
-    <!-- Mobile nav toggle -->
-    <button class="nav-toggle u-ml-md u-bg-accent u-border-none u-radius-sm u-px-xs u-py-xs" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
-      <span class="nav-toggle-bar u-bg-contrast"></span>
-      <span class="nav-toggle-bar u-bg-contrast"></span>
-      <span class="nav-toggle-bar u-bg-contrast"></span>
+    <!-- Mobile hamburger toggle -->
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
     </button>
+
+    <!-- Navigation drawer/menu -->
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <div class="nav-drawer-header">
+        <button class="nav-close" aria-label="Close navigation menu">&times;</button>
+      </div>
+      <ul class="nav-list">
+        <li><a href="{{ '/story/' | relative_url }}">Our Story</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/manifesto/' | relative_url }}">Manifesto</a></li>
+        <li><a href="{{ '/tillerstead-sanctuary-vision/' | relative_url }}">Sanctuary</a></li>
+        <li><a href="{{ '/essays/' | relative_url }}">Essays</a></li>
+        <li><a href="{{ '/cases/' | relative_url }}">Cases</a></li>
+        <li><a href="{{ '/stewardship-resources/' | relative_url }}" class="nav-link--highlight">Stewardship Resources</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
   </div>
 </header>

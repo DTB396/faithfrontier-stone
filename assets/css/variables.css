@@ -28,6 +28,13 @@
   --brass-500: rgba(212, 165, 116, 1);
   --brass-400: rgba(160, 122, 50, 1);
   
+  /* Brass opacity variants */
+  --brass-alpha-30: rgba(212, 165, 116, 0.30);
+  --brass-alpha-20: rgba(212, 165, 116, 0.20);
+  --brass-alpha-10: rgba(212, 165, 116, 0.10);
+  --brass-alpha-05: rgba(212, 165, 116, 0.05);
+  --brass-alpha-02: rgba(212, 165, 116, 0.02);
+  
   /* Cream/Highlight */
   --cream-100: rgba(254, 243, 199, 1);
   --cream-50: rgba(249, 250, 251, 1);

@@ -1,0 +1,1371 @@
+≡ƒôü Scanning directory: .
+Found 184 files to validate
+
+≡ƒöì Validating: .ai\CODEX.md
+
+≡ƒöì Validating: .ai\COMPLIANCE.md
+
+≡ƒöì Validating: .ai\COPILOT.md
+
+≡ƒöì Validating: .ai\DOMAIN.md
+
+≡ƒöì Validating: .ai\GPT.md
+
+≡ƒöì Validating: .ai\MIGRATION-SUMMARY.md
+
+≡ƒöì Validating: .ai\OUTPUT_RULES.md
+
+≡ƒöì Validating: .ai\README.md
+
+≡ƒöì Validating: .ai\STYLE.md
+
+≡ƒöì Validating: .ai\SYSTEM.md
+
+≡ƒöì Validating: .github\agents\my-agent.agent.md
+
+≡ƒöì Validating: .github\copilot-instructions.md
+
+≡ƒöì Validating: .github\SETUP-OPENAI.md
+
+≡ƒöì Validating: assets\img\README.md
+
+≡ƒöì Validating: BATCH-UPLOAD-QUICKSTART.md
+
+≡ƒöì Validating: cases\atl-dc-007956-25\README.md
+
+≡ƒöì Validating: cases\atl-l-002794-25\README.md
+
+≡ƒöì Validating: cases\atl-l-002869-25\README.md
+
+≡ƒöì Validating: cases\atl-l-003252-25\README.md
+
+≡ƒöì Validating: cases\barber-nj-pcr-2022\README.md
+
+≡ƒöì Validating: cases\index.md
+
+≡ƒöì Validating: cases\mer-l-002371-25\README.md
+
+≡ƒöì Validating: CONTENT_LICENSE.md
+
+≡ƒöì Validating: DISCLAIMER.md
+
+≡ƒöì Validating: DOCKET-DIAGNOSIS-SUMMARY.md
+
+≡ƒöì Validating: DOCKET-INTAKE-OPTIMIZATION.md
+
+≡ƒöì Validating: DOCKET-REPAIR-GUIDE.md
+
+≡ƒöì Validating: DOCKET-SYSTEM.md
+
+≡ƒöì Validating: essays\index.md
+
+≡ƒöì Validating: index.md
+
+≡ƒöì Validating: OPRA-INTEGRATION-OPTIMIZATION.md
+
+≡ƒöì Validating: README.md
+
+≡ƒöì Validating: sanctuary\archive.md
+
+≡ƒöì Validating: sanctuary\identity.md
+
+≡ƒöì Validating: sanctuary\index.md
+
+≡ƒöì Validating: sanctuary\outreach.md
+
+≡ƒöì Validating: sanctuary\prayer.md
+
+≡ƒöì Validating: sanctuary\protection.md
+
+≡ƒöì Validating: sanctuary\security.md
+
+≡ƒöì Validating: sanctuary\strategy.md
+
+≡ƒöì Validating: sanctuary\trust.md
+
+≡ƒöì Validating: scout\how-we-discern-properties.md
+
+≡ƒöì Validating: scout\output\index.md
+
+≡ƒöì Validating: scout\output\weekly-shortlist.md
+
+≡ƒöì Validating: scout\README.md
+
+≡ƒöì Validating: scripts\REFACTOR-PROMPT.md
+
+≡ƒöì Validating: STYLE-COLOR-SYSTEM-FIX.md
+
+≡ƒöì Validating: worker\README.md
+
+≡ƒöì Validating: _cases\a-000313-25\index.md
+
+≡ƒöì Validating: _cases\a-000313-25\README.md
+
+≡ƒöì Validating: _cases\atl-dc-007956-25\index.md
+
+≡ƒöì Validating: _cases\atl-l-002794-25\index.md
+
+≡ƒöì Validating: _cases\atl-l-002869-25\index.md
+
+≡ƒöì Validating: _cases\atl-l-003252-25\index.md
+
+≡ƒöì Validating: _cases\atl-l-003252-25\README.md
+
+≡ƒöì Validating: _cases\barber-nj-pcr-2022\index.md
+
+≡ƒöì Validating: _cases\usdj-1-22-cv-06206\index.md
+
+≡ƒöì Validating: _cases\usdj-1-25-cv-15641\index.md
+
+≡ƒöì Validating: _cases\_TEMPLATE.md
+
+≡ƒöì Validating: _docs\faith-civics\sovereignty.md
+
+≡ƒöì Validating: _docs\TRADEMARK_NOTICE.md
+
+≡ƒöì Validating: _essays\2020-12-28-thomas-becket-proclamation.md
+
+≡ƒöì Validating: _essays\2024-05-01-ecclesiastical-deed-poll.md
+
+≡ƒöì Validating: _essays\2025-06-13-faith-frontier-ministry-charter.md
+
+≡ƒöì Validating: _essays\2025-10-11-tiller-earth.md
+
+≡ƒöì Validating: _essays\2025-11-10-11-banned-foods.md
+
+≡ƒöì Validating: _essays\2025-11-10-constitution-as-covenant.md
+
+≡ƒöì Validating: _essays\2025-11-10-geneva-bible-scroll.md
+
+≡ƒöì Validating: _essays\2025-11-10-revelations.md
+
+≡ƒöì Validating: _essays\2025-12-01-geneva-law-integration.md
+
+≡ƒöì Validating: _essays\2025-12-02-demonic-agency-and-gods-sovereignty.md
+
+≡ƒöì Validating: _essays\2025-12-03-biography.md
+
+≡ƒöì Validating: _essays\2025-12-03-logo.md
+
+≡ƒöì Validating: _includes\breadcrumbs.html
+
+≡ƒöì Validating: _includes\case-analysis.html
+
+≡ƒöì Validating: _includes\case-card.html
+
+≡ƒöì Validating: _includes\case-hero.html
+
+≡ƒöì Validating: _includes\case-resources.html
+
+≡ƒöì Validating: _includes\footer.html
+
+≡ƒöì Validating: _includes\head.html
+
+≡ƒöì Validating: _includes\header.html
+
+≡ƒöì Validating: _includes\hero-panel.html
+
+≡ƒöì Validating: _includes\maintenance-banner.html
+
+≡ƒöì Validating: _includes\nav.component.html
+
+≡ƒöì Validating: _includes\navigation.html
+
+≡ƒöì Validating: _includes\opra-by-case.html
+
+≡ƒöì Validating: _includes\opra-list.html
+
+≡ƒöì Validating: _includes\opra-quick-links.html
+
+≡ƒöì Validating: _includes\page-hero.html
+
+≡ƒöì Validating: _includes\scripts.html
+
+≡ƒöì Validating: _includes\timeline.html
+
+≡ƒöì Validating: _internal\ANALYSIS-SYSTEM.md
+
+≡ƒöì Validating: _internal\ASSOCIATE-CHANGELOG.md
+
+≡ƒöì Validating: _internal\ASSOCIATE-PRODUCTS-MIGRATION-SUMMARY.md
+
+≡ƒöì Validating: _internal\ASSOCIATE-QUICK-REFERENCE.md
+
+≡ƒöì Validating: _internal\BRAND-TONE-GUIDE.md
+
+≡ƒöì Validating: _internal\BROKEN-PDFS-TODO.md
+
+≡ƒöì Validating: _internal\BUILD-DEPLOYMENT-GUIDE.md
+
+≡ƒöì Validating: _internal\CASE-ARCHIVE-GUIDE.md
+
+≡ƒöì Validating: _internal\CASE-FILES-CLEANUP-SUMMARY.md
+
+≡ƒöì Validating: _internal\CASE-RESOURCES-QUICKREF.md
+
+≡ƒöì Validating: _internal\CASE-RESOURCES-SYSTEM.md
+
+≡ƒöì Validating: _internal\CASES-INDEX-FIX-SUMMARY.md
+
+≡ƒöì Validating: _internal\CONTRAST-FIXES-SUMMARY.md
+
+≡ƒöì Validating: _internal\CONTRAST-SYSTEM.md
+
+≡ƒöì Validating: _internal\FIX-SUMMARY.md
+
+≡ƒöì Validating: _internal\FIXES-SUMMARY.md
+
+≡ƒöì Validating: _internal\GOVERNANCE-REFACTOR-IMPLEMENTATION.md
+
+≡ƒöì Validating: _internal\GOVERNANCE-REFACTOR-QUICKSTART.md
+
+≡ƒöì Validating: _internal\GOVERNANCE-REFACTOR-TOOL.md
+
+≡ƒöì Validating: _internal\HEAD-HEADER-OPTIMIZATION-SUMMARY.md
+
+≡ƒöì Validating: _internal\IMPLEMENTATION-CHECKLIST.md
+
+≡ƒöì Validating: _internal\IMPLEMENTATION-SUMMARY.md
+
+≡ƒöì Validating: _internal\LOGO-MIGRATION-NOTE.md
+
+≡ƒöì Validating: _internal\NARRATIVE-REFACTOR-SUMMARY.md
+
+≡ƒöì Validating: _internal\pdf-compression.md
+
+≡ƒöì Validating: _internal\QUICKSTART-ANALYSIS.md
+
+≡ƒöì Validating: _internal\QUICKSTART-GENERATE-ANALYSIS.md
+
+≡ƒöì Validating: _internal\README-SECTION-GOVERNANCE.md
+
+≡ƒöì Validating: _internal\SETUP-OPENAI.md
+
+≡ƒöì Validating: _internal\STEWARDSHIP-INITIATIVE-SUMMARY.md
+
+≡ƒöì Validating: _internal\STYLE-RULES.md
+
+≡ƒöì Validating: _internal\THEME-QUICK-REFERENCE.md
+
+≡ƒöì Validating: _internal\THEME-SYSTEM-MODERNIZATION.md
+
+≡ƒöì Validating: _internal\VERIFICATION-CHECKLIST.md
+
+≡ƒöì Validating: _internal\WORKFLOW-51-FIX-SUMMARY.md
+
+≡ƒöì Validating: _internal\WORKFLOW-51-QUICKFIX.md
+
+≡ƒöì Validating: _layouts\article.html
+
+≡ƒöì Validating: _layouts\case-enhanced.html
+
+≡ƒöì Validating: _layouts\case.html
+
+≡ƒöì Validating: _layouts\default.html
+
+≡ƒöì Validating: _layouts\doc.html
+
+≡ƒöì Validating: _layouts\essay.html
+
+≡ƒöì Validating: _layouts\listing.html
+
+≡ƒöì Validating: _layouts\post.html
+
+≡ƒöì Validating: _layouts\record-notes.html
+
+≡ƒöì Validating: _layouts\record.html
+
+≡ƒöì Validating: _layouts\trust_document.html
+
+≡ƒöì Validating: _manifesto\manifesto.md
+
+≡ƒöì Validating: _opra\atlantic-county-acjf-vendors-2025\index.md
+
+≡ƒöì Validating: _opra\atlantic-county-acjf-vendors-2025\notes.md
+
+≡ƒöì Validating: _opra\galloway-township-leo-bond-insurance-2025\index.md
+
+≡ƒöì Validating: _opra\galloway-township-leo-bond-insurance-2025\notes.md
+
+≡ƒöì Validating: _opra\governor-clemency-public-safety-2025\index.md
+
+≡ƒöì Validating: _opra\governor-clemency-public-safety-2025\notes.md
+
+≡ƒöì Validating: _opra\governor-toll-enforcement-policy-2025\index.md
+
+≡ƒöì Validating: _opra\governor-toll-enforcement-policy-2025\notes.md
+
+≡ƒöì Validating: _opra\hamilton-township-bodycam-oaths-2024\index.md
+
+≡ƒöì Validating: _opra\hamilton-township-bodycam-oaths-2024\notes.md
+
+≡ƒöì Validating: _opra\hamilton-township-police-bond-insurance-2025\index.md
+
+≡ƒöì Validating: _opra\hamilton-township-police-bond-insurance-2025\notes.md
+
+≡ƒöì Validating: _opra\index.md
+
+≡ƒöì Validating: _opra\njdot-toll-infrastructure-camera-systems-2025\index.md
+
+≡ƒöì Validating: _opra\njdot-toll-infrastructure-camera-systems-2025\notes.md
+
+≡ƒöì Validating: _opra\njta-toll-enforcement-operations-2025\index.md
+
+≡ƒöì Validating: _opra\njta-toll-enforcement-operations-2025\notes.md
+
+≡ƒöì Validating: _opra\njtpa-toll-infrastructure-2025\index.md
+
+≡ƒöì Validating: _opra\njtpa-toll-infrastructure-2025\notes.md
+
+≡ƒöì Validating: _opra\template\index.md
+
+≡ƒöì Validating: _opra\template\notes.md
+
+≡ƒöì Validating: _pages\about.md
+
+≡ƒöì Validating: _pages\active-cases.md
+
+≡ƒöì Validating: _pages\atlantic-club-tillerstead-masterplan.md
+
+≡ƒöì Validating: _pages\cases.md
+
+≡ƒöì Validating: _pages\contact.md
+
+≡ƒöì Validating: _pages\docs.md
+
+≡ƒöì Validating: _pages\emergency-housing.md
+
+≡ƒöì Validating: _pages\faith-frontier-brand-creed.md
+
+≡ƒöì Validating: _pages\faith-frontier-identity.md
+
+≡ƒöì Validating: _pages\faith-frontier-mission-addendum.md
+
+≡ƒöì Validating: _pages\faith-frontier-trust-and-governance.md
+
+≡ƒöì Validating: _pages\founders-covenant-devon-tyler.md
+
+≡ƒöì Validating: _pages\government-partnerships.md
+
+≡ƒöì Validating: _pages\manifesto.md
+
+≡ƒöì Validating: _pages\petition-to-new-jersey-for-sanctuary-support.md
+
+≡ƒöì Validating: _pages\recovery-to-work-sanctuary-model.md
+
+≡ƒöì Validating: _pages\sanctuary-trust.md
+
+≡ƒöì Validating: _pages\stewardship-pathway.md
+
+≡ƒöì Validating: _pages\stewardship-resources.md
+
+≡ƒöì Validating: _pages\the-story.md
+
+≡ƒöì Validating: _pages\theology-of-faith-frontier.md
+
+≡ƒöì Validating: _pages\tillerstead-sanctuary-vision-sermon.md
+
+≡ƒöì Validating: _pages\tillerstead-sanctuary-vision.md
+
+≡ƒöì Validating: _trust\formation.md
+
+================================================================================
+≡ƒôè VALIDATION REPORT
+================================================================================
+
+≡ƒÜ¿ CRITICAL ISSUES (166):
+
+1. [UNCLOSED_TAG] .github\agents\my-agent.agent.md:10
+   Tag <slug> is never closed
+   Context: <slug>
+
+2. [UNCLOSED_TAG] .github\agents\my-agent.agent.md:21
+   Tag <slug> is never closed
+   Context: <slug>
+
+3. [UNCLOSED_TAG] .github\agents\my-agent.agent.md:28
+   Tag <slug> is never closed
+   Context: <slug>
+
+4. [UNCLOSED_TAG] .github\agents\my-agent.agent.md:30
+   Tag <slug> is never closed
+   Context: <slug>
+
+5. [UNCLOSED_TAG] .github\agents\my-agent.agent.md:31
+   Tag <date> is never closed
+   Context: <DATE>
+
+6. [UNCLOSED_TAG] .github\agents\my-agent.agent.md:38
+   Tag <n> is never closed
+   Context: <n>
+
+7. [UNCLOSED_TAG] .github\agents\my-agent.agent.md:38
+   Tag <slug> is never closed
+   Context: <slug>
+
+8. [UNCLOSED_TAG] .github\agents\my-agent.agent.md:44
+   Tag <slug> is never closed
+   Context: <slug>
+
+9. [UNCLOSED_TAG] .github\agents\my-agent.agent.md:44
+   Tag <slug> is never closed
+   Context: <slug>
+
+10. [UNCLOSED_TAG] .github\agents\my-agent.agent.md:197
+   Tag <slug> is never closed
+   Context: <slug>
+
+11. [UNCLOSED_TAG] .github\copilot-instructions.md:158
+   Tag <slug> is never closed
+   Context: <slug>
+
+12. [UNCLOSED_TAG] .github\copilot-instructions.md:190
+   Tag <slug> is never closed
+   Context: <slug>
+
+13. [UNCLOSED_TAG] .github\copilot-instructions.md:204
+   Tag <slug> is never closed
+   Context: <slug>
+
+14. [UNCLOSED_TAG] .github\copilot-instructions.md:205
+   Tag <slug> is never closed
+   Context: <slug>
+
+15. [UNCLOSED_TAG] .github\copilot-instructions.md:274
+   Tag <slug> is never closed
+   Context: <slug>
+
+16. [UNCLOSED_TAG] assets\img\README.md:10
+   Tag <svg> is never closed
+   Context: <svg>
+
+17. [UNCLOSED_TAG] BATCH-UPLOAD-QUICKSTART.md:225
+   Tag <folder> is never closed
+   Context: <folder>
+
+18. [UNCLOSED_TAG] BATCH-UPLOAD-QUICKSTART.md:226
+   Tag <folder> is never closed
+   Context: <folder>
+
+19. [UNCLOSED_TAG] BATCH-UPLOAD-QUICKSTART.md:227
+   Tag <folder> is never closed
+   Context: <folder>
+
+20. [TAG_MISMATCH] cases\index.md:285
+   Expected </p> but found </div> (opened at line 285)
+   Context: noResults.innerHTML = '<div class="no-results-icon">≡ƒöì</div><h3 class="no-results-title">No Cases Found</h3><p class="no-results-text">Try adjusting your filters or search terms.</p>';
+   ≡ƒÆí Suggestion: Close <p> before closing <div>
+
+21. [TAG_MISMATCH] cases\index.md:285
+   Expected </p> but found </h3> (opened at line 285)
+   Context: noResults.innerHTML = '<div class="no-results-icon">≡ƒöì</div><h3 class="no-results-title">No Cases Found</h3><p class="no-results-text">Try adjusting your filters or search terms.</p>';
+   ≡ƒÆí Suggestion: Close <p> before closing <h3>
+
+22. [TAG_MISMATCH] cases\index.md:297
+   Expected </h3> but found </script> (opened at line 285)
+   Context: </script>
+   ≡ƒÆí Suggestion: Close <h3> before closing <script>
+
+23. [UNCLOSED_TAG] cases\index.md:243
+   Tag <script> is never closed
+   Context: <script>
+
+24. [UNCLOSED_TAG] cases\index.md:285
+   Tag <div> is never closed
+   Context: <div class="no-results-icon">
+
+25. [UNCLOSED_TAG] cases\index.md:285
+   Tag <h3> is never closed
+   Context: <h3 class="no-results-title">
+
+26. [UNCLOSED_TAG] DOCKET-DIAGNOSIS-SUMMARY.md:15
+   Tag <slug> is never closed
+   Context: <slug>
+
+27. [UNCLOSED_TAG] DOCKET-DIAGNOSIS-SUMMARY.md:20
+   Tag <slug> is never closed
+   Context: <slug>
+
+28. [UNCLOSED_TAG] DOCKET-DIAGNOSIS-SUMMARY.md:25
+   Tag <slug> is never closed
+   Context: <slug>
+
+29. [UNCLOSED_TAG] DOCKET-DIAGNOSIS-SUMMARY.md:25
+   Tag <filename> is never closed
+   Context: <filename>
+
+30. [UNCLOSED_TAG] DOCKET-DIAGNOSIS-SUMMARY.md:30
+   Tag <slug> is never closed
+   Context: <slug>
+
+31. [UNCLOSED_TAG] DOCKET-DIAGNOSIS-SUMMARY.md:30
+   Tag <filename> is never closed
+   Context: <filename>
+
+32. [UNCLOSED_TAG] DOCKET-DIAGNOSIS-SUMMARY.md:86
+   Tag <slug> is never closed
+   Context: <slug>
+
+33. [UNCLOSED_TAG] DOCKET-DIAGNOSIS-SUMMARY.md:86
+   Tag <slug> is never closed
+   Context: <slug>
+
+34. [UNCLOSED_TAG] DOCKET-REPAIR-GUIDE.md:8
+   Tag <slug> is never closed
+   Context: <slug>
+
+35. [UNCLOSED_TAG] DOCKET-REPAIR-GUIDE.md:9
+   Tag <slug> is never closed
+   Context: <slug>
+
+36. [UNCLOSED_TAG] DOCKET-REPAIR-GUIDE.md:9
+   Tag <filename> is never closed
+   Context: <filename>
+
+37. [UNCLOSED_TAG] DOCKET-REPAIR-GUIDE.md:10
+   Tag <slug> is never closed
+   Context: <slug>
+
+38. [UNCLOSED_TAG] DOCKET-REPAIR-GUIDE.md:10
+   Tag <filename> is never closed
+   Context: <filename>
+
+39. [UNCLOSED_TAG] DOCKET-REPAIR-GUIDE.md:15
+   Tag <slug> is never closed
+   Context: <slug>
+
+40. [UNCLOSED_TAG] DOCKET-REPAIR-GUIDE.md:15
+   Tag <slug> is never closed
+   Context: <slug>
+
+41. [UNCLOSED_TAG] DOCKET-REPAIR-GUIDE.md:51
+   Tag <slug> is never closed
+   Context: <slug>
+
+42. [UNCLOSED_TAG] DOCKET-REPAIR-GUIDE.md:52
+   Tag <slug> is never closed
+   Context: <slug>
+
+43. [UNCLOSED_TAG] DOCKET-REPAIR-GUIDE.md:164
+   Tag <slug> is never closed
+   Context: <slug>
+
+44. [UNCLOSED_TAG] DOCKET-SYSTEM.md:57
+   Tag <slug> is never closed
+   Context: <slug>
+
+45. [UNCLOSED_TAG] DOCKET-SYSTEM.md:83
+   Tag <slug> is never closed
+   Context: <slug>
+
+46. [UNCLOSED_TAG] DOCKET-SYSTEM.md:85
+   Tag <slug> is never closed
+   Context: <slug>
+
+47. [UNCLOSED_TAG] DOCKET-SYSTEM.md:92
+   Tag <slug> is never closed
+   Context: <slug>
+
+48. [UNCLOSED_TAG] DOCKET-SYSTEM.md:99
+   Tag <slug> is never closed
+   Context: <slug>
+
+49. [UNCLOSED_TAG] DOCKET-SYSTEM.md:100
+   Tag <slug> is never closed
+   Context: <slug>
+
+50. [UNCLOSED_TAG] DOCKET-SYSTEM.md:100
+   Tag <slug> is never closed
+   Context: <slug>
+
+51. [UNCLOSED_TAG] DOCKET-SYSTEM.md:100
+   Tag <filename> is never closed
+   Context: <filename>
+
+52. [UNCLOSED_TAG] DOCKET-SYSTEM.md:113
+   Tag <slug> is never closed
+   Context: <slug>
+
+53. [UNCLOSED_TAG] DOCKET-SYSTEM.md:114
+   Tag <slug> is never closed
+   Context: <slug>
+
+54. [UNCLOSED_TAG] DOCKET-SYSTEM.md:119
+   Tag <slug> is never closed
+   Context: <slug>
+
+55. [UNCLOSED_TAG] DOCKET-SYSTEM.md:130
+   Tag <slug> is never closed
+   Context: <slug>
+
+56. [UNCLOSED_TAG] DOCKET-SYSTEM.md:244
+   Tag <slug> is never closed
+   Context: <slug>
+
+57. [UNCLOSED_TAG] DOCKET-SYSTEM.md:245
+   Tag <slug> is never closed
+   Context: <slug>
+
+58. [UNCLOSED_TAG] DOCKET-SYSTEM.md:247
+   Tag <slug> is never closed
+   Context: <slug>
+
+59. [UNCLOSED_TAG] DOCKET-SYSTEM.md:253
+   Tag <slug> is never closed
+   Context: <slug>
+
+60. [UNCLOSED_TAG] DOCKET-SYSTEM.md:262
+   Tag <slug> is never closed
+   Context: <slug>
+
+61. [UNCLOSED_TAG] scripts\REFACTOR-PROMPT.md:67
+   Tag <slug> is never closed
+   Context: <slug>
+
+62. [UNCLOSED_TAG] scripts\REFACTOR-PROMPT.md:68
+   Tag <slug> is never closed
+   Context: <slug>
+
+63. [UNCLOSED_TAG] scripts\REFACTOR-PROMPT.md:221
+   Tag <slug> is never closed
+   Context: <slug>
+
+64. [UNCLOSED_TAG] scripts\REFACTOR-PROMPT.md:222
+   Tag <slug> is never closed
+   Context: <slug>
+
+65. [UNCLOSED_TAG] worker\README.md:86
+   Tag <slug> is never closed
+   Context: <slug>
+
+66. [UNCLOSED_TAG] worker\README.md:87
+   Tag <slug> is never closed
+   Context: <slug>
+
+67. [UNCLOSED_TAG] worker\README.md:102
+   Tag <slug> is never closed
+   Context: <slug>
+
+68. [UNCLOSED_TAG] worker\README.md:103
+   Tag <slug> is never closed
+   Context: <slug>
+
+69. [TAG_MISMATCH] _essays\2020-12-28-thomas-becket-proclamation.md:32
+   Expected </time> but found </span> (opened at line 32)
+   Context: <p><span class="meta__label">ISSUED ON:</span><span>┬áDECEMBER</span><time>┬á28, 2020,</time></p>
+   ≡ƒÆí Suggestion: Close <time> before closing <span>
+
+70. [TAG_MISMATCH] _essays\2020-12-28-thomas-becket-proclamation.md:32
+   Expected </time> but found </span> (opened at line 32)
+   Context: <p><span class="meta__label">ISSUED ON:</span><span>┬áDECEMBER</span><time>┬á28, 2020,</time></p>
+   ≡ƒÆí Suggestion: Close <time> before closing <span>
+
+71. [TAG_MISMATCH] _essays\2020-12-28-thomas-becket-proclamation.md:32
+   Expected </span> but found </p> (opened at line 32)
+   Context: <p><span class="meta__label">ISSUED ON:</span><span>┬áDECEMBER</span><time>┬á28, 2020,</time></p>
+   ≡ƒÆí Suggestion: Close <span> before closing <p>
+
+72. [TAG_MISMATCH] _essays\2020-12-28-thomas-becket-proclamation.md:62
+   Expected </span> but found </article> (opened at line 32)
+   Context: </article>
+   ≡ƒÆí Suggestion: Close <span> before closing <article>
+
+73. [TAG_MISMATCH] _essays\2020-12-28-thomas-becket-proclamation.md:63
+   Expected </span> but found </section> (opened at line 32)
+   Context: </section>
+   ≡ƒÆí Suggestion: Close <span> before closing <section>
+
+74. [UNCLOSED_TAG] _essays\2020-12-28-thomas-becket-proclamation.md:29
+   Tag <section> is never closed
+   Context: <section class="case-page">
+
+75. [UNCLOSED_TAG] _essays\2020-12-28-thomas-becket-proclamation.md:30
+   Tag <article> is never closed
+   Context: <article class="card proclamation-body">
+
+76. [UNCLOSED_TAG] _essays\2020-12-28-thomas-becket-proclamation.md:32
+   Tag <p> is never closed
+   Context: <p>
+
+77. [UNCLOSED_TAG] _essays\2020-12-28-thomas-becket-proclamation.md:32
+   Tag <span> is never closed
+   Context: <span class="meta__label">
+
+78. [UNCLOSED_TAG] _essays\2020-12-28-thomas-becket-proclamation.md:32
+   Tag <span> is never closed
+   Context: <span>
+
+79. [TAG_MISMATCH] _essays\2025-06-13-faith-frontier-ministry-charter.md:145
+   Expected </section> but found </p> (opened at line 125)
+   Context: </p>
+   ≡ƒÆí Suggestion: Close <section> before closing <p>
+
+80. [TAG_MISMATCH] _essays\2025-10-11-tiller-earth.md:258
+   Expected </em> but found </strong> (opened at line 258)
+   Context: ΓÇö <strong>Devon Tyler Barber</strong> ΓÇó <em>Tillerstead LLC ┬╖ Faith Frontier</em><br>
+   ≡ƒÆí Suggestion: Close <em> before closing <strong>
+
+81. [TAG_MISMATCH] _essays\2025-10-11-tiller-earth.md:260
+   Expected </strong> but found </footer> (opened at line 258)
+   Context: </footer>
+   ≡ƒÆí Suggestion: Close <strong> before closing <footer>
+
+82. [TAG_MISMATCH] _essays\2025-10-11-tiller-earth.md:261
+   Expected </strong> but found </div> (opened at line 258)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <strong> before closing <div>
+
+83. [TAG_MISMATCH] _essays\2025-10-11-tiller-earth.md:262
+   Expected </strong> but found </div> (opened at line 258)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <strong> before closing <div>
+
+84. [TAG_MISMATCH] _essays\2025-10-11-tiller-earth.md:263
+   Expected </strong> but found </details> (opened at line 258)
+   Context: </details>
+   ≡ƒÆí Suggestion: Close <strong> before closing <details>
+
+85. [TAG_MISMATCH] _essays\2025-10-11-tiller-earth.md:635
+   Expected </strong> but found </div> (opened at line 258)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <strong> before closing <div>
+
+86. [TAG_MISMATCH] _essays\2025-10-11-tiller-earth.md:636
+   Expected </strong> but found </section> (opened at line 258)
+   Context: </section>
+   ≡ƒÆí Suggestion: Close <strong> before closing <section>
+
+87. [TAG_MISMATCH] _essays\2025-10-11-tiller-earth.md:637
+   Expected </strong> but found </div> (opened at line 258)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <strong> before closing <div>
+
+88. [UNCLOSED_TAG] _essays\2025-10-11-tiller-earth.md:184
+   Tag <div> is never closed
+   Context: <div class="ff-archive">
+
+89. [UNCLOSED_TAG] _essays\2025-10-11-tiller-earth.md:209
+   Tag <section> is never closed
+   Context: <section class="archive-list">
+
+90. [UNCLOSED_TAG] _essays\2025-10-11-tiller-earth.md:210
+   Tag <div> is never closed
+   Context: <div class="container">
+
+91. [UNCLOSED_TAG] _essays\2025-10-11-tiller-earth.md:214
+   Tag <details> is never closed
+   Context: <details class="archive-post">
+
+92. [UNCLOSED_TAG] _essays\2025-10-11-tiller-earth.md:220
+   Tag <div> is never closed
+   Context: <div class="archive-body">
+
+93. [UNCLOSED_TAG] _essays\2025-10-11-tiller-earth.md:221
+   Tag <div> is never closed
+   Context: <div class="doc" id="faith-frontier-declaration" aria-label="Faith Frontier Declaration">
+
+94. [UNCLOSED_TAG] _essays\2025-10-11-tiller-earth.md:257
+   Tag <footer> is never closed
+   Context: <footer style="margin-top:14px;color:rgba(58,56,52,1)">
+
+95. [UNCLOSED_TAG] _essays\2025-10-11-tiller-earth.md:258
+   Tag <strong> is never closed
+   Context: <strong>
+
+96. [TAG_MISMATCH] _includes\breadcrumbs.html:26
+   Expected </ol> but found </li> (opened at line 14)
+   Context: </li>
+   ≡ƒÆí Suggestion: Close <ol> before closing <li>
+
+97. [TAG_MISMATCH] _includes\breadcrumbs.html:56
+   Expected </ol> but found </li> (opened at line 14)
+   Context: </li>
+   ≡ƒÆí Suggestion: Close <ol> before closing <li>
+
+98. [UNMATCHED_CLOSE] _includes\case-card.html:78
+   Closing tag </article> has no matching opening tag
+   Context: </article>
+
+99. [UNCLOSED_TAG] _includes\case-hero.html:7
+   Tag <header> is never closed
+   Context: <header class="case-hero u-bg-surface u-py-xl u-mb-lg u-radius-md u-shadow-md">
+
+100. [TAG_MISMATCH] _includes\case-resources.html:57
+   Expected </path> but found </svg> (opened at line 56)
+   Context: </svg>
+   ≡ƒÆí Suggestion: Close <path> before closing <svg>
+
+101. [TAG_MISMATCH] _includes\case-resources.html:58
+   Expected </path> but found </button> (opened at line 56)
+   Context: </button>
+   ≡ƒÆí Suggestion: Close <path> before closing <button>
+
+102. [TAG_MISMATCH] _includes\case-resources.html:59
+   Expected </path> but found </div> (opened at line 56)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <path> before closing <div>
+
+103. [TAG_MISMATCH] _includes\case-resources.html:80
+   Expected </path> but found </div> (opened at line 56)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <path> before closing <div>
+
+104. [TAG_MISMATCH] _includes\case-resources.html:101
+   Expected </path> but found </svg> (opened at line 100)
+   Context: </svg>
+   ≡ƒÆí Suggestion: Close <path> before closing <svg>
+
+105. [TAG_MISMATCH] _includes\case-resources.html:102
+   Expected </path> but found </button> (opened at line 100)
+   Context: </button>
+   ≡ƒÆí Suggestion: Close <path> before closing <button>
+
+106. [TAG_MISMATCH] _includes\case-resources.html:103
+   Expected </path> but found </div> (opened at line 100)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <path> before closing <div>
+
+107. [TAG_MISMATCH] _includes\case-resources.html:124
+   Expected </path> but found </div> (opened at line 100)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <path> before closing <div>
+
+108. [TAG_MISMATCH] _includes\case-resources.html:126
+   Expected </path> but found </div> (opened at line 100)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <path> before closing <div>
+
+109. [TAG_MISMATCH] _includes\case-resources.html:127
+   Expected </path> but found </section> (opened at line 100)
+   Context: </section>
+   ≡ƒÆí Suggestion: Close <path> before closing <section>
+
+110. [UNCLOSED_TAG] _includes\case-resources.html:33
+   Tag <section> is never closed
+   Context: <section class="case-section case-resources">
+
+111. [UNCLOSED_TAG] _includes\case-resources.html:36
+   Tag <div> is never closed
+   Context: <div class="resources-grid">
+
+112. [UNCLOSED_TAG] _includes\case-resources.html:39
+   Tag <div> is never closed
+   Context: <div class="resource-folder" data-folder="notes">
+
+113. [UNCLOSED_TAG] _includes\case-resources.html:40
+   Tag <div> is never closed
+   Context: <div class="resource-header">
+
+114. [UNCLOSED_TAG] _includes\case-resources.html:54
+   Tag <button> is never closed
+   Context: <button class="resource-toggle" aria-label="Toggle notes list">
+
+115. [UNCLOSED_TAG] _includes\case-resources.html:55
+   Tag <svg> is never closed
+   Context: <svg class="icon-chevron" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+
+116. [UNCLOSED_TAG] _includes\case-resources.html:56
+   Tag <path> is never closed
+   Context: <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+
+117. [UNCLOSED_TAG] _includes\case-resources.html:85
+   Tag <div> is never closed
+   Context: <div class="resource-folder" data-folder="evidence">
+
+118. [UNCLOSED_TAG] _includes\case-resources.html:86
+   Tag <div> is never closed
+   Context: <div class="resource-header">
+
+119. [UNCLOSED_TAG] _includes\case-resources.html:98
+   Tag <button> is never closed
+   Context: <button class="resource-toggle" aria-label="Toggle evidence list">
+
+120. [UNCLOSED_TAG] _includes\case-resources.html:99
+   Tag <svg> is never closed
+   Context: <svg class="icon-chevron" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+
+121. [UNCLOSED_TAG] _includes\case-resources.html:100
+   Tag <path> is never closed
+   Context: <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+
+122. [UNMATCHED_CLOSE] _includes\page-hero.html:47
+   Closing tag </header> has no matching opening tag
+   Context: </header>
+
+123. [UNMATCHED_CLOSE] _includes\scripts.html:11
+   Closing tag </script> has no matching opening tag
+   Context: </script>
+
+124. [UNMATCHED_CLOSE] _includes\scripts.html:18
+   Closing tag </script> has no matching opening tag
+   Context: </script>
+
+125. [UNMATCHED_CLOSE] _includes\scripts.html:25
+   Closing tag </script> has no matching opening tag
+   Context: </script>
+
+126. [UNMATCHED_CLOSE] _includes\scripts.html:31
+   Closing tag </script> has no matching opening tag
+   Context: </script>
+
+127. [UNMATCHED_CLOSE] _includes\scripts.html:38
+   Closing tag </script> has no matching opening tag
+   Context: </script>
+
+128. [UNCLOSED_TAG] _internal\BROKEN-PDFS-TODO.md:18
+   Tag <slug> is never closed
+   Context: <slug>
+
+129. [UNCLOSED_LIQUID] _internal\CASE-FILES-CLEANUP-SUMMARY.md:38
+   Liquid block {% if %} is never closed
+   Context: Line 38
+
+130. [UNCLOSED_LIQUID] _internal\CASE-FILES-CLEANUP-SUMMARY.md:38
+   Liquid block {% if %} is never closed
+   Context: Line 38
+
+131. [UNCLOSED_TAG] _internal\CASE-RESOURCES-QUICKREF.md:141
+   Tag <style> is never closed
+   Context: <style>
+
+132. [UNCLOSED_TAG] _internal\CASE-RESOURCES-SYSTEM.md:390
+   Tag <style> is never closed
+   Context: <style>
+
+133. [UNCLOSED_TAG] _internal\FIXES-SUMMARY.md:102
+   Tag <slug> is never closed
+   Context: <slug>
+
+134. [UNCLOSED_TAG] _internal\GOVERNANCE-REFACTOR-QUICKSTART.md:103
+   Tag <name> is never closed
+   Context: <name>
+
+135. [UNCLOSED_TAG] _internal\GOVERNANCE-REFACTOR-QUICKSTART.md:104
+   Tag <path> is never closed
+   Context: <path>
+
+136. [UNCLOSED_TAG] _internal\GOVERNANCE-REFACTOR-TOOL.md:66
+   Tag <name> is never closed
+   Context: <name>
+
+137. [UNCLOSED_TAG] _internal\GOVERNANCE-REFACTOR-TOOL.md:67
+   Tag <path> is never closed
+   Context: <path>
+
+138. [UNCLOSED_TAG] _internal\IMPLEMENTATION-CHECKLIST.md:337
+   Tag <slug> is never closed
+   Context: <slug>
+
+139. [UNCLOSED_TAG] _internal\STYLE-RULES.md:3
+   Tag <style> is never closed
+   Context: <style>
+
+140. [TAG_MISMATCH] _layouts\case.html:80
+   Expected </strong> but found </time> (opened at line 80)
+   Context: <time>{{ d.date }}</time> ΓÇö <strong>{{ d.type }}</strong>:
+   ≡ƒÆí Suggestion: Close <strong> before closing <time>
+
+141. [TAG_MISMATCH] _layouts\case.html:93
+   Expected </time> but found </li> (opened at line 80)
+   Context: </li>
+   ≡ƒÆí Suggestion: Close <time> before closing <li>
+
+142. [TAG_MISMATCH] _layouts\case.html:95
+   Expected </time> but found </ul> (opened at line 80)
+   Context: </ul>
+   ≡ƒÆí Suggestion: Close <time> before closing <ul>
+
+143. [TAG_MISMATCH] _layouts\case.html:96
+   Expected </time> but found </section> (opened at line 80)
+   Context: </section>
+   ≡ƒÆí Suggestion: Close <time> before closing <section>
+
+144. [TAG_MISMATCH] _layouts\case.html:142
+   Expected </time> but found </article> (opened at line 80)
+   Context: </article>
+   ≡ƒÆí Suggestion: Close <time> before closing <article>
+
+145. [UNCLOSED_TAG] _layouts\case.html:5
+   Tag <article> is never closed
+   Context: <article class="case-record shell u-max-w-4xl u-mx-auto">
+
+146. [UNCLOSED_TAG] _layouts\case.html:74
+   Tag <section> is never closed
+   Context: <section class="docket">
+
+147. [UNCLOSED_TAG] _layouts\case.html:77
+   Tag <ul> is never closed
+   Context: <ul class="docket-list">
+
+148. [UNCLOSED_TAG] _layouts\case.html:79
+   Tag <li> is never closed
+   Context: <li>
+
+149. [UNCLOSED_TAG] _layouts\case.html:80
+   Tag <time> is never closed
+   Context: <time>
+
+150. [TAG_MISMATCH] _pages\cases.md:34
+   Expected </span> but found </strong> (opened at line 34)
+   Context: <div><strong>Status:</strong> <span style="color: {% if case.status == 'active' %}var(--accent-emerald-light){% elsif case.status == 'pending' %}var(--accent-brass){% else %}var(--color-muted){% endif %};">{{ case.status | capitalize }}</span></div>
+   ≡ƒÆí Suggestion: Close <span> before closing <strong>
+
+151. [TAG_MISMATCH] _pages\cases.md:34
+   Expected </strong> but found </div> (opened at line 34)
+   Context: <div><strong>Status:</strong> <span style="color: {% if case.status == 'active' %}var(--accent-emerald-light){% elsif case.status == 'pending' %}var(--accent-brass){% else %}var(--color-muted){% endif %};">{{ case.status | capitalize }}</span></div>
+   ≡ƒÆí Suggestion: Close <strong> before closing <div>
+
+152. [TAG_MISMATCH] _pages\cases.md:38
+   Expected </strong> but found </div> (opened at line 34)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <strong> before closing <div>
+
+153. [TAG_MISMATCH] _pages\cases.md:47
+   Expected </strong> but found </article> (opened at line 34)
+   Context: </article>
+   ≡ƒÆí Suggestion: Close <strong> before closing <article>
+
+154. [TAG_MISMATCH] _pages\cases.md:49
+   Expected </strong> but found </div> (opened at line 34)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <strong> before closing <div>
+
+155. [UNCLOSED_TAG] _pages\cases.md:21
+   Tag <div> is never closed
+   Context: <div class="case-list" style="display: grid; gap: 1.5rem; margin-top: 2rem;">
+
+156. [UNCLOSED_TAG] _pages\cases.md:24
+   Tag <article> is never closed
+   Context: <article class="case-card" style="background: var(--color-surface-alt); padding: 1.5rem; border-radius: 12px; border: 2px solid rgba(212, 165, 116, 0.2); transition: border-color 0.2s;">
+
+157. [UNCLOSED_TAG] _pages\cases.md:31
+   Tag <div> is never closed
+   Context: <div class="case-meta" style="display: grid; gap: 0.5rem; margin: 1rem 0; font-size: 0.95rem; color: var(--color-muted);">
+
+158. [UNCLOSED_TAG] _pages\cases.md:34
+   Tag <div> is never closed
+   Context: <div>
+
+159. [UNCLOSED_TAG] _pages\cases.md:34
+   Tag <strong> is never closed
+   Context: <strong>
+
+160. [TAG_MISMATCH] _pages\stewardship-resources.md:47
+   Expected </section> but found </button> (opened at line 16)
+   Context: Products</button>
+   ≡ƒÆí Suggestion: Close <section> before closing <button>
+
+161. [TAG_MISMATCH] _pages\stewardship-resources.md:60
+   Expected </button> but found </div> (opened at line 51)
+   Context: </div>
+   ≡ƒÆí Suggestion: Close <button> before closing <div>
+
+162. [TAG_MISMATCH] _pages\stewardship-resources.md:100
+   Expected </button> but found </section> (opened at line 51)
+   Context: </section>
+   ≡ƒÆí Suggestion: Close <button> before closing <section>
+
+163. [TAG_MISMATCH] _pages\stewardship-resources.md:102
+   Expected </button> but found </article> (opened at line 51)
+   Context: </article>
+   ≡ƒÆí Suggestion: Close <button> before closing <article>
+
+164. [UNCLOSED_TAG] _pages\stewardship-resources.md:9
+   Tag <article> is never closed
+   Context: <article class="stewardship-resources">
+
+165. [UNCLOSED_TAG] _pages\stewardship-resources.md:16
+   Tag <section> is never closed
+   Context: <section class="resources-intro container">
+
+166. [UNCLOSED_TAG] _pages\stewardship-resources.md:51
+   Tag <button> is never closed
+   Context: <button class="filter-btn" data-category="other">
+
+
+ΓÜá∩╕Å  WARNINGS (82):
+
+1. [COMPLEX_INLINE_STYLE] cases\index.md:77
+   Complex inline style should be moved to CSS class
+
+2. [COMPLEX_INLINE_STYLE] cases\index.md:85
+   Complex inline style should be moved to CSS class
+
+3. [COMPLEX_INLINE_STYLE] cases\index.md:93
+   Complex inline style should be moved to CSS class
+
+4. [COMPLEX_INLINE_STYLE] cases\index.md:181
+   Complex inline style should be moved to CSS class
+
+5. [COMPLEX_INLINE_STYLE] cases\index.md:198
+   Complex inline style should be moved to CSS class
+
+6. [COMPLEX_INLINE_STYLE] cases\index.md:212
+   Complex inline style should be moved to CSS class
+
+7. [COMPLEX_INLINE_STYLE] cases\index.md:228
+   Complex inline style should be moved to CSS class
+
+8. [COMPLEX_INLINE_STYLE] cases\index.md:233
+   Complex inline style should be moved to CSS class
+
+9. [HARDCODED_COLOR] _essays\2025-10-11-tiller-earth.md:223
+   Hardcoded color "rgba(16,92,74,1)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+10. [HARDCODED_COLOR] _essays\2025-10-11-tiller-earth.md:226
+   Hardcoded color "rgba(58,56,52,1)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+11. [HARDCODED_COLOR] _essays\2025-10-11-tiller-earth.md:231
+   Hardcoded color "rgba(28,27,25,1)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+12. [HARDCODED_COLOR] _essays\2025-10-11-tiller-earth.md:238
+   Hardcoded color "rgba(28,27,25,1)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+13. [HARDCODED_COLOR] _essays\2025-10-11-tiller-earth.md:257
+   Hardcoded color "rgba(58,56,52,1)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+14. [HARDCODED_COLOR] _essays\2025-10-11-tiller-earth.md:387
+   Hardcoded color "rgba(58,56,52,1)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+15. [HARDCODED_COLOR] _includes\nav.component.html:23
+   Hardcoded color "#d4af37" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+16. [COMPLEX_INLINE_STYLE] _includes\opra-quick-links.html:24
+   Complex inline style should be moved to CSS class
+
+17. [COMPLEX_INLINE_STYLE] _includes\opra-quick-links.html:25
+   Complex inline style should be moved to CSS class
+
+18. [COMPLEX_INLINE_STYLE] _includes\opra-quick-links.html:28
+   Complex inline style should be moved to CSS class
+
+19. [COMPLEX_INLINE_STYLE] _includes\opra-quick-links.html:38
+   Complex inline style should be moved to CSS class
+
+20. [COMPLEX_INLINE_STYLE] _includes\opra-quick-links.html:41
+   Complex inline style should be moved to CSS class
+
+21. [COMPLEX_INLINE_STYLE] _includes\opra-quick-links.html:42
+   Complex inline style should be moved to CSS class
+
+22. [COMPLEX_INLINE_STYLE] _includes\opra-quick-links.html:56
+   Complex inline style should be moved to CSS class
+
+23. [HARDCODED_COLOR] _includes\opra-quick-links.html:28
+   Hardcoded color "rgba(212, 165, 116, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+24. [HARDCODED_COLOR] _includes\opra-quick-links.html:37
+   Hardcoded color "rgba(0, 0, 0, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+25. [HARDCODED_COLOR] _includes\opra-quick-links.html:42
+   Hardcoded color "rgba(76, 175, 80, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+26. [HARDCODED_COLOR] _includes\opra-quick-links.html:42
+   Hardcoded color "#4CAF50" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+27. [HARDCODED_COLOR] _includes\opra-quick-links.html:42
+   Hardcoded color "rgba(255, 193, 7, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+28. [HARDCODED_COLOR] _includes\opra-quick-links.html:42
+   Hardcoded color "#FFC107" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+29. [HARDCODED_COLOR] _includes\opra-quick-links.html:42
+   Hardcoded color "rgba(158, 158, 158, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+30. [HARDCODED_COLOR] _includes\opra-quick-links.html:42
+   Hardcoded color "#9E9E9E" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+31. [HARDCODED_COLOR] _includes\opra-quick-links.html:56
+   Hardcoded color "rgba(212, 165, 116, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+32. [COMPLEX_INLINE_STYLE] _layouts\article.html:6
+   Complex inline style should be moved to CSS class
+
+33. [COMPLEX_INLINE_STYLE] _layouts\article.html:26
+   Complex inline style should be moved to CSS class
+
+34. [HARDCODED_COLOR] _layouts\article.html:26
+   Hardcoded color "rgba(184,138,57,0.18)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+35. [HARDCODED_COLOR] _layouts\article.html:26
+   Hardcoded color "rgba(184,138,57,0.35)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+36. [COMPLEX_INLINE_STYLE] _pages\about.md:52
+   Complex inline style should be moved to CSS class
+
+37. [COMPLEX_INLINE_STYLE] _pages\about.md:54
+   Complex inline style should be moved to CSS class
+
+38. [COMPLEX_INLINE_STYLE] _pages\about.md:59
+   Complex inline style should be moved to CSS class
+
+39. [COMPLEX_INLINE_STYLE] _pages\about.md:64
+   Complex inline style should be moved to CSS class
+
+40. [COMPLEX_INLINE_STYLE] _pages\about.md:69
+   Complex inline style should be moved to CSS class
+
+41. [COMPLEX_INLINE_STYLE] _pages\about.md:99
+   Complex inline style should be moved to CSS class
+
+42. [COMPLEX_INLINE_STYLE] _pages\about.md:112
+   Complex inline style should be moved to CSS class
+
+43. [HARDCODED_COLOR] _pages\about.md:54
+   Hardcoded color "rgba(15, 23, 42, 0.6)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+44. [HARDCODED_COLOR] _pages\about.md:54
+   Hardcoded color "rgba(212, 165, 116, 0.3)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+45. [HARDCODED_COLOR] _pages\about.md:54
+   Hardcoded color "rgba(0, 0, 0, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+46. [HARDCODED_COLOR] _pages\about.md:59
+   Hardcoded color "rgba(15, 23, 42, 0.6)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+47. [HARDCODED_COLOR] _pages\about.md:59
+   Hardcoded color "rgba(212, 165, 116, 0.3)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+48. [HARDCODED_COLOR] _pages\about.md:59
+   Hardcoded color "rgba(0, 0, 0, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+49. [HARDCODED_COLOR] _pages\about.md:64
+   Hardcoded color "rgba(15, 23, 42, 0.6)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+50. [HARDCODED_COLOR] _pages\about.md:64
+   Hardcoded color "rgba(212, 165, 116, 0.3)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+51. [HARDCODED_COLOR] _pages\about.md:64
+   Hardcoded color "rgba(0, 0, 0, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+52. [HARDCODED_COLOR] _pages\about.md:69
+   Hardcoded color "rgba(15, 23, 42, 0.6)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+53. [HARDCODED_COLOR] _pages\about.md:69
+   Hardcoded color "rgba(212, 165, 116, 0.3)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+54. [HARDCODED_COLOR] _pages\about.md:69
+   Hardcoded color "rgba(0, 0, 0, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+55. [COMPLEX_INLINE_STYLE] _pages\cases.md:18
+   Complex inline style should be moved to CSS class
+
+56. [COMPLEX_INLINE_STYLE] _pages\cases.md:24
+   Complex inline style should be moved to CSS class
+
+57. [COMPLEX_INLINE_STYLE] _pages\cases.md:34
+   Complex inline style should be moved to CSS class
+
+58. [COMPLEX_INLINE_STYLE] _pages\cases.md:44
+   Complex inline style should be moved to CSS class
+
+59. [COMPLEX_INLINE_STYLE] _pages\contact.md:64
+   Complex inline style should be moved to CSS class
+
+60. [COMPLEX_INLINE_STYLE] _pages\contact.md:85
+   Complex inline style should be moved to CSS class
+
+61. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:13
+   Complex inline style should be moved to CSS class
+
+62. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:20
+   Complex inline style should be moved to CSS class
+
+63. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:62
+   Complex inline style should be moved to CSS class
+
+64. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:69
+   Complex inline style should be moved to CSS class
+
+65. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:77
+   Complex inline style should be moved to CSS class
+
+66. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:84
+   Complex inline style should be moved to CSS class
+
+67. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:86
+   Complex inline style should be moved to CSS class
+
+68. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:94
+   Complex inline style should be moved to CSS class
+
+69. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:102
+   Complex inline style should be moved to CSS class
+
+70. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:110
+   Complex inline style should be moved to CSS class
+
+71. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:118
+   Complex inline style should be moved to CSS class
+
+72. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:126
+   Complex inline style should be moved to CSS class
+
+73. [COMPLEX_INLINE_STYLE] _pages\manifesto.md:160
+   Complex inline style should be moved to CSS class
+
+74. [COMPLEX_INLINE_STYLE] _pages\the-story.md:20
+   Complex inline style should be moved to CSS class
+
+75. [COMPLEX_INLINE_STYLE] _pages\the-story.md:71
+   Complex inline style should be moved to CSS class
+
+76. [COMPLEX_INLINE_STYLE] _pages\the-story.md:94
+   Complex inline style should be moved to CSS class
+
+77. [COMPLEX_INLINE_STYLE] _pages\the-story.md:143
+   Complex inline style should be moved to CSS class
+
+78. [HARDCODED_COLOR] _pages\the-story.md:97
+   Hardcoded color "rgba(212, 165, 116, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+79. [HARDCODED_COLOR] _pages\the-story.md:101
+   Hardcoded color "rgba(212, 165, 116, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+80. [HARDCODED_COLOR] _pages\the-story.md:105
+   Hardcoded color "rgba(212, 165, 116, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+81. [HARDCODED_COLOR] _pages\the-story.md:109
+   Hardcoded color "rgba(212, 165, 116, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+82. [HARDCODED_COLOR] _pages\the-story.md:113
+   Hardcoded color "rgba(212, 165, 116, 0.2)" should use CSS variable
+   ≡ƒÆí Suggestion: Use var(--color-name) instead
+
+================================================================================
+
+≡ƒôê Summary: 166 critical issues, 82 warnings
