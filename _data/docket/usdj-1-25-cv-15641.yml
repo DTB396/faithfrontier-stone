@@ -2,14 +2,14 @@
   date: 2025-09-09
   type: Filing
   title: Complaint
-  file: /assets/cases/usdj-1-25-cv-15641/docket/20250909-complaint.pdf
+  file: /cases/usdj-1-25-cv-15641/docket/20250909-complaint.pdf
 - id: 2025-09-09-demurrer-and-abatement
   date: 2025-09-09
   type: Motion
   title: Demurrer and Abatement
-  file: /assets/cases/usdj-1-25-cv-15641/docket/20250909-demurrer-and-abatement.pdf
+  file: /cases/usdj-1-25-cv-15641/docket/20250909-demurrer-and-abatement.pdf
 - id: 2025-09-09-envelope
   date: 2025-09-09
   type: Other
   title: Envelope
-  file: /assets/cases/usdj-1-25-cv-15641/docket/20250909-envelope.pdf
+  file: /cases/usdj-1-25-cv-15641/docket/20250909-envelope.pdf

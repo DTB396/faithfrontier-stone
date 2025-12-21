@@ -4,48 +4,69 @@
 - **County:** Atlantic County
 - **Type:** civil
 - **Filings:** [View folder](./filings/)
-- **Last Updated:** 2025-12-20T15:14:13.909Z
+- **Last Updated:** 2025-12-21
 
 ## Summary
 
-Civil action seeking equitable relief and declaratory judgment. Verified complaint filed December 2025 with exhibits documenting prosecutorial misconduct and seeking emergency relief.
+Civil action seeking equitable relief and declaratory judgment. Verified complaint filed December 2025 with exhibits documenting prosecutorial misconduct and seeking emergency relief. Order to Show Cause with Temporary Restraints granted December 16, 2025. Return date: December 22, 2025.
 
-## Filings Index
+## Chronological Docket
 
-- [20251207-dtb-certification-of-facts.pdf](./filings/20251207-dtb-certification-of-facts.pdf)
-- [20251207-exhibit-a-motion-release-impounded-vehicle-without-fees.pdf](./filings/20251207-exhibit-a-motion-release-impounded-vehicle-without-fees.pdf)
-- [20251207-exhibit-b-discovery-request-and-service-of-motion.pdf](./filings/20251207-exhibit-b-discovery-request-and-service-of-motion.pdf)
-- [20251207-exhibit-c-formal-notice-ia-complaint-and-request-for-vehicle-release.pdf](./filings/20251207-exhibit-c-formal-notice-ia-complaint-and-request-for-vehicle-release.pdf)
-- [20251207-verified-complaint-and-cis.pdf](./filings/20251207-verified-complaint-and-cis.pdf)
-- [20251210-amended-complaint.pdf](./filings/20251210-amended-complaint.pdf)
-- [20251210-exhibit-a-b-and-c.pdf](./filings/20251210-exhibit-a-b-and-c.pdf)
-- [20251210-proof-of-service.pdf](./filings/20251210-proof-of-service.pdf)
-- [20251210-proposed-form-of-order.pdf](./filings/20251210-proposed-form-of-order.pdf)
-- [20251210-proposed-order-proof-of-service.pdf](./filings/20251210-proposed-order-proof-of-service.pdf)
-- [20251210-request-for-relief.pdf](./filings/20251210-request-for-relief.pdf)
-- [20251210-track-assignment-notice.pdf](./filings/20251210-track-assignment-notice.pdf)
-- [20251211-amended-complaint.pdf](./filings/20251211-amended-complaint.pdf)
-- [20251211-certification-of-service.pdf](./filings/20251211-certification-of-service.pdf)
-- [20251211-cover-letter.pdf](./filings/20251211-cover-letter.pdf)
-- [20251211-dtb-certification.pdf](./filings/20251211-dtb-certification.pdf)
-- [20251211-proof-of-service.pdf](./filings/20251211-proof-of-service.pdf)
-- [20251211-proposed-order.pdf](./filings/20251211-proposed-order.pdf)
-- [20251212-motion-packet.pdf](./filings/20251212-motion-packet.pdf)
-- [20251213-certification-packet.pdf](./filings/20251213-certification-packet.pdf)
-- [20251213-exhibits-s1-s2-and-s3.pdf](./filings/20251213-exhibits-s1-s2-and-s3.pdf)
-- [20251215-letter-correspondence-opra-extension-request.pdf](./filings/20251215-letter-correspondence-opra-extension-request.pdf)
-- [20251216-notice-amendment-name-defendants.pdf](./filings/20251216-notice-amendment-name-defendants.pdf)
-- [20251216-order-to-show-cause-with-temporary-restraints-granted.pdf](./filings/20251216-order-to-show-cause-with-temporary-restraints-granted.pdf)
-- [20251216-proposed-order.pdf](./filings/20251216-proposed-order.pdf)
-- [20251217-deficiency-correction-by-devon-tyler-barber.pdf](./filings/20251217-deficiency-correction-by-devon-tyler-barber.pdf)
-- [20251219-amended-proposed-order-by-dtb.pdf](./filings/20251219-amended-proposed-order-by-dtb.pdf)
-- [20251219-certification-of-service-for-plaintiffs-reply-brief.pdf](./filings/20251219-certification-of-service-for-plaintiffs-reply-brief.pdf)
-- [20251219-defendants-repsonse-in-opposition-of-otsc.pdf](./filings/20251219-defendants-repsonse-in-opposition-of-otsc.pdf)
-- [20251219-motion-packet-with-proof-of-service.pdf](./filings/20251219-motion-packet-with-proof-of-service.pdf)
-- [20251219-plaintiffs-certification-with-written-oral-argument.pdf](./filings/20251219-plaintiffs-certification-with-written-oral-argument.pdf)
-- [20251219-plaintiffs-limited-reply-brief.pdf](./filings/20251219-plaintiffs-limited-reply-brief.pdf)
-- [20251219-plaintiffs-proposed-order.pdf](./filings/20251219-plaintiffs-proposed-order.pdf)
-- [20251219-supplemental-certifications-with-proof-of-service.pdf](./filings/20251219-supplemental-certifications-with-proof-of-service.pdf)
+### December 7, 2025
+- **[DTB Certification of Facts](./filings/20251207-dtb-certification-of-facts.pdf)** - Certification
+- **[Exhibit A - Motion Release Impounded Vehicle Without Fees](./filings/20251207-exhibit-a-motion-release-impounded-vehicle-without-fees.pdf)** - Exhibit
+- **[Exhibit B - Discovery Request and Service of Motion](./filings/20251207-exhibit-b-discovery-request-and-service-of-motion.pdf)** - Exhibit
+- **[Exhibit C - Formal Notice IA Complaint and Request for Vehicle Release](./filings/20251207-exhibit-c-formal-notice-ia-complaint-and-request-for-vehicle-release.pdf)** - Exhibit
+- **[Verified Complaint and CIS](./filings/20251207-verified-complaint-and-cis.pdf)** - Complaint
+
+### December 10, 2025
+- **[Amended Complaint](./filings/20251210-amended-complaint.pdf)** - Complaint
+- **[Exhibit A, B, and C](./filings/20251210-exhibit-a-b-and-c.pdf)** - Exhibit
+- **[Proof of Service](./filings/20251210-proof-of-service.pdf)** - Proof of Service
+- **[Proposed Form of Order](./filings/20251210-proposed-form-of-order.pdf)** - Proposed Order
+- **[Proposed Order Proof of Service](./filings/20251210-proposed-order-proof-of-service.pdf)** - Proof of Service
+- **[Request for Relief](./filings/20251210-request-for-relief.pdf)** - Request
+- **[Track Assignment Notice](./filings/20251210-track-assignment-notice.pdf)** - Notice
+
+### December 11, 2025
+- **[Amended Complaint](./filings/20251211-amended-complaint.pdf)** - Complaint
+- **[Certification of Service](./filings/20251211-certification-of-service.pdf)** - Certification
+- **[Cover Letter](./filings/20251211-cover-letter.pdf)** - Letter
+- **[DTB Certification](./filings/20251211-dtb-certification.pdf)** - Certification
+- **[Proof of Service](./filings/20251211-proof-of-service.pdf)** - Proof of Service
+- **[Proposed Order](./filings/20251211-proposed-order.pdf)** - Proposed Order
+
+### December 12, 2025
+- **[Motion Packet](./filings/20251212-motion-packet.pdf)** - Motion
+
+### December 13, 2025
+- **[Certification Packet](./filings/20251213-certification-packet.pdf)** - Certification
+- **[Exhibits S1, S2, and S3](./filings/20251213-exhibits-s1-s2-and-s3.pdf)** - Exhibit
+
+### December 15, 2025
+- **[Letter Correspondence - OPRA Extension Request](./filings/20251215-letter-correspondence-opra-extension-request.pdf)** - Letter
+
+### December 16, 2025
+- **[Notice of Amendment - Name Defendants](./filings/20251216-notice-amendment-name-defendants.pdf)** - Notice
+- **[Order to Show Cause with Temporary Restraints - GRANTED ✓](./filings/20251216-order-to-show-cause-with-temporary-restraints-granted.pdf)** - Order
+- **[Proposed Order](./filings/20251216-proposed-order.pdf)** - Proposed Order
+
+### December 17, 2025
+- **[Deficiency Correction by Devon Tyler Barber](./filings/20251217-deficiency-correction-by-devon-tyler-barber.pdf)** - Filing
+
+### December 19, 2025
+- **[Amended Proposed Order by DTB](./filings/20251219-amended-proposed-order-by-dtb.pdf)** - Proposed Order
+- **[Certification of Service for Plaintiff's Reply Brief](./filings/20251219-certification-of-service-for-plaintiffs-reply-brief.pdf)** - Certification
+- **[Defendants' Response in Opposition of OTSC](./filings/20251219-defendants-repsonse-in-opposition-of-otsc.pdf)** - Response
+- **[Motion Packet with Proof of Service](./filings/20251219-motion-packet-with-proof-of-service.pdf)** - Motion
+- **[Plaintiff's Certification with Written Oral Argument](./filings/20251219-plaintiffs-certification-with-written-oral-argument.pdf)** - Certification
+- **[Plaintiff's Limited Reply Brief](./filings/20251219-plaintiffs-limited-reply-brief.pdf)** - Brief
+- **[Plaintiff's Proposed Order](./filings/20251219-plaintiffs-proposed-order.pdf)** - Proposed Order
+- **[Supplemental Certifications with Proof of Service](./filings/20251219-supplemental-certifications-with-proof-of-service.pdf)** - Certification
+
+### December 20, 2025
+- **[Plaintiff Procedural and Supplemental Certifications](./filings/12-20-2025-Plaintiff%20Procedural%20and%20Supplemental%20Certifications.pdf)** - Certification
+- **[Service on Counsel](./filings/12-20-2025-Service%20on%20Counsel.pdf)** - Proof of Service
 
 ## Notes & Evidence
 

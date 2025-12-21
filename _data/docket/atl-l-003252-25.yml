@@ -5,185 +5,325 @@
 #   date: YYYY-MM-DD
 #   type: Filing/Order/Exhibit/Notice/Other
 #   title: Short description
-#   file: absolute URL to PDF under /cases/<slug>/filings/
+#   file: relative path from /cases/atl-l-003252-25/ to PDF
 
 - id: 20251207-dtb-certification-of-facts
   date: 2025-12-07
   type: Certification
   title: DTB Certification of Facts
-  file: /assets/cases/atl-l-003252-25/filings/12-07-2025-dtb-certification-of-facts.pdf
+  file: /cases/atl-l-003252-25/filings/20251207-dtb-certification-of-facts.pdf
 - id: 20251207-exhibit-a-motion-release-impounded-vehicle
   date: 2025-12-07
   type: Exhibit
   title: Exhibit A - Motion Release Impounded Vehicle Without Fees
-  file: /assets/cases/atl-l-003252-25/filings/12-07-2025-exhibit-a-motion-release-impounded-vehicle-without-fees.pdf
+  file: /cases/atl-l-003252-25/filings/20251207-exhibit-a-motion-release-impounded-vehicle-without-fees.pdf
 - id: 20251207-exhibit-b-discovery-request
   date: 2025-12-07
   type: Exhibit
   title: Exhibit B - Discovery Request and Service of Motion
-  file: /assets/cases/atl-l-003252-25/filings/12-07-2025-exhibit-b-discovery-request-and-service-of-motion.pdf
+  file: /cases/atl-l-003252-25/filings/20251207-exhibit-b-discovery-request-and-service-of-motion.pdf
 - id: 20251207-exhibit-c-formal-notice-ia-complaint
   date: 2025-12-07
   type: Exhibit
   title: Exhibit C - Formal Notice IA Complaint and Request for Vehicle Release
-  file: /assets/cases/atl-l-003252-25/filings/12-07-2025-exhibit-c-formal-notice-ia-complaint-and-request-for-vehicle-release.pdf
+  file: /cases/atl-l-003252-25/filings/20251207-exhibit-c-formal-notice-ia-complaint-and-request-for-vehicle-release.pdf
 - id: 20251207-verified-complaint-and-cis
   date: 2025-12-07
   type: Complaint
   title: Verified Complaint and CIS
-  file: /assets/cases/atl-l-003252-25/filings/12-07-2025-verified-complaint-and-cis.pdf
+  file: /cases/atl-l-003252-25/filings/20251207-verified-complaint-and-cis.pdf
 - id: 20251210-amended-complaint
   date: 2025-12-10
   type: Complaint
   title: Amended Complaint
-  file: /assets/cases/atl-l-003252-25/filings/12-10-2025-amended-complaint.pdf
+  file: /cases/atl-l-003252-25/filings/20251210-amended-complaint.pdf
 - id: 20251210-exhibit-a-b-and-c
   date: 2025-12-10
   type: Exhibit
   title: Exhibit A, B, and C
-  file: /assets/cases/atl-l-003252-25/filings/12-10-2025-exhibit-a-b-and-c.pdf
+  file: /cases/atl-l-003252-25/filings/20251210-exhibit-a-b-and-c.pdf
 - id: 20251210-proof-of-service
   date: 2025-12-10
   type: Proof of Service
   title: Proof of Service
-  file: /assets/cases/atl-l-003252-25/filings/12-10-2025-proof-of-service.pdf
+  file: /cases/atl-l-003252-25/filings/20251210-proof-of-service.pdf
 - id: 20251210-proposed-form-of-order
   date: 2025-12-10
   type: Proposed Order
   title: Proposed Form of Order
-  file: /assets/cases/atl-l-003252-25/filings/12-10-2025-proposed-form-of-order.pdf
+  file: /cases/atl-l-003252-25/filings/20251210-proposed-form-of-order.pdf
 - id: 20251210-proposed-order-proof-of-service
   date: 2025-12-10
   type: Proof of Service
   title: Proposed Order Proof of Service
-  file: /assets/cases/atl-l-003252-25/filings/12-10-2025-proposed-order-proof-of-service.pdf
+  file: /cases/atl-l-003252-25/filings/20251210-proposed-order-proof-of-service.pdf
 - id: 20251210-request-for-relief
   date: 2025-12-10
   type: Request
   title: Request for Relief
-  file: /assets/cases/atl-l-003252-25/filings/12-10-2025-request-for-relief.pdf
+  file: /cases/atl-l-003252-25/filings/20251210-request-for-relief.pdf
 - id: 20251210-track-assignment-notice
   date: 2025-12-10
   type: Notice
   title: Track Assignment Notice
-  file: /assets/cases/atl-l-003252-25/filings/12-10-2025-track-assignment-notice.pdf
+  file: /cases/atl-l-003252-25/filings/20251210-track-assignment-notice.pdf
 - id: 20251211-amended-complaint
   date: 2025-12-11
   type: Complaint
   title: Amended Complaint
-  file: /assets/cases/atl-l-003252-25/filings/12-11-2025-amended-complaint.pdf
+  file: /cases/atl-l-003252-25/filings/20251211-amended-complaint.pdf
 - id: 20251211-certification-of-service
   date: 2025-12-11
   type: Certification
   title: Certification of Service
-  file: /assets/cases/atl-l-003252-25/filings/12-11-2025-certification-of-service.pdf
+  file: /cases/atl-l-003252-25/filings/20251211-certification-of-service.pdf
 - id: 20251211-cover-letter
   date: 2025-12-11
   type: Letter
   title: Cover Letter
-  file: /assets/cases/atl-l-003252-25/filings/12-11-2025-cover-letter.pdf
+  file: /cases/atl-l-003252-25/filings/20251211-cover-letter.pdf
 - id: 20251211-dtb-certification
   date: 2025-12-11
   type: Certification
   title: DTB Certification
-  file: /assets/cases/atl-l-003252-25/filings/12-11-2025-dtb-certification.pdf
+  file: /cases/atl-l-003252-25/filings/20251211-dtb-certification.pdf
 - id: 20251211-proof-of-service
   date: 2025-12-11
   type: Proof of Service
   title: Proof of Service
-  file: /assets/cases/atl-l-003252-25/filings/12-11-2025-proof-of-service.pdf
+  file: /cases/atl-l-003252-25/filings/20251211-proof-of-service.pdf
 - id: 20251211-proposed-order
   date: 2025-12-11
   type: Proposed Order
   title: Proposed Order
-  file: /assets/cases/atl-l-003252-25/filings/12-11-2025-proposed-order.pdf
+  file: /cases/atl-l-003252-25/filings/20251211-proposed-order.pdf
 - id: 20251212-motion-packet
   date: 2025-12-12
   type: Motion
   title: Motion Packet
-  file: /assets/cases/atl-l-003252-25/filings/12-12-2025-motion-packet.pdf
+  file: /cases/atl-l-003252-25/filings/20251212-motion-packet.pdf
 - id: 20251213-certification-packet
   date: 2025-12-13
   type: Certification
   title: Certification Packet
-  file: /assets/cases/atl-l-003252-25/filings/12-13-2025-certification-packet.pdf
+  file: /cases/atl-l-003252-25/filings/20251213-certification-packet.pdf
 - id: 20251213-exhibits-s1-s2-s3
   date: 2025-12-13
   type: Exhibit
   title: Exhibits S1, S2, and S3
-  file: /assets/cases/atl-l-003252-25/filings/12-13-2025-exhibits-s1-s2-and-s3.pdf
+  file: /cases/atl-l-003252-25/filings/20251213-exhibits-s1-s2-and-s3.pdf
 - id: 20251215-letter-opra-extension-request
   date: 2025-12-15
   type: Letter
   title: Letter Correspondence - OPRA Extension Request
-  file: /assets/cases/atl-l-003252-25/filings/12-15-2025-letter-correspondence-opra-extension-request.pdf
+  file: /cases/atl-l-003252-25/filings/20251215-letter-correspondence-opra-extension-request.pdf
 - id: 20251216-notice-amendment-name-defendants
   date: 2025-12-16
   type: Notice
   title: Notice of Amendment - Name Defendants
-  file: /assets/cases/atl-l-003252-25/filings/12-16-2025-notice-amendment-name-defendants.pdf
+  file: /cases/atl-l-003252-25/filings/20251216-notice-amendment-name-defendants.pdf
 - id: 20251216-order-to-show-cause-granted
   date: 2025-12-16
   type: Order
   title: Order to Show Cause with Temporary Restraints - Granted
-  file: /assets/cases/atl-l-003252-25/filings/12-16-2025-order-to-show-cause-with-temporary-restraints-granted.pdf
+  file: /cases/atl-l-003252-25/filings/20251216-order-to-show-cause-with-temporary-restraints-granted.pdf
 - id: 20251216-proposed-order
   date: 2025-12-16
   type: Proposed Order
   title: Proposed Order
-  file: /assets/cases/atl-l-003252-25/filings/12-16-2025-proposed-order.pdf
+  file: /cases/atl-l-003252-25/filings/20251216-proposed-order.pdf
 - id: 20251217-deficiency-correction
   date: 2025-12-17
   type: Filing
   title: Deficiency Correction by Devon Tyler Barber
-  file: /assets/cases/atl-l-003252-25/filings/12-17-2025-deficiency-correction-by-Devon-Tyler-Barber.pdf
+  file: /cases/atl-l-003252-25/filings/20251217-deficiency-correction-by-devon-tyler-barber.pdf
 - id: 20251219-amended-proposed-order
   date: 2025-12-19
   type: Proposed Order
   title: Amended Proposed Order by DTB
-  file: /assets/cases/atl-l-003252-25/filings/12-19-2025-amended-proposed-order-by-dtb.pdf
+  file: /cases/atl-l-003252-25/filings/20251219-amended-proposed-order-by-dtb.pdf
 - id: 20251219-certification-of-service-reply-brief
   date: 2025-12-19
   type: Certification
   title: Certification of Service for Plaintiff's Reply Brief
-  file: /assets/cases/atl-l-003252-25/filings/12-19-2025-certification-of-service-for-plaintiffs-reply-brief.pdf
+  file: /cases/atl-l-003252-25/filings/20251219-certification-of-service-for-plaintiffs-reply-brief.pdf
 - id: 20251219-defendants-response-opposition
   date: 2025-12-19
   type: Response
   title: Defendants Response in Opposition of OTSC
-  file: /assets/cases/atl-l-003252-25/filings/12-19-2025-defendants-repsonse-in-opposition-of-otsc.pdf
+  file: /cases/atl-l-003252-25/filings/20251219-defendants-repsonse-in-opposition-of-otsc.pdf
 - id: 20251219-motion-packet-with-service
   date: 2025-12-19
   type: Motion
   title: Motion Packet with Proof of Service
-  file: /assets/cases/atl-l-003252-25/filings/12-19-2025-motion-packet-with-proof-of-service.pdf
+  file: /cases/atl-l-003252-25/filings/20251219-motion-packet-with-proof-of-service.pdf
 - id: 20251219-plaintiffs-certification-oral-argument
   date: 2025-12-19
   type: Certification
   title: Plaintiff's Certification with Written Oral Argument
-  file: /assets/cases/atl-l-003252-25/filings/12-19-2025-plaintiffs-certification-with-written-oral-argument.pdf
+  file: /cases/atl-l-003252-25/filings/20251219-plaintiffs-certification-with-written-oral-argument.pdf
 - id: 20251219-plaintiffs-reply-brief
   date: 2025-12-19
   type: Brief
   title: Plaintiff's Limited Reply Brief
-  file: /assets/cases/atl-l-003252-25/filings/12-19-2025-plaintiffs-limited-reply-brief.pdf
+  file: /cases/atl-l-003252-25/filings/20251219-plaintiffs-limited-reply-brief.pdf
 - id: 20251219-plaintiffs-proposed-order
   date: 2025-12-19
   type: Proposed Order
   title: Plaintiff's Proposed Order
-  file: /assets/cases/atl-l-003252-25/filings/12-19-2025-plaintiffs-proposed-order.pdf
+  file: /cases/atl-l-003252-25/filings/20251219-plaintiffs-proposed-order.pdf
 - id: 20251219-supplemental-certifications
   date: 2025-12-19
   type: Certification
   title: Supplemental Certifications with Proof of Service
-  file: /assets/cases/atl-l-003252-25/filings/12-19-2025-supplemental-certifications-with-proof-of-service.pdf
+  file: /cases/atl-l-003252-25/filings/20251219-supplemental-certifications-with-proof-of-service.pdf
 - id: 20251220-plaintiff-procedural-supplemental-certs
   date: 2025-12-20
   type: Certification
   title: Plaintiff Procedural and Supplemental Certifications
-  file: /assets/cases/atl-l-003252-25/filings/12-20-2025-Plaintiff-Procedural-and-Supplemental-Certifications.pdf
+  file: /cases/atl-l-003252-25/filings/12-20-2025-Plaintiff Procedural and Supplemental Certifications.pdf
 - id: 20251220-service-on-counsel
   date: 2025-12-20
   type: Proof of Service
   title: Service on Counsel
-  file: /assets/cases/atl-l-003252-25/filings/12-20-2025-Service-on-Counsel.pdf
+  file: /cases/atl-l-003252-25/filings/12-20-2025-Service on Counsel.pdf
+- id: 20251210-proposed-form-of-order
+  date: 2025-12-10
+  type: Proposed Order
+  title: Proposed Form of Order
+  file: /cases/atl-l-003252-25/filings/12-10-2025-proposed-form-of-order.pdf
+- id: 20251210-proposed-order-proof-of-service
+  date: 2025-12-10
+  type: Proof of Service
+  title: Proposed Order Proof of Service
+  file: /cases/atl-l-003252-25/filings/12-10-2025-proposed-order-proof-of-service.pdf
+- id: 20251210-request-for-relief
+  date: 2025-12-10
+  type: Request
+  title: Request for Relief
+  file: /cases/atl-l-003252-25/filings/12-10-2025-request-for-relief.pdf
+- id: 20251210-track-assignment-notice
+  date: 2025-12-10
+  type: Notice
+  title: Track Assignment Notice
+  file: /cases/atl-l-003252-25/filings/12-10-2025-track-assignment-notice.pdf
+- id: 20251211-amended-complaint
+  date: 2025-12-11
+  type: Complaint
+  title: Amended Complaint
+  file: /cases/atl-l-003252-25/filings/12-11-2025-amended-complaint.pdf
+- id: 20251211-certification-of-service
+  date: 2025-12-11
+  type: Certification
+  title: Certification of Service
+  file: /cases/atl-l-003252-25/filings/12-11-2025-certification-of-service.pdf
+- id: 20251211-cover-letter
+  date: 2025-12-11
+  type: Letter
+  title: Cover Letter
+  file: /cases/atl-l-003252-25/filings/12-11-2025-cover-letter.pdf
+- id: 20251211-dtb-certification
+  date: 2025-12-11
+  type: Certification
+  title: DTB Certification
+  file: /cases/atl-l-003252-25/filings/12-11-2025-dtb-certification.pdf
+- id: 20251211-proof-of-service
+  date: 2025-12-11
+  type: Proof of Service
+  title: Proof of Service
+  file: /cases/atl-l-003252-25/filings/12-11-2025-proof-of-service.pdf
+- id: 20251211-proposed-order
+  date: 2025-12-11
+  type: Proposed Order
+  title: Proposed Order
+  file: /cases/atl-l-003252-25/filings/12-11-2025-proposed-order.pdf
+- id: 20251212-motion-packet
+  date: 2025-12-12
+  type: Motion
+  title: Motion Packet
+  file: /cases/atl-l-003252-25/filings/12-12-2025-motion-packet.pdf
+- id: 20251213-certification-packet
+  date: 2025-12-13
+  type: Certification
+  title: Certification Packet
+  file: /cases/atl-l-003252-25/filings/12-13-2025-certification-packet.pdf
+- id: 20251213-exhibits-s1-s2-s3
+  date: 2025-12-13
+  type: Exhibit
+  title: Exhibits S1, S2, and S3
+  file: /cases/atl-l-003252-25/filings/12-13-2025-exhibits-s1-s2-and-s3.pdf
+- id: 20251215-letter-opra-extension-request
+  date: 2025-12-15
+  type: Letter
+  title: Letter Correspondence - OPRA Extension Request
+  file: /cases/atl-l-003252-25/filings/12-15-2025-letter-correspondence-opra-extension-request.pdf
+- id: 20251216-notice-amendment-name-defendants
+  date: 2025-12-16
+  type: Notice
+  title: Notice of Amendment - Name Defendants
+  file: /cases/atl-l-003252-25/filings/12-16-2025-notice-amendment-name-defendants.pdf
+- id: 20251216-order-to-show-cause-granted
+  date: 2025-12-16
+  type: Order
+  title: Order to Show Cause with Temporary Restraints - Granted
+  file: /cases/atl-l-003252-25/filings/12-16-2025-order-to-show-cause-with-temporary-restraints-granted.pdf
+- id: 20251216-proposed-order
+  date: 2025-12-16
+  type: Proposed Order
+  title: Proposed Order
+  file: /cases/atl-l-003252-25/filings/12-16-2025-proposed-order.pdf
+- id: 20251217-deficiency-correction
+  date: 2025-12-17
+  type: Filing
+  title: Deficiency Correction by Devon Tyler Barber
+  file: /cases/atl-l-003252-25/filings/12-17-2025-deficiency-correction-by-Devon-Tyler-Barber.pdf
+- id: 20251219-amended-proposed-order
+  date: 2025-12-19
+  type: Proposed Order
+  title: Amended Proposed Order by DTB
+  file: /cases/atl-l-003252-25/filings/12-19-2025-amended-proposed-order-by-dtb.pdf
+- id: 20251219-certification-of-service-reply-brief
+  date: 2025-12-19
+  type: Certification
+  title: Certification of Service for Plaintiff's Reply Brief
+  file: /cases/atl-l-003252-25/filings/12-19-2025-certification-of-service-for-plaintiffs-reply-brief.pdf
+- id: 20251219-defendants-response-opposition
+  date: 2025-12-19
+  type: Response
+  title: Defendants Response in Opposition of OTSC
+  file: /cases/atl-l-003252-25/filings/12-19-2025-defendants-repsonse-in-opposition-of-otsc.pdf
+- id: 20251219-motion-packet-with-service
+  date: 2025-12-19
+  type: Motion
+  title: Motion Packet with Proof of Service
+  file: /cases/atl-l-003252-25/filings/12-19-2025-motion-packet-with-proof-of-service.pdf
+- id: 20251219-plaintiffs-certification-oral-argument
+  date: 2025-12-19
+  type: Certification
+  title: Plaintiff's Certification with Written Oral Argument
+  file: /cases/atl-l-003252-25/filings/12-19-2025-plaintiffs-certification-with-written-oral-argument.pdf
+- id: 20251219-plaintiffs-reply-brief
+  date: 2025-12-19
+  type: Brief
+  title: Plaintiff's Limited Reply Brief
+  file: /cases/atl-l-003252-25/filings/12-19-2025-plaintiffs-limited-reply-brief.pdf
+- id: 20251219-plaintiffs-proposed-order
+  date: 2025-12-19
+  type: Proposed Order
+  title: Plaintiff's Proposed Order
+  file: /cases/atl-l-003252-25/filings/12-19-2025-plaintiffs-proposed-order.pdf
+- id: 20251219-supplemental-certifications
+  date: 2025-12-19
+  type: Certification
+  title: Supplemental Certifications with Proof of Service
+  file: /cases/atl-l-003252-25/filings/12-19-2025-supplemental-certifications-with-proof-of-service.pdf
+- id: 20251220-plaintiff-procedural-supplemental-certs
+  date: 2025-12-20
+  type: Certification
+  title: Plaintiff Procedural and Supplemental Certifications
+  file: /cases/atl-l-003252-25/filings/12-20-2025-Plaintiff-Procedural-and-Supplemental-Certifications.pdf
+- id: 20251220-service-on-counsel
+  date: 2025-12-20
+  type: Proof of Service
+  title: Service on Counsel
+  file: /cases/atl-l-003252-25/filings/12-20-2025-Service-on-Counsel.pdf

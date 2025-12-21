@@ -2,69 +2,69 @@
   date: 2025-10-03
   type: Filing
   title: Verified Complaint and Case Information Statement
-  file: /assets/cases/atl-l-002794-25/docket/20251003-verified-complaint-and-cis.pdf
+  file: /cases/atl-l-002794-25/docket/20251003-verified-complaint-and-cis.pdf
 - id: 2025-10-07-track-assignment-notice
   date: 2025-10-07
   type: Notice
   title: Track Assignment Notice (Team 102)
-  file: /assets/cases/atl-l-002794-25/docket/2025-10-07_NJSC_ATL-L-002794-25_TrackAssignment_Notice_Team102.pdf
+  file: /cases/atl-l-002794-25/docket/2025-10-07_NJSC_ATL-L-002794-25_TrackAssignment_Notice_Team102.pdf
 - id: 2025-10-07-proposed-order-track
   date: 2025-10-07
   type: Motion
   title: Proposed Order for Track Reassignment
-  file: /assets/cases/atl-l-002794-25/docket/2025-10-07_NJSC_ATL-L-002794-25_ProposedOrder_TrackReassignment.pdf
+  file: /cases/atl-l-002794-25/docket/2025-10-07_NJSC_ATL-L-002794-25_ProposedOrder_TrackReassignment.pdf
 - id: 2025-10-07-subpoenas
   date: 2025-10-07
   type: Filing
   title: Subpoenas Duces Tecum with Statement of Relevance
-  file: /assets/cases/atl-l-002794-25/docket/2025-10-07_NJSC_ATL-L-002794-25_Barber_SubpoenasDucesTecum_with_ExhibitA_StatementOfRelevance.pdf
+  file: /cases/atl-l-002794-25/docket/2025-10-07_NJSC_ATL-L-002794-25_Barber_SubpoenasDucesTecum_with_ExhibitA_StatementOfRelevance.pdf
 - id: 2025-10-14-consumer-fraud-notice
   date: 2025-10-14
   type: Notice
   title: Notice of Consumer Fraud Act Claim
-  file: /assets/cases/atl-l-002794-25/docket/20251014-notice-consumer-fraud-act.pdf
+  file: /cases/atl-l-002794-25/docket/20251014-notice-consumer-fraud-act.pdf
 - id: 2025-10-14-order-fee-waiver
   date: 2025-10-14
   type: Order
   title: Order Granting Fee Waiver
-  file: /assets/cases/atl-l-002794-25/docket/20251014-order-fee-waiver.pdf
+  file: /cases/atl-l-002794-25/docket/20251014-order-fee-waiver.pdf
 - id: 2025-10-16-motion-track-change
   date: 2025-10-16
   type: Motion
   title: Motion for Track-3 Reassignment
-  file: /assets/cases/atl-l-002794-25/docket/20251016-motion-track-change.pdf
+  file: /cases/atl-l-002794-25/docket/20251016-motion-track-change.pdf
 - id: 2025-10-16-cover-letter-supplemental
   date: 2025-10-16
   type: Filing
   title: Cover Letter — Supplemental Memorandum
-  file: /assets/cases/atl-l-002794-25/docket/2025-10-16_NJSC_ATL-L-002794-25_Barber_CoverLetter_SupplementalMemo.pdf
+  file: /cases/atl-l-002794-25/docket/2025-10-16_NJSC_ATL-L-002794-25_Barber_CoverLetter_SupplementalMemo.pdf
 - id: 2025-10-16-supplemental-memo
   date: 2025-10-16
   type: Brief
   title: Supplemental Memorandum in Support of Track-3 Motion
-  file: /assets/cases/atl-l-002794-25/docket/2025-10-16_NJSC_ATL-L-002794-25_Barber_SupplementalMemo_Track3_Request.pdf
+  file: /cases/atl-l-002794-25/docket/2025-10-16_NJSC_ATL-L-002794-25_Barber_SupplementalMemo_Track3_Request.pdf
 - id: 2025-10-16-exhibit-offenderwatch
   date: 2025-10-16
   type: Exhibit
   title: Exhibit — OffenderWatch Record (Joseph Hardemon)
-  file: /assets/cases/atl-l-002794-25/docket/2025-10-16_NJSC_ATL-L-002794-25_Exhibit_OffenderWatch_Record_JosephHardemon.pdf
+  file: /cases/atl-l-002794-25/docket/2025-10-16_NJSC_ATL-L-002794-25_Exhibit_OffenderWatch_Record_JosephHardemon.pdf
 - id: 2025-10-22-correspondence-clarification
   date: 2025-10-22
   type: Other
   title: Correspondence — Clarification of Factual Background
-  file: /assets/cases/atl-l-002794-25/docket/2025-10-22_NJSC_ATL-L-002794-25_Barber_Correspondence_Clarification_FactualBackground.pdf
+  file: /cases/atl-l-002794-25/docket/2025-10-22_NJSC_ATL-L-002794-25_Barber_Correspondence_Clarification_FactualBackground.pdf
 - id: 2025-10-28-first-amended-complaint
   date: 2025-10-28
   type: Filing
   title: First Amended Complaint with Exhibits
-  file: /assets/cases/atl-l-002794-25/docket/2025-10-28_NJSC_ATL-L-002794-25_Barber_FirstAmendedComplaint_with_Exhibits.pdf
+  file: /cases/atl-l-002794-25/docket/2025-10-28_NJSC_ATL-L-002794-25_Barber_FirstAmendedComplaint_with_Exhibits.pdf
 - id: 2025-10-28-pcr-motion-track
   date: 2025-10-28
   type: Brief
   title: PCR in Support of Motion to Change Track
-  file: /assets/cases/atl-l-002794-25/docket/2025-10-28_NJSC_ATL-L-002794-25_Barber_PCR_inSupport_of_MotionToChangeTrack.pdf
+  file: /cases/atl-l-002794-25/docket/2025-10-28_NJSC_ATL-L-002794-25_Barber_PCR_inSupport_of_MotionToChangeTrack.pdf
 - id: 2025-11-07-order-track-change-granted
   date: 2025-11-07
   type: Order
   title: Order Granting Track-3 Reassignment
-  file: /assets/cases/atl-l-002794-25/docket/20251107-order-track-change-granted.pdf
+  file: /cases/atl-l-002794-25/docket/20251107-order-track-change-granted.pdf

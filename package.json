@@ -11,21 +11,17 @@
     "format:check": "prettier \"assets/js/main.js\" \"assets/js/nav.js\" \"scripts/check-*.js\" \"tests/**/*.js\" \"playwright.config.js\" \"eslint.config.js\" --check",
     "verify:frontend": "node scripts/verify-frontend-js.js",
     "test:nav": "npx playwright test tests/nav.spec.js",
-
     "check:pdfs": "node scripts/check-pdf-links.js --site _site",
     "check:pdf-health": "node scripts/check-pdf-health.js",
     "check:site-links": "node scripts/check-site-links.js --site _site",
-
     "fix:pdf-homes": "node scripts/generate-placeholder-pdfs.js",
     "fix:pdf-homes:force-tiny": "node scripts/generate-placeholder-pdfs.js --force-tiny",
-
     "analyze": "node scripts/analyze-cases.js",
     "docket:intake": "node scripts/docket-intake.js",
     "docket:validate": "node scripts/validate-docket-files.js",
     "docket:batch": "node scripts/batch-upload-helper.js",
     "checksums": "node scripts/generate-checksums.js",
     "changelog:weekly": "node scripts/generate-weekly-changelog.js",
-
     "governance:audit": "node scripts/refactor-with-governance.js --audit-only --all",
     "governance:audit:section": "node scripts/refactor-with-governance.js --audit-only --section",
     "governance:refactor": "node scripts/refactor-with-governance.js --all",
@@ -34,6 +30,7 @@
     "governance:dry-run": "node scripts/refactor-with-governance.js --dry-run --all"
   },
   "dependencies": {
+    "cheerio": "^1.1.2",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "js-yaml": "^4.1.1",
