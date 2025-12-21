@@ -13,9 +13,10 @@ This section contains Open Public Records Act (OPRA) administrative records pres
 All OPRA requests are publicly tracked and viewable on **OPRAmachine.com**, New Jersey's transparency platform:
 
 <div style="background: var(--emerald-50); border-left: 4px solid var(--emerald-600); padding: 1rem; margin: 1.5rem 0;">
-  <p style="margin: 0 0 0.5rem 0;"><strong>View All Requests:</strong></p>
-  <p style="margin: 0;"><a href="https://opramachine.com/user/x_devon_tyler_of_the_barber_mate" target="_blank" rel="noopener" style="color: var(--emerald-700); font-weight: 600;">X (Devon Tyler of the Barber-Materio Family) on OPRAmachine →</a></p>
-  <p style="margin: 0.75rem 0 0 0; font-size: 0.9rem; opacity: 0.9;">Requests filed under both "Devon Tyler of the Barber-Materio Family" and "Mr. Barber"</p>
+  <p style="margin: 0 0 0.5rem 0;"><strong>View All Requests by Account:</strong></p>
+  <p style="margin: 0;"><a href="https://opramachine.com/user/x_devon_tyler_of_the_barber_mate" target="_blank" rel="noopener" style="color: var(--emerald-700); font-weight: 600;">X (Devon Tyler of the Barber-Materio Family) →</a></p>
+  <p style="margin: 0.5rem 0 0 0;"><a href="https://opramachine.com/user/mr_barber" target="_blank" rel="noopener" style="color: var(--emerald-700); font-weight: 600;">Mr. Barber →</a></p>
+  <p style="margin: 0.75rem 0 0 0; font-size: 0.9rem; opacity: 0.9;">All requests filed under these accounts are publicly accessible on OPRAmachine.com</p>
 </div>
 
 **What is OPRAmachine?** A public platform where New Jersey residents can file, track, and browse OPRA requests. All requests and government responses are publicly accessible for transparency and accountability.
