@@ -454,3 +454,166 @@
     font-size: 2rem;
   }
 }
+
+/* ============================================
+   WHY THIS MATTERS SECTION
+   ============================================ */
+
+.why-matters-section {
+  margin-bottom: 3rem;
+}
+
+.why-matters-title {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text, #f9fafb);
+}
+
+.why-matters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.why-matters-card {
+  padding: 1.5rem;
+  background: var(--color-surface-alt, #2a2826);
+  border-radius: 8px;
+  border-left: 4px solid var(--accent-brass, #d4a574);
+}
+
+.why-matters-card h3 {
+  margin-top: 0;
+  color: var(--accent-brass, #d4a574);
+  font-size: 1.125rem;
+}
+
+.why-matters-card p {
+  margin-bottom: 0;
+  line-height: 1.6;
+  font-size: 0.9375rem;
+}
+
+/* ============================================
+   SECTION HEADINGS
+   ============================================ */
+
+.section-heading {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text, #f9fafb);
+}
+
+/* ============================================
+   TRANSPARENCY STATEMENT
+   ============================================ */
+
+.transparency-section {
+  margin: 4rem 0;
+  padding: 2rem;
+  background: var(--color-surface-alt, #2a2826);
+  border-radius: 12px;
+  border: 1px solid var(--color-border, #3a3835);
+}
+
+.transparency-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--accent-brass, #d4a574);
+}
+
+.transparency-text {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-size: 0.9375rem;
+}
+
+.transparency-list {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.transparency-text-final {
+  line-height: 1.7;
+  margin-bottom: 0;
+  font-size: 0.9375rem;
+}
+
+/* ============================================
+   OPRA INTEGRATION SECTION
+   ============================================ */
+
+.opra-section {
+  margin: 4rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--brass-alpha-05), var(--brass-alpha-02));
+  border-radius: 12px;
+  border: 1px solid var(--brass-alpha-20);
+}
+
+.opra-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--accent-brass, #d4a574);
+}
+
+.opra-intro {
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-size: 0.9375rem;
+}
+
+.opra-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.opra-stat-card {
+  text-align: center;
+  padding: 1rem;
+  background: var(--brass-alpha-10);
+  border-radius: 8px;
+}
+
+.opra-stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--accent-brass, #d4a574);
+}
+
+.opra-stat-label {
+  font-size: 0.875rem;
+  color: var(--color-text-muted, #b0aca5);
+}
+
+.opra-cta {
+  text-align: center;
+}
+
+.opra-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-brass, #d4a574);
+  color: var(--color-bg, #1a1816);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.opra-btn:hover {
+  background: var(--brass-600);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(212, 165, 116, 0.3);
+}
+
+.opra-footer {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--brass-alpha-20);
+  font-size: 0.875rem;
+  color: var(--color-text-muted, #b0aca5);
+}
