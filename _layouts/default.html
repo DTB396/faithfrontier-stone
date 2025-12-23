@@ -40,5 +40,25 @@
       Global scripts (nav toggle, etc.).
     {%- endcomment -%}
     {% include scripts.html %}
+        {%- comment -%}
+      Per-page includes and scripts (for pages that need data bootstraps, widgets, etc.).
+      Usage in front matter:
+        page_includes:
+          - holistic-data.html
+        page_js:
+          - /assets/js/holistic-filter.js
+    {%- endcomment -%}
+
+    {% if page.page_includes %}
+      {% for inc in page.page_includes %}
+        {% include {{ inc }} %}
+      {% endfor %}
+    {% endif %}
+
+    {% if page.page_js %}
+      {% for src in page.page_js %}
+        <script src="{{ src | relative_url }}"></script>
+      {% endfor %}
+    {% endif %}
   </body>
 </html>

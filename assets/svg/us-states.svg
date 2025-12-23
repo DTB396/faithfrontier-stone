@@ -1,0 +1,6 @@
+<object
+  id="usMapObj"
+  type="image/svg+xml"
+  data="{{ '/assets/svg/us-states.svg' | relative_url }}"
+  style="width:100%; height:auto; display:block;"
+></object>
