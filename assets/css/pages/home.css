@@ -299,9 +299,31 @@
 }
 /* ============================================================================
    Home: pathway + cards + boundaries (scoped)
-   Supports homepage markup: section--band, section--emerald, container--narrow,
-   cta-row, home-cards, home-card, bullets, record-ext.
+   Supports homepage markup: home-overview, section--band, section--emerald, 
+   container--narrow, cta-row, home-cards, home-card, bullets, record-ext.
    ============================================================================ */
+
+.home-overview {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.home-overview > .premium-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--space-lg);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.home-overview > .premium-brand:hover {
+  opacity: 0.85;
+}
 
 .ff-home .section--band {
   padding-block: clamp(2.25rem, 5vw, 4rem);
@@ -407,13 +429,25 @@
   margin-top: auto;
   min-width: 0;
   align-self: flex-start;
+  font-size: 0.95rem;
+  padding: 0.65rem 1.25rem;
 }
 
 .ff-home .home-boundaries {
-  background: rgba(255, 255, 255, 0.55);
-  border: 1px solid rgba(231, 229, 228, 0.85);
+  background: rgba(255, 255, 255, 0.65);
+  border: 2px solid var(--stone-200);
   border-radius: var(--radius-lg);
-  padding: 1.25rem 1.25rem 1rem;
+  padding: var(--space-lg);
+  margin-top: var(--space-lg);
+}
+
+.ff-home .home-boundaries .section-eyebrow {
+  margin-bottom: 0.5rem;
+}
+
+.ff-home .home-boundaries .section-heading {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  margin-bottom: var(--space-md);
 }
 
 .ff-home .bullets {
@@ -448,14 +482,21 @@
 
 .ff-home hr {
   border: 0;
-  border-top: 1px solid rgba(231, 229, 228, 0.85);
-  margin: 1.75rem 0;
+  border-top: 2px solid var(--stone-200);
+  margin: var(--space-2xl) 0;
+  opacity: 0.6;
 }
 
 /* Responsive additions for the new blocks */
 @media (max-width: 900px) {
+  .home-overview {
+    padding: var(--space-xl) var(--space-md);
+    gap: var(--space-lg);
+  }
+
   .ff-home .home-cards {
     grid-template-columns: 1fr;
+    gap: var(--space-md);
   }
 
   .ff-home .cta-row {
@@ -475,6 +516,11 @@
 }
 
 @media (max-width: 640px) {
+  .home-overview {
+    padding: var(--space-lg) var(--space-sm);
+    gap: var(--space-md);
+  }
+
   .ff-home .btn {
     min-width: 140px;
     padding: 0.75rem 1.25rem;
@@ -483,5 +529,9 @@
   
   .ff-home .cta-row {
     gap: 0.75rem;
+  }
+
+  .ff-home .home-boundaries {
+    padding: var(--space-md);
   }
 }
