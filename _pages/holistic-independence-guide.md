@@ -11,8 +11,11 @@ hide_hero: true
 page_includes:
   - holistic-data.html
 
+page_css:
+  - /assets/css/pages/holistic-map.css
+
 page_js:
-  - /assets/js/holistic-filter.js
+  - /assets/js/holistic-interactive-map.js
 ---
 
 <section class="section-block">

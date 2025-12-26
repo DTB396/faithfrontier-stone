@@ -197,14 +197,14 @@ homestead:
 legal: []
 
 # ============================================================================
-# GOLD & WEARABLES / OTHER RESOURCES
+# GOLD & WEARABLES / BIBLICAL STEWARDSHIP
 # ============================================================================
-other:
+gold:
   - id: nuragold-18k-rope-chain
     title: "Nuragold 18k Real Yellow Gold 2mm Rope Chain (16-26 inches)"
     description: "Italian 18k yellow gold rope chain with diamond cut finish. Real gold jewelry as wearable wealth—biblical stewardship principle of storing value in precious metals. Available in multiple lengths for men and women."
     amazon_url: "https://amzn.to/4j80GRb"
-    category: other
+    category: gold
     tags: [gold, jewelry, 18k, italian, rope-chain, wearable-wealth]
     date_added: 2025-12-20
     personal_note: "Wearable stewardship. Gold doesn't decay, can't be debased by central banks, and travels with you. Biblical wisdom for uncertain times."
@@ -213,7 +213,7 @@ other:
     title: "Ross-Simons 14kt Yellow Gold Rope-Chain Necklace"
     description: "14kt yellow gold rope chain necklace from trusted jeweler. Solid gold construction for lasting value and durability. Another option for those who prefer 14k over 18k gold—still real wealth, slightly more durable for everyday wear."
     amazon_url: "https://amzn.to/3Yq85St"
-    category: other
+    category: gold
     tags: [gold, jewelry, 14k, rope-chain, ross-simons, wearable-wealth]
     date_added: 2025-12-20
     personal_note: "14k is more practical for daily wear—harder alloy, still real gold. A hedge you can wear and pass down."
@@ -228,7 +228,7 @@ other:
 #    - Use format: https://amazon.com/dp/ASIN?tag=faithfront-20
 #    - Replace "faithfront-20" with your actual Associate tag
 #
-# 2. Add product to appropriate category above
+# 2. Add product to appropriate category: faith, health, homestead, gold, legal
 #
 # 3. Validate before committing:
 #    node scripts/validate-product-links.js

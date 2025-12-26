@@ -24,9 +24,7 @@ stylesheet: /assets/css/stewardship-resources.css
     {{ content.intro.body | markdownify }}
 
     {%- comment -%} DISCLAIMER BOX {%- endcomment -%}
-    <h3>Important: Read This First</h3>
-    
-    <div class="disclaimer-box" role="alert">
+    <div class="disclaimer-box" role="note">
       <h4>{{ content.disclaimer.title }}</h4>
       <p>{{ content.disclaimer.intro }}</p>
       

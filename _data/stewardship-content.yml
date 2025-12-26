@@ -9,40 +9,30 @@ hero:
 
 # Intro Content
 intro:
-  heading: "Sharing What I Love—If You Love It, Cool"
+  heading: "Things I Love and Use Daily"
   body: |
-    Faith Frontier exists to serve neighbors through transparent documentation, faithful stewardship, 
-    and accountable community building. This page is simply **me sharing products I personally use and love.** 
-    If they resonate with you, wonderful—your support through these links helps sustain our mission at no extra cost to you.
+    This is simply me **sharing products I personally use and genuinely appreciate.** If they resonate with you, 
+    wonderful—your support through these links helps sustain Faith Frontier's mission at no extra cost to you.
 
-    **I am not a doctor. I do not sell care, products, or services.** I'm just a neighbor sharing what has been 
-    helpful in my own journey. **Please use your own discernment and always consult qualified professionals** 
-    who understand your individual circumstances.
+    These recommendations come from my own journey of stewardship, health, and faithful living. **I'm not a doctor 
+    or professional advisor**—just a neighbor sharing what's been helpful. Always use your own wisdom and consult 
+    qualified professionals for personalized guidance.
 
 # Disclaimer Box
 disclaimer:
-  title: "⚠️ Personal Sharing—Not Professional Advice or Medical Counsel"
-  intro: "**I AM NOT A DOCTOR.** Nothing on this page is medical, legal, financial, or professional advice of any kind. These are simply products I personally love and use. What works for me may not work for you."
+  title: "A Word of Wisdom"
+  intro: "These are products **I personally use and love.** Your journey is your own—what works for me may work differently for you."
   points:
-    - heading: "Individual Discernment Required"
-      text: "Every person is unique—wonderfully, miraculously unique. While we share a common human structure as men and women created in God's image, **your body, circumstances, and needs are your own.** What helps one person may not help another."
+    - heading: "Use Your Discernment"
+      text: "You know your body and circumstances best. If something here interests you, great! But always do your own research and consult professionals when needed."
     
-    - heading: "Ask Questions, Seek Guidance"
-      text: "If you have questions about these products or how they might fit your personal health journey, **please ask.** Even better, consult with qualified professionals (doctors, functional medicine practitioners, nutritionists, etc.) who can provide personalized guidance based on your individual assessment."
+    - heading: "Questions Welcome"
+      text: "Happy to share why I love these products and how I use them. For medical guidance, please consult qualified healthcare professionals."
     
-    - heading: "Client Agreements vs. General Visitors"
-      text: "Some of you may have formal client agreements with Faith Frontier (for documentation services, record-keeping, etc.). **This product page is separate from those agreements.** These recommendations are personal, not professional services. If you're unsure about your relationship with us, please reach out."
-    
-    - heading: "No Guarantees or Warranties"
-      text: "I make no claims about what these products will do for you. I share them because **I** find them helpful. Your results may differ. Use your own judgment and wisdom."
-    
-    - heading: "Amazon Associates Disclosure"
-      text: "Faith Frontier is a participant in the Amazon Services LLC Associates Program. When you purchase through my links, I earn a small commission at no extra cost to you. This helps support the Trust's mission—but you're under no obligation to use these links."
-    
-    - heading: "Personal Responsibility"
-      text: "You are responsible for your own health decisions. I cannot and do not assume responsibility for your choices or outcomes. Always do your own research and consult trusted advisors."
+    - heading: "Amazon Associates"
+      text: "When you buy through these links, I earn a small commission at no extra cost to you. It helps support Faith Frontier's mission—but you're under no obligation."
   
-  closing: "**The Heart of This:** I'm sharing these products in a spirit of neighbor-care and mutual support. Take what resonates, leave what doesn't, and always trust your own discernment under God's guidance."
+  closing: "**Bottom line:** I'm sharing what's been helpful in my stewardship journey. Take what resonates, leave what doesn't, and trust your own wisdom under God's guidance."
 
 # Filter Categories
 categories:
@@ -55,7 +45,7 @@ categories:
     label: "Health & Wellness"
   - id: "homestead"
     label: "Homestead & Garden"
-  - id: "other"
+  - id: "gold"
     label: "Gold & Wearables"
 
 # Mission Support Section
@@ -67,7 +57,7 @@ mission_support:
     - "**Technology Infrastructure:** Hosting, automation, and accessibility improvements"
     - "**Community Resources:** Educational content and faithful stewardship materials"
     - "**Lawful Operations:** Ensuring all work proceeds within proper legal frameworks"
-  statement: "**We are stewards, not owners.** All funds are managed according to trust principles with full accountability and transparency."
+  statement: "**Faithful stewardship** means using resources wisely and transparently. All support is managed with full accountability."
 
 # Questions Section
 questions:
@@ -84,6 +74,6 @@ questions:
 
 # Footer Disclosures
 footer:
-  amazon_disclosure: "**Amazon Associates Disclosure:** As an Amazon Associate, Faith Frontier earns from qualifying purchases. This means we receive a small commission when you buy through our links, at no extra cost to you. We only recommend products we genuinely believe are helpful."
-  legal_status: "**Legal Status:** This page and its contents are protected intellectual property of the Faith Frontier Ecclesiastical Trust. See our [Content License](/CONTENT_LICENSE.md) and [Trademark Notice](/TRADEMARK_NOTICE.md) for details."
-  last_updated: "December 21, 2025"
+  amazon_disclosure: "**Amazon Associates Disclosure:** As an Amazon Associate, Faith Frontier earns from qualifying purchases through these links at no extra cost to you. I only recommend products I genuinely use and appreciate."
+  legal_status: "**Content Notice:** This page is part of Faith Frontier's educational content. See our [Content License](/CONTENT_LICENSE.md) for usage terms."
+  last_updated: "December 26, 2025"
