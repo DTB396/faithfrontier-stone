@@ -104,6 +104,10 @@ hero_highlights:
     </ul>
   </div>
 
+  <hr />
+
+  {% include featured-essays.html %}
+
   <div class="cta-row cta-row--split">
     <a class="btn btn-primary" href="/contact/">Contact / record access</a>
     <a class="btn btn-ghost" href="/about/">About Faith Frontier</a>
